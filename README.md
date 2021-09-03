@@ -17,6 +17,6 @@ LayoutLM: Pre-training of Text and Layout for Document Image Understanding([arxi
 ## 2021-09-03
 An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale([arxiv](https://arxiv.org/abs/2010.11929))<br>
 **problem :** Transformer 구조를 image 도메인에 적용<br>
-**solution :** 이미지를 4 by 4 block으로 나눈 뒤 쭉 핀 임베딩에 positional embedding을 더한 뒤 `[CLS]`토큰으로 이미지 분류 태스크<br>
+**solution :** 이미지를 4 by 4 block으로 나눈 뒤 쭉 핀 임베딩에 positional embedding을 더한 뒤 트랜스포머 인코더 + FCN으로 구성. 이후 `[CLS]`토큰으로 이미지 분류 태스크<br>
 **result :** 분류 문제에서 SOTA. 가장 아래 레이어에서도 글로벌한 정보를 사용하고 있음을 알 수 있었음. CNN보다 locality라는 inductive bias가 적음<br>
 **further work :** NLP처럼 semi-supervised pretraining은 하지 못함
