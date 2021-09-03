@@ -13,3 +13,10 @@ LayoutLM: Pre-training of Text and Layout for Document Image Understanding([arxi
 **problem :** 이전까지 문서 구조를 학습하기 위해 텍스트/이미지 정보만을 활용하였음<br>
 **solution :** BERT 아키텍쳐를 활용하여, 좌표, 텍스트로 프리트레이닝하고 바운딩박스내 이미지 정보를 Faster RCNN로 결합하여 finetuning <br>
 **result :** information extraction, document classification 등의 태스크에서 SOTA<br>
+
+## 2021-09-03
+An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale([arxiv](https://arxiv.org/abs/2010.11929))<br>
+**problem :** Transformer 구조를 image 도메인에 적용<br>
+**solution :** 이미지를 4 by 4 block으로 나눈 뒤 쭉 핀 임베딩에 positional embedding을 더한 뒤 `[CLS]`토큰으로 이미지 분류 태스크<br>
+**result :** 분류 문제에서 SOTA. 가장 아래 레이어에서도 글로벌한 정보를 사용하고 있음을 알 수 있었음. CNN보다 locality라는 inductive bias가 적음<br>
+**further work :** NLP처럼 semi-supervised pretraining은 하지 못함
