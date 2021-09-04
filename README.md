@@ -20,3 +20,9 @@ An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale([arxi
 **solution :** 이미지를 4 by 4 block으로 나눈 뒤 쭉 핀 임베딩에 positional embedding을 더한 뒤 트랜스포머 인코더 + FCN으로 구성. 이후 `[CLS]`토큰으로 이미지 분류 태스크<br>
 **result :** 분류 문제에서 SOTA. 가장 아래 레이어에서도 글로벌한 정보를 사용하고 있음을 알 수 있었음. CNN보다 locality라는 inductive bias가 적음<br>
 **further work :** NLP처럼 semi-supervised pretraining은 하지 못함
+
+## 2021-09-04
+Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Network([arxiv](https://arxiv.org/abs/1506.01497))<br>
+**problem: ** Objective Detection에서 사물의 위치를 찾는 Region Proposal단계에서 selective search가 너무 오래걸림
+**solution: ** CNN + anchor으로 Region Porposal를 한 뒤 이후 ROI pooling과 classifier을 순차적으로 학습시킴. 이때 feature map은 공유하며 둘의 loss는 합하여 multi-task learning 됨
+**result: ** fast RCNN보다 성능이 개선됬으며 추론속도도 2배 이상 빨라짐
