@@ -9,7 +9,10 @@ Vocabulary Learning via Optimal Transport for Neural Machine Translation([arxiv]
 **result :** 1) 기존에 사용되던 vocab보다 MT 성능이 좋았음 2) 휴리스틱하게(실험) 선정된 vocab과 성능이 유사하였음 3) 다국어 vocab에서도 더 좋았음<br>
 
 ## 2021-08-30
-BART
+BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension([arxiv](https://arxiv.org/abs/1910.13461))
+**problem :** BERT는 트랜스포머의 인코더만 사용, GPT는 디코더만 사용. 둘 다 각자 강점이 있는데 둘다 쓰고 싶다. <br>
+**solution :** 트랜스포머의 encoder-decoder 구조를 모두 사용하여 noise가 들어간 텍스트를 원래 텍스트로 원복하면서 pre-training됨. fine-tuning시에는 input과 ouput에 sdame input을 넣은 뒤 decoder에 마지막 ouput에 fcn을 넣어서 사용함<br>
+**result :** MNLI를 제외하고 모든 GLUE  task에서 BERT보다 우위
 
 ## 2021-09-01
 LayoutLM: Pre-training of Text and Layout for Document Image Understanding([arxiv](https://arxiv.org/pdf/1912.13318.pdf))<br>
