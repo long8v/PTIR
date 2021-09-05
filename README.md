@@ -11,7 +11,7 @@ Vocabulary Learning via Optimal Transport for Neural Machine Translation([arxiv]
 ## 2021-09-01
 LayoutLM: Pre-training of Text and Layout for Document Image Understanding([arxiv](https://arxiv.org/pdf/1912.13318.pdf))<br>
 **problem :** 이전까지 문서 구조를 학습하기 위해 텍스트/이미지 정보만을 활용하였음<br>
-**solution :** BERT 아키텍쳐를 활용하여, 좌표, 텍스트로 프리트레이닝하고 바운딩박스내 이미지 정보를 Faster RCNN로 결합하여 finetuning <br>
+**solution :** BERT 아키텍쳐를 활용하여, 좌표, 텍스트를 임베딩하여 MLM, MDC(문서분류)로 프리트레이닝하고 바운딩박스내 이미지 정보를 Faster RCNN로 결합하여 finetuning <br>
 **result :** information extraction, document classification 등의 태스크에서 SOTA<br>
 
 ## 2021-09-03
