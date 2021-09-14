@@ -39,8 +39,8 @@ TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupevised
 **solution :** auto-encoder처럼 encoder가 노이즈가 있는 텍스트를 받아 저차원의 벡터로 표현하면 이를 decoder가 noise가 없는 텍스트로 변화하는 구조를 가짐<br>k 층의 self-attention을 하고 Query와 Value는 문장임베딩, Key는 이전 (k-1)층의 t시점 디코더 히든스텝을 사용함 (BART와 다르게 인코더의 모든 time-step의 히든벡터가 참조 되지 않음) <br>
 **result :** unsupervised sentence embedding 방법론인 MLM, GloVe, Sent2Vec과 비교했을 때 성능상 우위
 
-## 2021-09-14**
+## 2021-09-14
 Swin Transformer: Hiearchical Vision Transformer using Shifted Window([arxiv](https://arxiv.org/abs/2103.14030))<br>
-**problem :** ViT와 같이 비전에 트랜스포머를 적용하고자 하는 시도가 있으나, 한개의 토큰 단위를 4 by 4로 고정하는 것은 pixel 단위인 semantic segmentation을 하기엔 적합하지 않으며 고화질 데이터의 경우 이미지 크기의 O(n^2)승 만큼 연산의 양이 많아져서 사용에 한계가 있음 <br>
-**solution :**<br>
-**result :**<br>
+**problem :** ViT와 같이 비전에 트랜스포머를 적용하고자 하는 시도가 있으나, 한개의 토큰 단위를 4 by 4로 고정하는 것은 pixel 단위인 semantic segmentation을 하기엔 적합하지 않으며 고화질 데이터의 경우 이미지 크기에 제곱으로 연산의 양이 많아져서 사용에 한계가 있음 <br>
+**solution :** ViT처럼 m by m 패치로 자른 뒤에 그 내부의 픽셀 단위로 slef-attention을 함. 이후에 패치를 M // 2만큼 shift 해서 self-attention을 함. 이 구조를 반복하여 프리트레이닝/파인튜닝을 진행함 <br>
+**result :** ViT와 달리 연산량이 이미지 크기의 선형적으로 증가하면서도 classification, detection, segmentation에서 SOTA <br>
