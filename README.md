@@ -1,5 +1,14 @@
 # PTIR
 Paper Today I Read 
+- [PTIR](#ptir)
+  * [2021-08-20](#2021-08-20)
+  * [2021-08-30](#2021-08-30)
+  * [2021-09-01](#2021-09-01)
+  * [2021-09-03](#2021-09-03)
+  * [2021-09-04](#2021-09-04)
+  * [2021-09-05](#2021-09-05)
+  * [2021-09-14](#2021-09-14)
+
 
 ## 2021-08-20
 Vocabulary Learning via Optimal Transport for Neural Machine Translation([arxiv](https://arxiv.org/pdf/2012.15671.pdf))<br>
