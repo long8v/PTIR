@@ -1,13 +1,15 @@
 # PTIR
 Paper Today I Read 
-  * [2021-08-20](#2021-08-20)
-  * [2021-08-30](#2021-08-30)
-  * [2021-09-01](#2021-09-01)
-  * [2021-09-03](#2021-09-03)
-  * [2021-09-04](#2021-09-04)
-  * [2021-09-05](#2021-09-05)
-  * [2021-09-14](#2021-09-14)
+- [PTIR](#ptir)
+  * [2021-08-20) Vocabulary Learning via Optimal Transport for Neural Machine Translation([arxiv](https://arxiv.org/pdf/2012.15671.pdf))<br>](#2021-08-20--vocabulary-learning-via-optimal-transport-for-neural-machine-translation--arxiv--https---arxivorg-pdf-201215671pdf---br-)
+  * [2021-08-30) BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension([arxiv](https://arxiv.org/abs/1910.13461))<br>](#2021-08-30--bart--denoising-sequence-to-sequence-pre-training-for-natural-language-generation--translation--and-comprehension--arxiv--https---arxivorg-abs-191013461---br-)
+  * [2021-09-01) LayoutLM: Pre-training of Text and Layout for Document Image Understanding([arxiv](https://arxiv.org/pdf/1912.13318.pdf))<br>](#2021-09-01--layoutlm--pre-training-of-text-and-layout-for-document-image-understanding--arxiv--https---arxivorg-pdf-191213318pdf---br-)
+  * [2021-09-03) An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale([arxiv](https://arxiv.org/abs/2010.11929))<br>](#2021-09-03--an-image-is-worth-16x16-words--transformers-for-image-recognition-at-scale--arxiv--https---arxivorg-abs-201011929---br-)
+  * [2021-09-04) Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Network([arxiv](https://arxiv.org/abs/1506.01497))<br>](#2021-09-04--faster-r-cnn--towards-real-time-object-detection-with-region-proposal-network--arxiv--https---arxivorg-abs-150601497---br-)
+  * [2021-09-05) TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupevised Sentence Embedding Learning([arxiv](https://arxiv.org/abs/2104.06979))<br>](#2021-09-05--tsdae--using-transformer-based-sequential-denoising-auto-encoder-for-unsupevised-sentence-embedding-learning--arxiv--https---arxivorg-abs-210406979---br-)
+  * [2021-09-14) Swin Transformer: Hiearchical Vision Transformer using Shifted Window([arxiv](https://arxiv.org/abs/2103.14030))<br>](#2021-09-14--swin-transformer--hiearchical-vision-transformer-using-shifted-window--arxiv--https---arxivorg-abs-210314030---br-)
 
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 ## 2021-08-20) Vocabulary Learning via Optimal Transport for Neural Machine Translation([arxiv](https://arxiv.org/pdf/2012.15671.pdf))<br>
 **problem :** vocabulary를 어떻게 설정하는지에 대해 비교하는 것에 대한 비용이 너무 크며, vocab에 따라 fine-tune 성능이 달라짐 <br>
