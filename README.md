@@ -48,7 +48,7 @@ Swin Transformer: Hiearchical Vision Transformer using Shifted Window([arxiv](ht
 ## 2021-11-25
 SPADE: Spatial Dependency Parsing for Semi-Structured Document Information Extraction([arxiv](https://arxiv.org/pdf/2005.00642.pdf))<br>
 **problem :** Information Extraction 문제를 풀 때에 한 문장으로 펼친 뒤(serialize), 여기서 NER 문제를 풀어왔으나 해당 방법론으로는 복잡한 공간적 관계, 문서의 구조적 정보를 다룰 수 없다는 문제가 있음 <br>
-**solution :** serialize 단계 없이 각 토큰들과 field를 노드로 두고 그 관계를 엣지로 하는 그래프(=관계가 있으면 1, 없으면 0인 binary matrix로 표현됨)인 를 만드는 것을 목표로 함. 각 노드들은 attention 연산을 통해서 encoding 되고 엣지들은 인코딩된 벡터들의 내적을 통해 확률 값을 가짐. 
-**result :** BERT base NER과 비슷하거나 나은 성능
+**solution :** serialize 단계 없이 각 토큰들과 field를 노드로 두고 그 관계를 엣지로 하는 그래프(=관계가 있으면 1, 없으면 0인 binary matrix로 표현됨)인 를 만드는 것을 목표로 함. 각 노드들은 attention 연산을 통해서 encoding 되고 엣지들은 인코딩된 벡터들의 내적을 통해 확률 값을 가짐.<br>
+**result :** BERT base NER과 비슷하거나 나은 성능<br>
 **details :** [notion](https://www.notion.so/long8v/SPADE-6018bae80a514fc5b75a962fc69e39fd)
 
