@@ -3,7 +3,7 @@ Paper Today I Read(8 papers)
 
 ## 2021-11-26
 SQLova: A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization([arxiv](https://arxiv.org/pdf/1902.01069.pdf))<br>
-**problem :** 자연어를 SQL로 변환하는 task에서의 BERT 적용. 이때, 통상적 seq2seq를 통한 언어생성은 syntax가 없기 때문에 쿼리 문법에 맞도록 설계를 함.<br>
+**problem :** 자연어를 SQL로 변환하는 task(NL2SQL)에서의 BERT 적용. 이때, 통상적 seq2seq를 통한 언어생성은 syntax가 없어 NL2SQL 문제에 적합하지 않음.<br>
 **solution :** 자연어 질문과 테이블의 컬럼들을 `[SEP]`토큰으로 concat하여 BERT에 넣음. 마지막 BERT의 두개 layer에 biLSTM 적용하여 쿼리에 들어가는 요소들(select문에 들어가는 컬럼 등)을 예측하는 6가지의 모듈들에 대한 연산 진행. <br>
 **result :** SOTA, 크라우드 소싱 분석 결과 human performacne보다 우위.<br>
 **details :** [notion](https://long8v.notion.site/SQLova-6e14c9fecc5a420b9394288b14a463f4)
