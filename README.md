@@ -6,7 +6,7 @@ Cost-effective End-to-end Information Extraction for Semi-structured Document Im
 **problem :** Information Extraction을 하기 위한 기존 서브태스크를 연결한 pipeline의 방법론의 경우 유지보수가 많이 들고, 모델 학습시에도 각 태스크들에 대한 토큰별 annotation이 필요하여 비용이 많이 듦<br>
 **solution :** 2D Transformer 구조 + decoder에 copying mechanism을 붙여서 tree 구조(abstract syntax trees)를 generate하는 end2end 모델 <br>
 **result :** 기존 pipeline 방법론보다 더 적은 비용, 동일한 양의 데이터로 더 좋은 결과<br>
-**details :**[notion](https://long8v.notion.site/WYVERN-07583648be9c4620a7c13924b8ed7f4a)
+**details :** [notion](https://long8v.notion.site/WYVERN-07583648be9c4620a7c13924b8ed7f4a)
 
 ## 2021-11-26
 SQLova: A Comprehensive Exploration on WikiSQL with Table-Aware Word Contextualization([arxiv](https://arxiv.org/pdf/1902.01069.pdf))<br>
