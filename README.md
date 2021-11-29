@@ -1,7 +1,7 @@
 # PTIR
 Paper Today I Read(10 papers)
 
-## 2021-11-28
+## 2021-11-29
 Cost-effective End-to-end Information Extraction for Semi-structured Document Images([arxiv](https://arxiv.org/pdf/2104.08041.pdf))<br>
 **problem :** Information Extraction을 하기 위한 기존 서브태스크를 연결한 pipeline의 방법론의 경우 유지보수가 많이 들고, 모델 학습시에도 각 서브 태스크들에 대한 토큰별 annotation이 필요하여 비용이 많이 듦<br>
 **solution :** 2D Transformer 구조 + decoder에 copying mechanism을 붙여서 tree 구조(abstract syntax trees)를 generate하는 end2end 모델 <br>
