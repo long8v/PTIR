@@ -1,5 +1,19 @@
 # PTIR
-Paper Today I Read(10 papers)
+Paper Today I Read(11 papers)
+
+## 2021-MM-DD
+paper([arxiv](aa.pdf))<br>
+**problem :**<br>
+**solution :**<br>
+**result :**<br>
+**details :** [notion](www)<br>
+
+## 2021-11-30
+Incorporating Copying Mechanism in Sequence-to-Sequence Learning([arxiv](https://arxiv.org/pdf/1603.06393.pdf))<br>
+**problem :** Seq2Seq에서 source에 있는 토큰임에도 사전에 존재하지 않는 단어라면 OOV 문제로 예측할 수가 없음<br>
+**solution :** 일반적으로 Seq2Seq에서 decoder가 다음 토큰을 generate하는 mode외에 source에서 토큰을 가져오는 copy mode를 정의하고, 각 mode에서 나온 확률값을 합하여 NLL으로 구함<br>
+**result :** 요약 태스크에서 기존 RNN Seq2Seq보다 성능 우위<br>
+**details :** [notion](https://www.notion.so/long8v/CopyNet-64e60ff497cb46eb9f1e99e0c6bddaa9)<br>
 
 ## 2021-11-29
 Cost-effective End-to-end Information Extraction for Semi-structured Document Images([arxiv](https://arxiv.org/pdf/2104.08041.pdf))<br>
