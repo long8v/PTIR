@@ -1,5 +1,5 @@
 # PTIR
-Paper Today I Read(11 papers)
+Paper Today I Read(12 papers)
 
 ## 2021-MM-DD
 paper([arxiv](aa.pdf))<br>
@@ -12,7 +12,7 @@ paper([arxiv](aa.pdf))<br>
 Empirical Analysis of Unlabeled Entity Problem in Named Entity Recognition([arxiv](https://openreview.net/pdf?id=5jRVa89sZk))<br>
 **problem :** NER 문제에서 실수 혹은 복잡성 때문에 unlabeld된 entity들은 positive sample을 줄여 성능을 악회시키기도 하지만 이는 BERT와 같은 PLM으로 해결 가능한 반면에, negative sample로 사용됨에 따라 발생하는 성능 악화는 해결하기 어렵다.<br>
 **solution :** label된 span에 대한 cross entropy loss + unlabel된 span에 대해 랜덤으로 샘플링하여 cross-entropy loss를 구함<br>
-**result :** 가상의 데이터(일부러 labled entity 일부를 빼먹음)에서는 해당 문제를 다 해결, 잘 annotate된 데이터에서는 SOTA에 거의 근접, real-world data의  SOTA<br>
+**result :** 가상의 데이터(일부러 labled entity 일부를 빼먹음)에서는 해당 문제를 다 해결, 잘 annotate된 데이터에서는 SOTA에 거의 근접, real-world data는 SOTA<br>
 
 ## 2021-11-30
 Incorporating Copying Mechanism in Sequence-to-Sequence Learning([arxiv](https://arxiv.org/pdf/1603.06393.pdf))<br>
