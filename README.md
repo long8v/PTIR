@@ -8,6 +8,12 @@ paper([arxiv](aa.pdf))<br>
 **result :**<br>
 **details :** [notion](www)<br>
 
+## 2021-12-01
+Empirical Analysis of Unlabeled Entity Problem in Named Entity Recognition([arxiv](https://openreview.net/pdf?id=5jRVa89sZk))<br>
+**problem :** NER 문제에서 실수 혹은 복잡성 때문에 unlabeld된 entity들은 positive sample을 줄여 성능을 악회시키기도 하지만 이는 BERT와 같은 PLM으로 해결 가능한 반면에, negative sample로 사용됨에 따라 발생하는 성능 악화는 해결하기 어렵다.<br>
+**solution :** label된 span에 대한 cross entropy loss + unlabel된 span에 대해 랜덤으로 샘플링하여 cross-entropy loss를 구함<br>
+**result :** 가상의 데이터(일부러 labled entity 일부를 빼먹음)에서는 해당 문제를 다 해결, 잘 annotate된 데이터에서는 SOTA에 거의 근접, real-world data의  SOTA<br>
+
 ## 2021-11-30
 Incorporating Copying Mechanism in Sequence-to-Sequence Learning([arxiv](https://arxiv.org/pdf/1603.06393.pdf))<br>
 **problem :** Seq2Seq에서 source에 있는 토큰임에도 사전에 존재하지 않는 단어라면 OOV 문제로 예측할 수가 없음<br>
