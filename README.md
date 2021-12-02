@@ -8,9 +8,16 @@ paper([arxiv](aa.pdf))<br>
 **result :**<br>
 **details :** [notion](www)<br>
 
+## 2021-12-02
+Donut : Document Understanding Transformer without OCR([arxiv](https://arxiv.org/pdf/2111.15664.pdf))<br>
+**problem :** 기존 사진 기반의 문서를 이해하는 태스크들의 접근 방식들은 OCR을 한번 거침으로서 계산 비용이 크고 OCR 에러로 인해 생겨나는 성능 저하문제가 있음.<br>
+**solution :** Swin Transformer 인코더 + BART 디코더로 이미지를 읽고 바로 json으로 포매팅 가능한 토큰을 내뱉도록 함. 이때 프리트레이닝은 가상의 문서 데이터를 만들고 문서 내 글자를 모두 읽는 것을 통해 진행함.<br>
+**result :** 문서분류 : OCR 없는 모델 중에서 SOTA, OCR 기반의 프리트레이닝 모델인 LayoutLM의 성능에 근접하지만 모델 크기와 속도 면에서 우위. 파싱에서 SOTA.  <br>
+**details :** [notion](https://long8v.notion.site/Donut-fbaf0e9e19624ae492108f1249a47aa1)<br>
+
 ## 2021-12-01
 Empirical Analysis of Unlabeled Entity Problem in Named Entity Recognition([arxiv](https://openreview.net/pdf?id=5jRVa89sZk))<br>
-**problem :** NER 문제에서 실수 혹은 복잡성 때문에 unlabeld된 entity들은 positive sample을 줄여 성능을 악회시키기도 하지만 이는 BERT와 같은 PLM으로 해결 가능한 반면에, negative sample로 사용됨에 따라 발생하는 성능 악화는 해결하기 어렵다.<br>
+**problem :** NER 문제에서 실수 혹은 복잡성 때문에 unlabeld된 entity들은 positive sample을 줄여 성능을 악회시키기도 하지만 이는 BERT와 같은 PLM으로 해결 가능한 반면에, negative sample로 사용됨에 따라 발생하는 성능 악화는 해결하기 어려움<br>
 **solution :** label된 span에 대한 cross entropy loss + unlabel된 span에 대해 랜덤으로 샘플링하여 cross-entropy loss를 구함<br>
 **result :** 가상의 데이터(일부러 labled entity 일부를 빼먹음)에서는 해당 문제를 다 해결, 잘 annotate된 데이터에서는 SOTA에 거의 근접, real-world data는 SOTA<br>
 
@@ -19,7 +26,7 @@ Incorporating Copying Mechanism in Sequence-to-Sequence Learning([arxiv](https:/
 **problem :** Seq2Seq에서 source에 있는 토큰임에도 사전에 존재하지 않는 단어라면 OOV 문제로 예측할 수가 없음<br>
 **solution :** 일반적으로 Seq2Seq에서 decoder가 다음 토큰을 generate하는 mode외에 source에서 토큰을 가져오는 copy mode를 정의하고, 각 mode에서 나온 확률값을 합하여 NLL으로 구함<br>
 **result :** 요약 태스크에서 기존 RNN Seq2Seq보다 성능 우위<br>
-**details :** [notion](https://www.notion.so/long8v/CopyNet-64e60ff497cb46eb9f1e99e0c6bddaa9)<br>
+**details :** [notion](https://long8v.notion.site/CopyNet-64e60ff497cb46eb9f1e99e0c6bddaa9)<br>
 
 ## 2021-11-29
 Cost-effective End-to-end Information Extraction for Semi-structured Document Images([arxiv](https://arxiv.org/pdf/2104.08041.pdf))<br>
@@ -40,7 +47,7 @@ SPADE: Spatial Dependency Parsing for Semi-Structured Document Information Extra
 **problem :** Information Extraction 문제를 풀 때에 한 문장으로 펼친 뒤(serialize), 여기서 NER 문제를 풀어왔으나 해당 방법론으로는 복잡한 공간적 관계, 문서의 구조적 정보를 다룰 수 없다는 문제가 있음 <br>
 **solution :** serialize 단계 없이 각 토큰들과 field를 노드로 두고 그 관계를 엣지로 하는 그래프(=관계가 있으면 1, 없으면 0인 binary matrix로 표현됨)인 를 만드는 것을 목표로 함. 각 노드들은 attention 연산을 통해서 encoding 되고 엣지들은 인코딩된 벡터들의 내적을 통해 확률 값을 가짐.<br>
 **result :** BERT base NER과 비슷하거나 나은 성능<br>
-**details :** [notion](https://www.notion.so/long8v/SPADE-6018bae80a514fc5b75a962fc69e39fd)
+**details :** [notion](https://long8v.notion.site/SPADE-6018bae80a514fc5b75a962fc69e39fd)
 
 ## 2021-09-14 
 Swin Transformer: Hiearchical Vision Transformer using Shifted Window([arxiv](https://arxiv.org/abs/2103.14030))<br>
