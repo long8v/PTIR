@@ -8,6 +8,13 @@ paper([arxiv](aa.pdf))<br>
 **result :**<br>
 **details :** [notion](www)<br>
 
+## 2021-12-03
+BROS: A Pre-trained Language Model Focusing on Text and Layout for Better Key Information Extraction from Documentsr([arxiv](https://arxiv.org/pdf/2108.04539.pdf))<br>
+**problem :** 문서에서 Key Information를 뽑는 태스크에서 최근 텍스트 + 레이아웃에 이미지 정보까지 사용하는데 이는 연산적으로 비용이 많이 든다<br>
+**solution :** LayoutLM + 2D encoding을 절대좌표가 아닌 텍스트 박스 간의 4 꼭지점의 거리를 sin함수로 임베딩 + spanBERT와 유사하게 2D에서 근처 텍스트 박스를 mask하고 맞추도록 하는 Area-MLM 프리트레이닝 태스크를 추가함. decoding은 SPADE를 통해 함 <br>
+**result :** entity linking, entity extraction 태스크에서 SOTA. 데이터셋이 적을 경우에도 성능 저하가 다른 모델 보다 적어 효율적인 layout + text 관계를 인코딩한 것으로 <br>
+**details :** [notion](https://long8v.notion.site/BROS-86b66bbdc6aa49c5914a3a93cd9bb4be)<br>
+
 ## 2021-12-02
 Donut : Document Understanding Transformer without OCR([arxiv](https://arxiv.org/pdf/2111.15664.pdf))<br>
 **problem :** 기존 사진 기반의 문서를 이해하는 태스크들의 접근 방식들은 OCR을 한번 거침으로서 계산 비용이 크고 OCR 에러로 인해 생겨나는 성능 저하문제가 있음.<br>
