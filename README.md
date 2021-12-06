@@ -8,6 +8,14 @@ paper([arxiv](aa.pdf))<br>
 **result :**<br>
 **details :** [notion](www)<br>
 
+
+## 2021-12-06
+StructuralLM: Structural Pre-training for Form Understanding([arxiv](https://arxiv.org/abs/2105.11210))<br>
+**problem :** 문서를 이해하는 pretraining 모델의 경우 문서의 셀(OCR의 바운딩박스)의 semantic한 정보를 충분히 사용하지 않음. (셀 내의 토큰들이 같은  <br>
+**solution :** 2D poisitonal embdding을 하고 셀 내의 토큰은 순서에 따른 1D positional embedding을 함. pre-training task에 숨겨진 셀이 문서의 어느 영역에 위치하는지 분류하는 Cell Poisition Classification을 추가함. <br>
+**result :** 이미지 정보를 사용하지 않았음에도 SOTA<br>
+**details :** [notion](https://long8v.notion.site/structuralLM-64f16e02a47f4e2697b4f488dccf0db1)<br>
+
 ## 2021-12-03
 BROS: A Pre-trained Language Model Focusing on Text and Layout for Better Key Information Extraction from Documentsr([arxiv](https://arxiv.org/pdf/2108.04539.pdf))<br>
 **problem :** 문서에서 Key Information를 뽑는 태스크에서 최근 텍스트 + 레이아웃에 이미지 정보까지 사용하는데 이는 연산적으로 비용이 많이 든다<br>
