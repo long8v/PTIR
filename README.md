@@ -8,6 +8,12 @@ paper([arxiv](aa.pdf))<br>
 **result :**<br>
 **details :** [notion](www)<br>
 
+## 2021-12-07
+Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer([arxiv](https://arxiv.org/pdf/1910.10683.pdf))<br>
+**problem :** 다양한 NLP 프리트레이닝 기법은 데이터/목표함수/구조 등이 달라 서로의 성능 혹은 효과성을 비교하기 어려움<br>
+**solution :** encoder-decoder 구조로 프리트레이닝 시에는 임의로 선택된 연속된 토큰 감춰놓고 이를 맞추는 문제를 품. finetuning시에는 인풋 앞에 finetuning 태스크를 나타내는 prefix를 붙이고 decoder는 각 태스크별 output을 생성하도록 함<br>
+**result :** 다양한 태스크에서 SOTA, 하나의 text-to-text 프레임워크로 프리트레이닝/파인튜닝을 진행하여 모델 및 데이터의 변동에 따른 성능 차이를 분석할 수 있게 함<br>
+**details :** [notion](https://long8v.notion.site/T5-9beb63d63a5c4a89acd524056d1bbe60)<br>
 
 ## 2021-12-06
 StructuralLM: Structural Pre-training for Form Understanding([arxiv](https://arxiv.org/abs/2105.11210))<br>
