@@ -8,6 +8,13 @@ paper([arxiv](aa.pdf))<br>
 **result :**<br>
 **details :** [notion](www)<br>
 
+## 2021-12-09
+paper([arxiv](aa.pdf))<br>
+**problem :** Transformer의 self-attention 연산이 시퀀스 길이 n에 대하여 O(n^2)로 시간, 공간복잡도가 늘어남. <br>
+**solution :** self-attention layer의 결과 matrix가 low-rank라는 것을 밝혀냄. 즉, 저차원으로 표현할 수 있으므로 linear projection 레이어를 추가하여 key, value의 차원을 줄인 뒤 연산을 진행함.<br>
+**result :** RoBERTa와 성능은 유사하거나 더 낫지만, 시간/공간복잡도를 O(n)으로 줄임. <br>
+**details :** [notion](https://long8v.notion.site/LinFormer-7aec3be7c2d349b6aa227806955dba61)<br>
+
 ## 2021-12-07
 Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer([arxiv](https://arxiv.org/pdf/1910.10683.pdf))<br>
 **problem :** 다양한 NLP 프리트레이닝 기법은 데이터/목표함수/구조 등이 달라 서로의 성능 혹은 효과성을 비교하기 어려움<br>
