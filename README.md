@@ -11,7 +11,7 @@ paper([arxiv](aa.pdf))<br>
 ## 2021-12-13
 MixText: Linguistically-Informed Interpolation of Hidden Space for Semi-Supervised Text Classification([arxiv](https://aclanthology.org/2020.acl-main.194.pdf))<br>
 **problem :** 기존의 semi-supervised 방법론들은 label 데이터와 unlabeled 데이터가 따로 사용되어, unlabeled 데이터에서 파인튜닝 시 여전히 과적합될 가능성이 많음<br>
-**solution :** 비전에서 사용되는 mixup 기법과 유사하게, BERT 등의 프리트레인 모델에 임의의 두 개의 x의 hidden vector를 보간하고 y역시 보간하여 학습데이터로 레이블 데이터와 함께 사용. KL divergence loss에 분류 엔트로피 로스를 합하여 로스로 <br>
+**solution :** 비전에서 사용되는 mixup 기법과 유사하게, BERT 등의 프리트레인 모델에 임의의 두 개의 x의 hidden vector를 보간하고 y역시 보간하여 학습데이터로 레이블 데이터와 함께 사용. KL divergence loss에 unlabeled data에 대해 더 자신있게 예측할 수 있도록 분류 엔트로피 로스를 합하여 loss로 사용<br>
 **result :** 텍스트 분류 문제에서 제한된 레이블 데이터를 가지고 있을 때 SOTA<br>
 **details :** [notion](https://long8v.notion.site/MixText-c91fca74f6bb46fe9ef0aa8868fc5bd4)<br>
 
