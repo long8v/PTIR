@@ -1,5 +1,5 @@
 # PTIR
-Paper Today I Read(16 papers)
+Paper Today I Read(17 papers)
 
 ## 2021-MM-DD
 paper([arxiv](aa.pdf))<br>
@@ -7,6 +7,14 @@ paper([arxiv](aa.pdf))<br>
 **solution :**<br>
 **result :**<br>
 **details :** [notion](www)<br>
+
+
+## 2021-12-14
+Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions([arxiv](https://arxiv.org/pdf/2102.12122.pdf))<br>
+**problem :** 비전 트랜스포머 분야에서 이전에 제시된 ViT는 연산량이 많고 아웃풋이 저차원이어서 픽셀 레벨의 태스크를 하기에 적절하지 않음<br>
+**solution :** 1) Feature Pyramid : CNN처럼 4단계의 레이어를 쌓아서 각 크기의 피쳐를 모두 사용할 수 있게 함. 2) Spatial Reduction Attention(SRA) : Self-Attention 연산에서 Key와 Value를 reshape + FC를 거쳐 차원을 줄인 뒤에 진행함<br>
+**result :** 이미지 분류 뿐 아니라 디텍션/세그멘테이션 같은 dense prediction 태스크에도 바로 적용 가능하며, SRA를 통해 계싼 비용도 줄임. 다양한 다운스트림 태스크에서 SOTA<br>
+**details :** [notion](https://long8v.notion.site/PVT-6403ee04d45c4732a02f65c7924f1f08)<br>
 
 ## 2021-12-13
 MixText: Linguistically-Informed Interpolation of Hidden Space for Semi-Supervised Text Classification([arxiv](https://aclanthology.org/2020.acl-main.194.pdf))<br>
