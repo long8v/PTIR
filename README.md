@@ -8,6 +8,12 @@ paper([arxiv](aa.pdf))<br>
 **result :**<br>
 **details :** [notion](www)<br>
 
+## 2021-12-15
+GLaM: Efficient Scaling of Language Models with Mixture-of-Experts([arxiv](https://arxiv.org/pdf/2112.06905.pdf))<br>
+**problem :** NLP에서 큰 프리트레이닝 모델은 좋은 성능을 보이지만, 학습/추론 비용이 너무 크다<br>
+**solution :** Mixture-of-Experts 모델에서 따와 트랜스포머 구조 내에 주어진 토큰을 처리하기에 어떤 expert가 가장 적합한지를 학습하는 gating을 만들고 선정된 expert의 output의 합으로 모델의 output을 내뱉음<br>
+**result :** GPT-3보다 크기가 7배 크지만, 에너지는 1/3배 쓰이며 zero-shot, one-shot에서 GPT-3보다 성능 우위<br>
+**details :** [notion](https://long8v.notion.site/GLaM-051d25d6164b4d4bb4f6191beeeba81b)<br>
 
 ## 2021-12-14
 Pyramid Vision Transformer: A Versatile Backbone for Dense Prediction without Convolutions([arxiv](https://arxiv.org/pdf/2102.12122.pdf))<br>
