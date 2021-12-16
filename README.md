@@ -9,7 +9,7 @@ paper([arxiv](aa.pdf))<br>
 **details :** [notion](www)<br>
 
 ## 2021-12-16
-OUTRAGEOUSLY LARGE NEURAL NETWORKS: THE SPARSELY-GATED MIXTURE-OF-EXPERTS LAYER, 2017([arxiv](https://arxiv.org/pdf/1701.06538.pdf))<br>
+Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer, 2017([arxiv](https://arxiv.org/pdf/1701.06538.pdf))<br>
 **problem :** 큰 모델을 만들면 성능이 늘어나지만 메모리의 이슈로 한계가 있음<br>
 **solution :** 각 독립적인 NN인 expert들을 만들고, 인풋에 따라 어떤 expert를 선택할지 gating 네트워크를 구성. 이때 top k개만 선택하도록 하여 sparse한 gating을 각 expert의 outputr과 weighted sum하여 <br>
 **result :** 더 낮은 비용으로 더 큰 모델 학습. MT에서 SOTA<br>
