@@ -12,7 +12,7 @@ paper([arxiv](aa.pdf))<br>
 An Empirical Study of Training End-to-End Vision-and-Language Transformers, 2021([arxiv](https://arxiv.org/pdf/2111.02387.pdf))<br>
 **problem :** Vison-and-Language(VL) 태스크에 대해서 end-to-end 방식으로 트랜스포머만 사용한 모델 중 region-based model보다 나은 성능을 보인 것이 없었고, 각 모듈들에 대한 실험이 부족함<br>
 **solution :** VL의 주요 모듈들에 대해 알아보고 Ablation study함 <br>
-**result :** VQA 태스크에서 SOTA<br>
+**result :** VQA 태스크에서 SOTA, 실험을 통해 몇가지 모듈들에 대한 성능 를 알아냄<br>
 **details :** [notion](https://long8v.notion.site/METER-b9b1beb61f194ea5ba6d573b16328ead)<br>
 
 ## 2021-12-16
