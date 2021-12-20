@@ -1,5 +1,5 @@
 # PTIR
-Paper Today I Read(20 papers)
+Paper Today I Read(21 papers)
 
 ## 2021-MM-DD
 paper([arxiv](aa.pdf))<br>
@@ -13,7 +13,7 @@ paper([arxiv](aa.pdf))<br>
 Value Retrieval with Arbitrary Queries for Form-like Documents([arxiv](https://arxiv.org/abs/2112.07820))<br>
 **problem :** 문서에서 원하는 정보를 뽑는 태스크에서 이전 방법론들은 미리 정의해놓은 field를 예측하는 문제를 풀었는데, 이는 다른 form 혹은 도메인에 적용하기 어렵다<br>
 **solution :** 쿼리가 주어졌을 때 문서에서 원하는 value를 찾는 문제로 바꿈. 쿼리와 OCR 텍스트를 같은 임베딩을 거친 뒤 같이 self-attention을 하도록 하고 각각의 마지막 셀프어텐션 레이어에 average-pooling, FCN을 거친 뒤 내적을 하여 각 토큰이 원하는 value인지 아닌지 이진 분류하는 문제로 바꿈. 해당 아키텍쳐로 MLM을 하는 프리트레이닝 모델(simpleDLM)을 만듦.<br>
-**result :** BERT, LayoutLM 프리트레이닝을 가져온 것보다 simpleDLM으로 프리트레이닝한 것이 F1 성능이  <br>
+**result :** BERT, LayoutLM 프리트레이닝을 가져온 것보다 simpleDLM으로 프리트레이닝한 것이 F1 성능이 우위. <br>
 **details :** [notion](www)<br>
 
 ## 2021-12-17
