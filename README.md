@@ -8,13 +8,19 @@ paper([arxiv](aa.pdf))<br>
 **result :**<br>
 **details :** [notion](www)<br>
 
+## 2021-12-21**
+Swin Transformer: Hiearchical Vision Transformer using Shifted Window, 2021([arxiv](https://arxiv.org/abs/2103.14030))<br>
+**problem :** ViT와 같이 비전에 트랜스포머를 적용하고자 하는 시도가 있으나, 한개의 토큰 단위를 16 by 16로 고정하는 것은 pixel 단위인 semantic segmentation을 하기엔 적합하지 않으며 고화질 데이터의 경우 이미지 크기에 제곱으로 연산의 양이 많아져서 사용에 한계가 있음 <br>
+**solution :** ViT처럼 m by m 패치로 자른 뒤에 그 내부의 픽셀 단위로 self-attention을 함. 그 뒤에 패치를 M // 2만큼 shift 해서 패치를 나눈 뒤 self-attention을 함. 이 구조를 반복하여 프리트레이닝/파인튜닝을 진행함 <br>
+**result :** ViT와 달리 연산량이 이미지 크기의 선형적으로 증가하면서도 classification, detection, segmentation에서 SOTA <br>
+**details :** [notion](https://long8v.notion.site/Swin-Transformer-99285aee1ff14e3ab5411c3427c50311)<br>
 
 ## 2021-12-20
-Value Retrieval with Arbitrary Queries for Form-like Documents([arxiv](https://arxiv.org/abs/2112.07820))<br>
+Value Retrieval with Arbitrary Queries for Form-like Documents, 2021([arxiv](https://arxiv.org/abs/2112.07820))<br>
 **problem :** 문서에서 원하는 정보를 뽑는 태스크에서 이전 방법론들은 미리 정의해놓은 field를 예측하는 문제를 풀었는데, 이는 다른 form 혹은 도메인에 적용하기 어렵다<br>
 **solution :** 쿼리가 주어졌을 때 문서에서 원하는 value를 찾는 문제로 바꿈. 쿼리와 OCR 텍스트를 같은 임베딩을 거친 뒤 같이 self-attention을 하도록 하고 각각의 마지막 셀프어텐션 레이어에 average-pooling, FCN을 거친 뒤 내적을 하여 각 토큰이 원하는 value인지 아닌지 이진 분류하는 문제로 바꿈. 해당 아키텍쳐로 MLM을 하는 프리트레이닝 모델(simpleDLM)을 만듦.<br>
 **result :** BERT, LayoutLM 프리트레이닝을 가져온 것보다 simpleDLM으로 프리트레이닝한 것이 F1 성능이 우위. <br>
-**details :** [notion](www)<br>
+**details :** [notion](https://long8v.notion.site/simpleDLM-7c1edd8680584952a5c4a2dd2794cbfb)<br>
 
 ## 2021-12-17
 An Empirical Study of Training End-to-End Vision-and-Language Transformers, 2021([arxiv](https://arxiv.org/pdf/2111.02387.pdf))<br>
@@ -119,12 +125,6 @@ SPADE: Spatial Dependency Parsing for Semi-Structured Document Information Extra
 **solution :** serialize 단계 없이 각 토큰들과 field를 노드로 두고 그 관계를 엣지로 하는 그래프(=관계가 있으면 1, 없으면 0인 binary matrix로 표현됨)인 를 만드는 것을 목표로 함. 각 노드들은 attention 연산을 통해서 encoding 되고 엣지들은 인코딩된 벡터들의 내적을 통해 확률 값을 가짐.<br>
 **result :** BERT base NER과 비슷하거나 나은 성능<br>
 **details :** [notion](https://long8v.notion.site/SPADE-6018bae80a514fc5b75a962fc69e39fd)
-
-## 2021-09-14 
-Swin Transformer: Hiearchical Vision Transformer using Shifted Window([arxiv](https://arxiv.org/abs/2103.14030))<br>
-**problem :** ViT와 같이 비전에 트랜스포머를 적용하고자 하는 시도가 있으나, 한개의 토큰 단위를 16 by 16로 고정하는 것은 pixel 단위인 semantic segmentation을 하기엔 적합하지 않으며 고화질 데이터의 경우 이미지 크기에 제곱으로 연산의 양이 많아져서 사용에 한계가 있음 <br>
-**solution :** ViT처럼 m by m 패치로 자른 뒤에 그 내부의 픽셀 단위로 slef-attention을 함. 이후에 패치를 M // 2만큼 shift 해서 self-attention을 함. 이 구조를 반복하여 프리트레이닝/파인튜닝을 진행함 <br>
-**result :** ViT와 달리 연산량이 이미지 크기의 선형적으로 증가하면서도 classification, detection, segmentation에서 SOTA <br>
 
 ## 2021-09-05 
 TSDAE: Using Transformer-based Sequential Denoising Auto-Encoder for Unsupevised Sentence Embedding Learning([arxiv](https://arxiv.org/abs/2104.06979))<br>
