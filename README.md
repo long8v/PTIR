@@ -8,7 +8,7 @@ paper([arxiv](aa.pdf))<br>
 **result :**<br>
 **details :** [notion](www)<br>
 
-## 2021-12-21**
+## 2021-12-21
 Swin Transformer: Hiearchical Vision Transformer using Shifted Window, 2021([arxiv](https://arxiv.org/abs/2103.14030))<br>
 **problem :** ViT와 같이 비전에 트랜스포머를 적용하고자 하는 시도가 있으나, 한개의 토큰 단위를 16 by 16로 고정하는 것은 pixel 단위인 semantic segmentation을 하기엔 적합하지 않으며 고화질 데이터의 경우 이미지 크기에 제곱으로 연산의 양이 많아져서 사용에 한계가 있음 <br>
 **solution :** ViT처럼 m by m 패치로 자른 뒤에 그 내부의 픽셀 단위로 self-attention을 함. 그 뒤에 패치를 M // 2만큼 shift 해서 패치를 나눈 뒤 self-attention을 함. 이 구조를 반복하여 프리트레이닝/파인튜닝을 진행함 <br>
