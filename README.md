@@ -1,19 +1,19 @@
 # PTIR
 Paper Today I Read(22 papers)
 
+## 2021-12-23
+paper([arxiv](aa.pdf))<br>
+**problem :**<br>
+**solution :**<br>
+**result :**<br>
+**details :** [notion](www)<br>
+
 ## 2021-MM-DD
 Pix2seq: A Language Modeling Framework for Object Detection, 2021([arxiv](https://arxiv.org/pdf/2109.10852.pdf))<br>
 **problem :** Object Detection 문제를 풀기 위해선 특수한 구조/설계가 필요함<br>
 **solution :** object detection 문제를 이미지를 넣었을 때 바운딩 박스와 레이블을 표현한 토큰 sequence를 뽑는 인코더-디코더 구조로 바꿈. 이때 모든 object를 찾지 않고 끝나버리는 것을 막기 위해 noise를 섞은 augmentation을 추가하여 모델이 noise인지 아닌지를 구분하도록 하면서 고정된 길이로 예측하도록 함. 이를 통해 recall을 끌어올림. <br>
 **result :** Faster RCNN, DETR과 같은 디텍션만을 위해 설계되었고 최적화된 모델들과 성능이 유사하게 남<br>
 **details :** [notion](https://long8v.notion.site/pix2seq-109e93c7ebb54104bbca96f16ddc4127)<br>
-
-## 2021-12-23
-: ([arxiv](aa.pdf))<br>
-**problem :**<br>
-**solution :**<br>
-**result :**<br>
-**details :** [notion](www)<br>
 
 ## 2021-12-21
 Swin Transformer: Hiearchical Vision Transformer using Shifted Window, 2021([arxiv](https://arxiv.org/abs/2103.14030))<br>
