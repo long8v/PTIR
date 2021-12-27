@@ -1,14 +1,21 @@
 # PTIR
 Paper Today I Read(22 papers)
 
-## 2021-12-23
+## 2021-MM-DD
 paper([arxiv](aa.pdf))<br>
 **problem :**<br>
 **solution :**<br>
 **result :**<br>
 **details :** [notion](www)<br>
 
-## 2021-MM-DD
+## 2021-12-27
+End-to-End Object Detection with Transformers, 2020([arxiv](https://arxiv.org/pdf/2005.12872.pdf))<br>
+**problem :** object detection 문제를 풀기 위해선 수작업 구조/설계가 필요함<br>
+**solution :** object detection이 중복이 없는 순서 상관 없는 set을 예측하는 것이기 때문에, CNN + transformer encoder-decoder + FFN으로 한번에 bbox를 예측할 수 있도록 함. 이 때, loss는 우선 예측된 box와 gt box를 bipartite로 최적 matching을 구한 뒤, 최적 매칭에서 box loss와 클래스 레이블을 합친 loss를 사용함.<br>
+**result :** FASTER RCNN과 유사한 성능, panoptic segmentation에서 SOTA<br>
+**details :** [notion](https://long8v.notion.site/DETR-5810bf27ec954498a3bdd95c15b116b7)<br>
+
+## 2021-12-23
 Pix2seq: A Language Modeling Framework for Object Detection, 2021([arxiv](https://arxiv.org/pdf/2109.10852.pdf))<br>
 **problem :** Object Detection 문제를 풀기 위해선 특수한 구조/설계가 필요함<br>
 **solution :** object detection 문제를 이미지를 넣었을 때 바운딩 박스와 레이블을 표현한 토큰 sequence를 뽑는 인코더-디코더 구조로 바꿈. 이때 모든 object를 찾지 않고 끝나버리는 것을 막기 위해 noise를 섞은 augmentation을 추가하여 모델이 noise인지 아닌지를 구분하도록 하면서 고정된 길이로 예측하도록 함. 이를 통해 recall을 끌어올림. <br>
