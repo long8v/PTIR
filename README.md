@@ -8,6 +8,13 @@ paper([arxiv](aa.pdf))<br>
 **result :**<br>
 **details :** [notion](www)<br>
 
+## 2021-12-28
+Multimodal Few-Shot Learning with Frozen Language Models, 2021([arxiv](https://papers.nips.cc/paper/2021/file/01b7575c38dac42f3cfb7d500438b875-Paper.pdf))<br>
+**problem :** 대형 언어모델에게 visual 정보를 few-shot으로 학습할 수 있게 해보자<br>
+**solution :** visual encoder를 prefix처럼 input 시퀀스 앞에 두고 기존 언어모델의 파라미터는 frozen 시키고 학습시킴. <br>
+**result :** few-shot으로도 상당한 성능, 멀티모달 few shot 러닝 밴치마크를 제안<br>
+**details :** [notion](https://long8v.notion.site/Frozen-405d8913a0ea4779a503e8f61e21d835)<br>
+
 ## 2021-12-27
 End-to-End Object Detection with Transformers, 2020([arxiv](https://arxiv.org/pdf/2005.12872.pdf))<br>
 **problem :** object detection 문제를 풀기 위해선 수작업 구조/설계가 필요함<br>
