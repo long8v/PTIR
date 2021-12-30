@@ -8,6 +8,13 @@ paper([arxiv](aa.pdf))<br>
 **result :**<br>
 **details :** [notion](www)<br>
 
+## 2021-12-30
+LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference, 2021([arxiv](https://arxiv.org/pdf/2104.01136.pdf))<br>
+**problem :** 더 나은 속도/성능 trade-off를 가지는 ViT를 개발해보자<br>
+**solution :** 처음에 CNN으로 resolution을 줄인 뒤, 트랜스포머를 위에 붙임. 이때, 우리는 CNN처럼 pyramid 구조를 갖기 위해 중간에 Query를 average-pooling으로 sub-sampling을 하여 resolution을 중간중간에 줄여감. 외에 MLP 대신 1 x 1 convolution을 하고, positional embedding 대신 attention bias를 추가하는 등 효율적인 연산을 위한 디테일을 수정함.<br>
+**result :** DeiT나 EfficientNet과 유사한 성능으로 더 빠른 인퍼런스 속도.<br>
+**details :** [notion](https://long8v.notion.site/LeViT-8dfba651c7e54430992ee79b2e3429c6)<br>
+
 ## 2021-12-28
 Multimodal Few-Shot Learning with Frozen Language Models, 2021([arxiv](https://papers.nips.cc/paper/2021/file/01b7575c38dac42f3cfb7d500438b875-Paper.pdf))<br>
 **problem :** 대형 언어모델에게 visual 정보를 few-shot으로 학습할 수 있게 해보자<br>
