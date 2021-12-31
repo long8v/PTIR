@@ -34,9 +34,6 @@
   * [2021-08-30 BART](#2021-08-30-bart)
   * [2021-08-20](#2021-08-20)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
 ## 2021-12-31 DeiT
 Training data-efficient image transformers & distillation through attention, 2021([arxiv](https://arxiv.org/abs/2012.12877))<br>
 **problem :** ViT는 대규모 이미지 데이터셋으로 학습해야 일반화 가능한 모델을 학습할 수 있음<br>
