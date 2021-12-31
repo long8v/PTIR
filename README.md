@@ -1,5 +1,4 @@
-# PTIR
-## Paper Today I Read(25 papers)
+# Paper Today I Read(25 papers)
 - 논문 abstact, introduction, architecture 까지 읽고 정리
 - result는 대충 표만 보기
 - 21년도까지 readme.md 22년부터 
