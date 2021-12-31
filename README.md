@@ -1,12 +1,8 @@
 # PTIR
 Paper Today I Read(25 papers)
-
-## 2021-MM-DD
-paper([arxiv](aa.pdf))<br>
-**problem :**<br>
-**solution :**<br>
-**result :**<br>
-**details :** [notion](www)<br>
+- 논문 abstact, introduction, architecture 까지 읽고 정리
+- result는 대충 표만 보기
+- 21년도까지 readme.md 22년부터 
 
 ## 2021-12-30
 LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference, 2021([arxiv](https://arxiv.org/pdf/2104.01136.pdf))<br>
