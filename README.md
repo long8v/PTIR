@@ -5,7 +5,11 @@
 - 월~금 기록하는걸 목표로 함
 
 ## 2021-12-31 DeiT
-Training data-efficient image transformers & distillation through attention, 2021 
+Training data-efficient image transformers & distillation through attention, 2021([arxiv](https://arxiv.org/abs/2012.12877))
+**problem :** ViT는 대규모 이미지 데이터셋으로 학습해야 일반화 가능한 모델을 학습할 수 있음<br>
+**solution :** ViT구조에 distillation token을 추가하여 CNN 등의 teacher model을 사용하여 distillation 학습을 진행함<br>
+**result :** imageNet만으로 학습한 모델이 좋은 정확도를 냄, ViT, ResNet와 비교해봤을 때 더 작은 파라미터로 나은 성능<br>
+**details :** [notion](https://long8v.notion.site/DeiT-a045232cb9f4468e9b90e6a3efda8625)
 
 
 ## 2021-12-30 LeViT
