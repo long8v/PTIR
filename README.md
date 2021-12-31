@@ -2,7 +2,7 @@
 - 논문 abstact, introduction, architecture 까지 읽고 정리
 - result는 대충 표만 보기
 - 21년도까지 readme.md 22년부터 issue로 관리
-- 월~금 기록하는걸 목표로 함 👨‍🏫
+- 월~금 기록하는걸 목표로 함
 
 ## 2021-12-30
 LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference, 2021([arxiv](https://arxiv.org/pdf/2104.01136.pdf))<br>
