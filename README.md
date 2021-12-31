@@ -4,42 +4,46 @@
 - 21년도까지 readme.md 22년부터 issue로 관리
 - 월~금 기록하는걸 목표로 함
 
-## 2021-12-30
+## 2021-12-31 DeiT
+Training data-efficient image transformers & distillation through attention, 2021 
+
+
+## 2021-12-30 LeViT
 LeViT: a Vision Transformer in ConvNet's Clothing for Faster Inference, 2021([arxiv](https://arxiv.org/pdf/2104.01136.pdf))<br>
 **problem :** 더 나은 속도/성능 trade-off를 가지는 ViT를 개발해보자<br>
 **solution :** 처음에 CNN으로 resolution을 줄인 뒤, 트랜스포머를 위에 붙임. 이때, 우리는 CNN처럼 pyramid 구조를 갖기 위해 중간에 Query를 average-pooling으로 sub-sampling을 하여 resolution을 중간중간에 줄여감. 외에 MLP 대신 1 x 1 convolution을 하고, positional embedding 대신 attention bias를 추가하는 등 효율적인 연산을 위한 디테일을 수정함.<br>
 **result :** DeiT나 EfficientNet과 유사한 성능으로 더 빠른 인퍼런스 속도.<br>
 **details :** [notion](https://long8v.notion.site/LeViT-8dfba651c7e54430992ee79b2e3429c6)<br>
 
-## 2021-12-28
+## 2021-12-28 Frozen
 Multimodal Few-Shot Learning with Frozen Language Models, 2021([arxiv](https://papers.nips.cc/paper/2021/file/01b7575c38dac42f3cfb7d500438b875-Paper.pdf))<br>
 **problem :** 대형 언어모델에게 visual 정보를 few-shot으로 학습할 수 있게 해보자<br>
 **solution :** visual encoder를 prefix처럼 input 시퀀스 앞에 두고 기존 언어모델의 파라미터는 frozen 시키고 학습시킴. <br>
 **result :** few-shot으로도 상당한 성능, 멀티모달 few shot 러닝 밴치마크를 제안<br>
 **details :** [notion](https://long8v.notion.site/Frozen-405d8913a0ea4779a503e8f61e21d835)<br>
 
-## 2021-12-27
+## 2021-12-27 DETR
 End-to-End Object Detection with Transformers, 2020([arxiv](https://arxiv.org/pdf/2005.12872.pdf))<br>
 **problem :** object detection 문제를 풀기 위해선 수작업 구조/설계가 필요함<br>
 **solution :** object detection이 중복이 없는 순서 상관 없는 set을 예측하는 것이기 때문에, CNN + transformer encoder-decoder + FFN으로 한번에 bbox를 예측할 수 있도록 함. 이 때, loss는 우선 예측된 box와 gt box를 bipartite로 최적 matching을 구한 뒤, 최적 매칭에서 box loss와 클래스 레이블을 합친 loss를 사용함.<br>
 **result :** FASTER RCNN과 유사한 성능, panoptic segmentation에서 SOTA<br>
 **details :** [notion](https://long8v.notion.site/DETR-5810bf27ec954498a3bdd95c15b116b7)<br>
 
-## 2021-12-23
+## 2021-12-23 Pix2seq
 Pix2seq: A Language Modeling Framework for Object Detection, 2021([arxiv](https://arxiv.org/pdf/2109.10852.pdf))<br>
 **problem :** Object Detection 문제를 풀기 위해선 특수한 구조/설계가 필요함<br>
 **solution :** object detection 문제를 이미지를 넣었을 때 바운딩 박스와 레이블을 표현한 토큰 sequence를 뽑는 인코더-디코더 구조로 바꿈. 이때 모든 object를 찾지 않고 끝나버리는 것을 막기 위해 noise를 섞은 augmentation을 추가하여 모델이 noise인지 아닌지를 구분하도록 하면서 고정된 길이로 예측하도록 함. 이를 통해 recall을 끌어올림. <br>
 **result :** Faster RCNN, DETR과 같은 디텍션만을 위해 설계되었고 최적화된 모델들과 성능이 유사하게 남<br>
 **details :** [notion](https://long8v.notion.site/pix2seq-109e93c7ebb54104bbca96f16ddc4127)<br>
 
-## 2021-12-21
+## 2021-12-21 Swin
 Swin Transformer: Hiearchical Vision Transformer using Shifted Window, 2021([arxiv](https://arxiv.org/abs/2103.14030))<br>
 **problem :** ViT와 같이 비전에 트랜스포머를 적용하고자 하는 시도가 있으나, 한개의 토큰 단위를 16 by 16로 고정하는 것은 pixel 단위인 semantic segmentation을 하기엔 적합하지 않으며 고화질 데이터의 경우 이미지 크기에 제곱으로 연산의 양이 많아져서 사용에 한계가 있음 <br>
 **solution :** ViT처럼 m by m 패치로 자른 뒤에 그 내부의 픽셀 단위로 self-attention을 함. 그 뒤에 패치를 M // 2만큼 shift 해서 패치를 나눈 뒤 self-attention을 함. 이 구조를 반복하여 프리트레이닝/파인튜닝을 진행함 <br>
 **result :** ViT와 달리 연산량이 이미지 크기의 선형적으로 증가하면서도 classification, detection, segmentation에서 SOTA <br>
 **details :** [notion](https://long8v.notion.site/Swin-Transformer-99285aee1ff14e3ab5411c3427c50311)<br>
 
-## 2021-12-20
+## 2021-12-20 
 Value Retrieval with Arbitrary Queries for Form-like Documents, 2021([arxiv](https://arxiv.org/abs/2112.07820))<br>
 **problem :** 문서에서 원하는 정보를 뽑는 태스크에서 이전 방법론들은 미리 정의해놓은 field를 예측하는 문제를 풀었는데, 이는 다른 form 혹은 도메인에 적용하기 어렵다<br>
 **solution :** 쿼리가 주어졌을 때 문서에서 원하는 value를 찾는 문제로 바꿈. 쿼리와 OCR 텍스트를 같은 임베딩을 거친 뒤 같이 self-attention을 하도록 하고 각각의 마지막 셀프어텐션 레이어에 average-pooling, FCN을 거친 뒤 내적을 하여 각 토큰이 원하는 value인지 아닌지 이진 분류하는 문제로 바꿈. 해당 아키텍쳐로 MLM을 하는 프리트레이닝 모델(simpleDLM)을 만듦.<br>
