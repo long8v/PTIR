@@ -1,3 +1,0 @@
-[submodule "MoE"]
-	path = MoE
-	url = https://github.com/davidmrau/mixture-of-experts.git
