@@ -8,6 +8,10 @@ assignees: ''
 ---
 
 [paper]( )
+
+## TL;DR
 **problem :**
 **solution :**
 **result :**
+
+## Details
