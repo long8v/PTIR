@@ -1,7 +1,7 @@
 [paper]( )
 
 ## TL;DR
-**problem :*
+**problem :**
 **idea :**
 **architecture: **
 **result :**
