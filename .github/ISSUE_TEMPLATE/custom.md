@@ -3,7 +3,7 @@
 ## TL;DR
 **problem :**
 **idea :**
-**architecture: **
+**architecture :**
 **result :**
 **contribution :**
 
