@@ -1,10 +1,10 @@
 [paper]( )
 
 ## TL;DR
-**problem :**
-**idea :**
-**architecture :**
-**result :**
-**contribution :**
+- **problem :**
+- **idea :**
+- **architecture :**
+- **result :**
+- **contribution :**
 
 ## Details
