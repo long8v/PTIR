@@ -9,9 +9,12 @@ assignees: ''
 [paper]( )
 
 ## TL;DR
+- **task :**
 - **problem :**
 - **idea :**
 - **architecture :**
+- **baseline :**
+- **data :** 
 - **result :**
 - **contribution :**
 
