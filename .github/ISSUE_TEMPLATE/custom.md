@@ -1,6 +1,6 @@
 ---
 name: paper today i read
-about: 
+about: problem, idea, architecture, result, contribution
 title: ''
 labels: ''
 assignees: ''
