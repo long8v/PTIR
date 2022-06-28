@@ -13,6 +13,7 @@ assignees: ''
 - **problem :**
 - **idea :**
 - **architecture :**
+- **objective :**
 - **baseline :**
 - **data :** 
 - **result :**
