@@ -24,7 +24,7 @@
   * [2021-12-02 Donut](#2021-12-02-donut)
   * [2021-12-01](#2021-12-01)
   * [2021-11-30 Copying Network](#2021-11-30-copying-network)
-  * [2021-11-29 SPADE](#2021-11-29-spade)
+  * [2021-11-29 WYVERN](#2021-11-29-spade)
   * [2021-11-26 SQLova](#2021-11-26-sqlova)
   * [2021-11-25 SPADE](#2021-11-25-spade)
   * [2021-09-05 TSDAE](#2021-09-05-tsdae)
@@ -166,7 +166,7 @@ Incorporating Copying Mechanism in Sequence-to-Sequence Learning([arxiv](https:/
 **result :** 요약 태스크에서 기존 RNN Seq2Seq보다 성능 우위<br>
 **details :** [notion](https://long8v.notion.site/CopyNet-64e60ff497cb46eb9f1e99e0c6bddaa9)<br>
 
-## 2021-11-29 SPADE
+## 2021-11-29 WYVERN
 Cost-effective End-to-end Information Extraction for Semi-structured Document Images([arxiv](https://arxiv.org/pdf/2104.08041.pdf))<br>
 **problem :** Information Extraction을 하기 위한 기존 서브태스크를 연결한 pipeline의 방법론의 경우 유지보수가 많이 들고, 모델 학습시에도 각 서브 태스크들에 대한 토큰별 annotation이 필요하여 비용이 많이 듦<br>
 **solution :** 2D Transformer 구조 + decoder에 copying mechanism을 붙여서 tree 구조(abstract syntax trees)를 generate하는 end2end 모델 <br>
