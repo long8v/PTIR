@@ -18,6 +18,6 @@ assignees: ''
 - **data :** 
 - **result :**
 - **contribution :**
-- **limitation or 이해 안되는 부분:**
+- **limitation or 이해 안되는 부분 :**
 
 ## Details
