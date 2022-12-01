@@ -9,7 +9,7 @@ assignees: ''
 [paper]( )
 
 ## TL;DR
-- **논문을 선정한 이유 :**
+- **I read this because.. :**
 - **task :**
 - **problem :**
 - **idea :**
@@ -20,6 +20,7 @@ assignees: ''
 - **evaluation :**
 - **result :**
 - **contribution :**
-- **limitation / 이해가 안되는  :**
+- **limitation / things I cannot understand :**
 
 ## Details
+
