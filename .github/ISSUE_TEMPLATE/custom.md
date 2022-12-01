@@ -9,6 +9,7 @@ assignees: ''
 [paper]( )
 
 ## TL;DR
+- **논문을 선정한 이유 :**
 - **task :**
 - **problem :**
 - **idea :**
@@ -16,8 +17,9 @@ assignees: ''
 - **objective :**
 - **baseline :**
 - **data :** 
+- **evaluation :**
 - **result :**
 - **contribution :**
-- **limitation or 이해 안되는 부분 :**
+- **limitation / 이해가 안되는  :**
 
 ## Details
