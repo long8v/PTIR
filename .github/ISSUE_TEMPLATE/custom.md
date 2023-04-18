@@ -13,6 +13,7 @@ assignees: ''
 - **task :**
 - **problem :**
 - **idea :**
+- **input/output :**
 - **architecture :**
 - **objective :**
 - **baseline :**
@@ -20,7 +21,7 @@ assignees: ''
 - **evaluation :**
 - **result :**
 - **contribution :**
-- **limitation / things I cannot understand :**
+- **etc. :**
 
 ## Details
 
