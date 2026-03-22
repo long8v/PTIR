@@ -288,6 +288,21 @@ body {
   font-weight: 600;
 }
 
+.logo {
+  position: relative;
+}
+
+.logo::after {
+  content: "read paper slowly..";
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--secondary);
+  margin-top: -2px;
+  letter-spacing: 0.02em;
+}
+
 /* Smooth scrollbar */
 ::-webkit-scrollbar {
   width: 6px;

@@ -1,5 +1,5 @@
 baseURL = "https://long8v.github.io/PTIR/"
-title = "Paper Today I Read"
+title = "🐢🍎 Paper Today I Read"
 theme = "PaperMod"
 paginate = 9999
 defaultContentLanguage = "en"
