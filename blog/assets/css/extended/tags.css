@@ -265,6 +265,23 @@ body {
   font-size: 0.9rem;
 }
 
+/* Language switcher */
+.lang-switch {
+  gap: 2px;
+}
+
+.lang-link {
+  color: var(--secondary) !important;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.lang-link.lang-active {
+  color: var(--primary) !important;
+  font-weight: 600;
+}
+
 /* Logo */
 .logo a {
   font-size: 1.2rem;
