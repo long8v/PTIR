@@ -111,18 +111,18 @@
     {{- $count := 0 }}
     {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
     {{- range $pages }}
-      {{- if and (eq .Lang site.Language.Lang) (eq (.Date.Format "2006") "2026") }}
+      {{- if and (not (strings.HasSuffix .File.Path ".ko.md")) (eq (.Date.Format "2006") "2026") }}
         {{- $count = add $count 1 }}
       {{- end }}
     {{- end }}
-    {{- $testCount := 10 }}
-    {{- $leftPos := sub 100 (div (mul $testCount 100) $goal) }}
+    {{- $leftPos := sub 100 (div (mul $count 100) $goal) }}
     <div class="goal-track">
       <div class="goal-bar-bg">
         <span class="goal-apple">🍎</span>
+        <span class="goal-trail" style="right: 0; width: {{ sub 100 $leftPos }}%"></span>
         <span class="goal-walker" style="left: {{ $leftPos }}%">🦔</span>
       </div>
-      <div class="goal-label">{{ $testCount }} / {{ $goal }} papers 🔥</div>
+      <div class="goal-label">{{ $count }} / {{ $goal }} papers 🔥</div>
     </div>
   </div>
 

@@ -151,11 +151,43 @@ body {
   from { left: 100%; }
 }
 
+.goal-trail {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  border-radius: 11px;
+  background: repeating-linear-gradient(
+    -90deg,
+    transparent,
+    transparent 8px,
+    rgba(160, 120, 60, 0.15) 8px,
+    rgba(160, 120, 60, 0.15) 10px
+  );
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  overflow: hidden;
+  animation: trailGrow 1.5s ease-out forwards;
+}
+
+.goal-trail::after {
+  content: "🌰🌰🌰🌰🌰🌰🌰🌰🌰🌰";
+  font-size: 0.6rem;
+  letter-spacing: 4px;
+  opacity: 0.7;
+}
+
+@keyframes trailGrow {
+  from { width: 0%; }
+}
+
 .goal-apple {
   position: absolute;
   top: -10px;
   left: 4px;
   font-size: 1.2rem;
+  z-index: 2;
   animation: applePulse 2s ease-in-out infinite;
 }
 
