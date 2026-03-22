@@ -23,6 +23,7 @@ defaultContentLanguage = "en"
   defaultTheme = "auto"
   ShowToc = true
   hideSummary = true
+  comments = true
 
 [params.fuseOpts]
   isCaseSensitive = false
