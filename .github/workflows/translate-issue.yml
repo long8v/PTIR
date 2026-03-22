@@ -22,7 +22,7 @@ jobs:
 
       - name: Translate issue
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python scripts/translate_issue.py --issue-number ${{ github.event.issue.number }}
