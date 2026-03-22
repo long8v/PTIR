@@ -106,6 +106,47 @@
     <input type="text" id="sidebar-search-input" placeholder="Search papers..." autocomplete="off">
     <div id="sidebar-search-results"></div>
   </div>
+  <div class="sidebar-leaderboard">
+    <h3>2026 Reading Goal 🐢</h3>
+    {{- $goal := 50 }}
+    {{- $count := 0 }}
+    {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{- range $pages }}
+      {{- if and (eq .Lang "en") (ge (.Date.Format "2006") "2026") (le (.Date.Format "2006") "2026") }}
+        {{- $count = add $count 1 }}
+      {{- end }}
+    {{- end }}
+    <div class="goal-track">
+      <div class="goal-bar-bg">
+        <div class="goal-bar-fill" style="width: {{ mul (div (float $count) (float $goal)) 100 }}%"></div>
+        <span class="goal-turtle" style="left: {{ mul (div (float $count) (float $goal)) 100 }}%">🐢</span>
+        <span class="goal-apple" style="left: 100%">🍎</span>
+      </div>
+      <div class="goal-label">{{ $count }} / {{ $goal }} papers</div>
+    </div>
+    <div class="year-bars">
+      <h3>Past Years</h3>
+      {{- $years := dict "2022" 0 "2023" 0 "2024" 0 "2025" 0 }}
+      {{- range $pages }}
+        {{- $y := .Date.Format "2006" }}
+        {{- if and (eq .Lang "en") (ge $y "2022") (le $y "2025") }}
+          {{- if isset $years $y }}
+            {{- $years = merge $years (dict $y (add (index $years $y) 1)) }}
+          {{- end }}
+        {{- end }}
+      {{- end }}
+      {{- range $y := slice "2022" "2023" "2024" "2025" }}
+      <div class="year-row">
+        <span class="year-name">{{ $y }}</span>
+        <div class="year-bar-bg">
+          <div class="year-bar-fill" style="width: {{ mul (div (float (index $years $y)) 100.0) 100 }}%"></div>
+        </div>
+        <span class="year-count">{{ index $years $y }}</span>
+      </div>
+      {{- end }}
+    </div>
+  </div>
+
   <div class="sidebar-tags">
     <h3>Tags</h3>
     <div class="sidebar-tag-list">
