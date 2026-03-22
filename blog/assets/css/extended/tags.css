@@ -48,11 +48,14 @@ body {
   transform: none;
 }
 
-.post-entry .entry-header h2 {
+.post-entry .entry-header h2,
+.entry-hint-parent {
   font-size: 0.95rem;
   font-weight: 500;
   line-height: 1.5;
   color: var(--primary);
+  display: inline;
+  justify-content: unset;
 }
 
 .first-entry {
