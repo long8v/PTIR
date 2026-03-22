@@ -9,28 +9,38 @@ defaultContentLanguage = "en"
   weight = 1
 
 [[languages.en.menus.main]]
+  name = "📝 Read now"
+  url = "https://github.com/long8v/PTIR/issues/new?template=custom.md"
+  weight = 1
+
+[[languages.en.menus.main]]
   name = "Zotero"
   url = "/zotero/"
-  weight = 1
+  weight = 2
 
 [[languages.en.menus.main]]
   name = "About"
   url = "/about/"
-  weight = 2
+  weight = 3
 
 [languages.ko]
   languageName = "KR"
   weight = 2
 
 [[languages.ko.menus.main]]
+  name = "📝 Read now"
+  url = "https://github.com/long8v/PTIR/issues/new?template=custom.md"
+  weight = 1
+
+[[languages.ko.menus.main]]
   name = "Zotero"
   url = "https://long8v.github.io/PTIR/ko/zotero/"
-  weight = 1
+  weight = 2
 
 [[languages.ko.menus.main]]
   name = "About"
   url = "https://long8v.github.io/PTIR/ko/about/"
-  weight = 2
+  weight = 3
 
 [params]
   author = "long8v"
