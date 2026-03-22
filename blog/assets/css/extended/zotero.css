@@ -1,0 +1,99 @@
+/* Zotero Library */
+.zotero-subtitle {
+  color: var(--secondary);
+  font-size: 0.85rem;
+  font-style: italic;
+  margin-top: -8px;
+}
+
+.zotero-subtitle a {
+  color: var(--secondary);
+  text-decoration: underline;
+}
+
+.zotero-controls {
+  margin-bottom: 16px;
+}
+
+#zotero-search {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--theme);
+  color: var(--primary);
+  font-size: 0.85rem;
+  outline: none;
+  box-sizing: border-box;
+  margin-bottom: 6px;
+}
+
+#zotero-search:focus {
+  border-color: var(--secondary);
+}
+
+.zotero-meta {
+  font-size: 0.7rem;
+  font-family: "SF Mono", Monaco, monospace;
+  color: var(--secondary);
+}
+
+.zotero-loading, .zotero-empty {
+  color: var(--secondary);
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+.zotero-paper {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.zotero-paper-header {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.zotero-paper-title {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--primary);
+  text-decoration: none;
+  line-height: 1.4;
+}
+
+a.zotero-paper-title:hover {
+  text-decoration: underline;
+}
+
+.zotero-paper-meta {
+  font-size: 0.68rem;
+  color: var(--secondary);
+  margin-top: 2px;
+}
+
+.zotero-paper-authors {
+  font-style: italic;
+}
+
+.zotero-paper-date {
+  font-family: "SF Mono", Monaco, monospace;
+}
+
+.zotero-paper-type {
+  font-family: "SF Mono", Monaco, monospace;
+  opacity: 0.7;
+}
+
+.zotero-paper-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 4px;
+}
+
+.zotero-paper-tags .tag-badge {
+  font-size: 0.55rem;
+  padding: 1px 6px;
+}
