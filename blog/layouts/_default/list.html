@@ -111,7 +111,7 @@
     {{- $count := 0 }}
     {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
     {{- range $pages }}
-      {{- if and (eq .Lang "en") (eq (.Date.Format "2006") "2026") }}
+      {{- if and (eq .Lang site.Language.Lang) (eq (.Date.Format "2006") "2026") }}
         {{- $count = add $count 1 }}
       {{- end }}
     {{- end }}

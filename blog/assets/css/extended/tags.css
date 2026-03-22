@@ -148,7 +148,7 @@ body {
 }
 
 @keyframes walkerSlide {
-  from { left: 96%; }
+  from { left: 100%; }
 }
 
 .goal-apple {
