@@ -109,9 +109,8 @@
     <h3>2026 Reading Goal</h3>
     {{- $goal := 50 }}
     {{- $count := 0 }}
-    {{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
-    {{- range $pages }}
-      {{- if and (not (strings.HasSuffix .File.Path ".ko.md")) (eq (.Date.Format "2006") "2026") }}
+    {{- range (index site.Sites 0).RegularPages }}
+      {{- if eq (.Date.Format "2006") "2026" }}
         {{- $count = add $count 1 }}
       {{- end }}
     {{- end }}
