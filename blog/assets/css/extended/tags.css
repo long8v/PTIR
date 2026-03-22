@@ -1,16 +1,65 @@
+/* Compact geeky layout */
+:root {
+  --main-width: 680px;
+}
+
+.main {
+  max-width: var(--main-width);
+}
+
+.post-entry {
+  padding: 8px 0;
+  min-height: unset;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-entry .entry-header h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.first-entry {
+  min-height: unset;
+  font-size: 1rem;
+}
+
+.first-entry .entry-header h2 {
+  font-size: 1.1rem;
+}
+
+.post-header h1 {
+  font-size: 1.5rem;
+}
+
+.entry-footer {
+  font-size: 0.75rem;
+}
+
+.post-meta {
+  font-size: 0.8rem;
+}
+
+.post-content {
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+/* Tag badges */
 .entry-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 8px;
+  gap: 4px;
+  margin-top: 4px;
 }
 
 .tag-badge {
   display: inline-block;
-  padding: 2px 10px;
-  border-radius: 12px;
-  font-size: 0.75rem;
+  padding: 1px 7px;
+  border-radius: 3px;
+  font-size: 0.65rem;
   font-weight: 500;
+  font-family: monospace;
   text-decoration: none;
   color: #fff;
   transition: opacity 0.2s;
@@ -20,18 +69,20 @@
   opacity: 0.85;
 }
 
-/* Color palette for tags — deterministic by nth-child */
-.tag-badge:nth-child(7n+1) { background: #6366f1; } /* indigo */
-.tag-badge:nth-child(7n+2) { background: #ec4899; } /* pink */
-.tag-badge:nth-child(7n+3) { background: #14b8a6; } /* teal */
-.tag-badge:nth-child(7n+4) { background: #f59e0b; } /* amber */
-.tag-badge:nth-child(7n+5) { background: #8b5cf6; } /* violet */
-.tag-badge:nth-child(7n+6) { background: #ef4444; } /* red */
-.tag-badge:nth-child(7n)   { background: #3b82f6; } /* blue */
+/* Color palette for tags */
+.tag-badge:nth-child(7n+1) { background: #6366f1; }
+.tag-badge:nth-child(7n+2) { background: #ec4899; }
+.tag-badge:nth-child(7n+3) { background: #14b8a6; }
+.tag-badge:nth-child(7n+4) { background: #f59e0b; }
+.tag-badge:nth-child(7n+5) { background: #8b5cf6; }
+.tag-badge:nth-child(7n+6) { background: #ef4444; }
+.tag-badge:nth-child(7n)   { background: #3b82f6; }
 
+/* Original issue link */
 .original-issue {
-  margin-top: 8px;
-  font-size: 0.9rem;
+  margin-top: 6px;
+  font-size: 0.8rem;
+  font-family: monospace;
 }
 
 .original-issue a {
@@ -43,4 +94,9 @@
 .original-issue a:hover {
   color: var(--primary);
   border-bottom-color: var(--primary);
+}
+
+/* Tighter home info */
+.home-info .entry-content {
+  font-size: 0.85rem;
 }
