@@ -38,6 +38,11 @@
 </div>
 {{- end }}
 
+<div class="home-layout">
+
+{{- /* Left: post list */ -}}
+<div class="post-list">
+
 {{- $pages := union .RegularPages .Sections }}
 
 {{- if .IsHome }}
@@ -94,6 +99,30 @@
 </article>
 {{- end }}
 
+</div>
+
+{{- /* Right: sidebar with search + tags */ -}}
+{{- if .IsHome }}
+<aside class="sidebar">
+  <div class="sidebar-search">
+    <h3>Search</h3>
+    <input type="text" id="sidebar-search-input" placeholder="Search papers..." autocomplete="off">
+    <div id="sidebar-search-results"></div>
+  </div>
+  <div class="sidebar-tags">
+    <h3>Tags</h3>
+    <div class="sidebar-tag-list">
+      {{- $tags := site.Taxonomies.tags }}
+      {{- $sorted := $tags.ByCount }}
+      {{- range $sorted }}
+      <a href="{{ .Page.Permalink }}" class="tag-badge">{{ .Page.Title }} <span class="tag-count">{{ .Count }}</span></a>
+      {{- end }}
+    </div>
+  </div>
+</aside>
+{{- end }}
+
+</div>
 
 {{- end }}{{/* end profileMode */}}
 

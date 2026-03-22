@@ -29,16 +29,6 @@ paginate = 9999
   name = "github"
   url = "https://github.com/long8v/PTIR"
 
-[[menus.main]]
-  name = "Search"
-  url = "/search/"
-  weight = 1
-
-[[menus.main]]
-  name = "Tags"
-  url = "/tags/"
-  weight = 2
-
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
