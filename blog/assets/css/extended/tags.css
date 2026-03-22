@@ -200,16 +200,19 @@ body {
 }
 
 /* Post list entries */
-.post-entry {
-  padding: 20px 0;
+.post-entry,
+.first-entry {
+  padding: 10px 0;
   min-height: unset;
   border-bottom: 1px solid var(--border);
   border-radius: 0;
   background: transparent;
   box-shadow: none;
+  margin: 0;
 }
 
-.post-entry:hover {
+.post-entry:hover,
+.first-entry:hover {
   background: var(--tertiary);
   transform: none;
 }
@@ -224,22 +227,8 @@ body {
   justify-content: unset;
 }
 
-.first-entry {
-  min-height: unset;
-  font-size: 0.95rem;
-  border: none;
-  border-bottom: 1px solid var(--border);
-  background: transparent;
-  box-shadow: none;
-  padding: 20px 0;
-}
-
-.first-entry:hover {
-  transform: none;
-}
-
 .first-entry .entry-header h2 {
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 
 /* Issue number */
@@ -259,7 +248,8 @@ body {
 }
 
 .entry-footer {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
+  margin-top: 2px;
 }
 
 .post-meta {
@@ -277,8 +267,8 @@ body {
 .entry-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
-  margin-top: 6px;
+  gap: 4px;
+  margin-top: 3px;
 }
 
 .tag-badge {
