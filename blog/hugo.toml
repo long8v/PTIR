@@ -8,9 +8,19 @@ defaultContentLanguage = "en"
   languageName = "EN"
   weight = 1
 
+[[languages.en.menus.main]]
+  name = "About"
+  url = "/about/"
+  weight = 1
+
 [languages.ko]
   languageName = "KR"
   weight = 2
+
+[[languages.ko.menus.main]]
+  name = "About"
+  url = "https://long8v.github.io/PTIR/ko/about/"
+  weight = 1
 
 [params]
   author = "long8v"
@@ -37,11 +47,6 @@ defaultContentLanguage = "en"
 [[params.socialIcons]]
   name = "github"
   url = "https://github.com/long8v/PTIR"
-
-[[menus.main]]
-  name = "About"
-  url = "/about/"
-  weight = 1
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
