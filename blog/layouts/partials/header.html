@@ -58,20 +58,18 @@
                 {{- if (not site.Params.disableLangToggle) }}
                     {{- $lang := .Lang}}
                     {{- $separator := or $label_text (not site.Params.disableThemeToggle)}}
-                    {{- with site.Home.AllTranslations }}
                     <ul class="lang-switch">
                         {{- if $separator }}<li>|</li>{{ end }}
-                        {{- range . -}}
+                        {{- range site.Languages -}}
                         <li>
-                            <a href="{{- .Permalink -}}"
+                            <a href="{{ site.BaseURL }}{{ if ne .Lang "en" }}{{ .Lang }}/{{ end }}"
                                 class="lang-link{{ if eq $lang .Lang }} lang-active{{ end }}"
-                                aria-label="{{ .Language.LanguageName | default (.Lang | title) }}">
-                                {{- .Language.LanguageName | default (.Lang | title) -}}
+                                aria-label="{{ .LanguageName }}">
+                                {{- .LanguageName -}}
                             </a>
                         </li>
                         {{- end}}
                     </ul>
-                    {{- end }}
                 {{- end }}
             </div>
         </div>
