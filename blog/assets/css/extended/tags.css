@@ -30,7 +30,7 @@ body {
 }
 
 .main {
-  max-width: 720px;
+  max-width: 960px;
 }
 
 /* Post list entries */
@@ -77,7 +77,7 @@ body {
   font-size: 0.8rem;
   font-weight: 400;
   font-family: "SF Mono", Monaco, monospace;
-  margin-right: 4px;
+  margin-right: 8px;
 }
 
 /* Post single page */
