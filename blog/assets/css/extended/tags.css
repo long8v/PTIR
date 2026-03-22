@@ -123,49 +123,67 @@ body {
 }
 
 .goal-track {
-  margin: 10px 0;
+  margin: 14px 0;
 }
 
 .goal-bar-bg {
   position: relative;
-  height: 20px;
+  height: 22px;
   background: var(--tertiary);
-  border-radius: 10px;
+  border-radius: 11px;
   overflow: visible;
 }
 
 .goal-bar-fill {
   height: 100%;
   background: linear-gradient(270deg, #d4a574, #c8a882);
-  border-radius: 10px;
-  transition: width 0.5s ease;
+  border-radius: 11px;
   min-width: 4px;
   margin-left: auto;
+  animation: fillGrow 1.5s ease-out forwards;
 }
 
-.goal-turtle {
+@keyframes fillGrow {
+  from { width: 0%; }
+}
+
+.goal-walker {
   position: absolute;
-  top: -8px;
+  top: -12px;
   transform: translateX(50%) scaleX(-1);
-  font-size: 1.2rem;
-  transition: right 0.5s ease;
+  font-size: 1.4rem;
+  animation: walkerBounce 0.6s ease-in-out infinite alternate, walkerSlide 1.5s ease-out forwards;
+}
+
+@keyframes walkerBounce {
+  from { top: -12px; }
+  to { top: -16px; }
+}
+
+@keyframes walkerSlide {
+  from { right: 100%; }
 }
 
 .goal-apple {
   position: absolute;
-  top: -6px;
+  top: -10px;
   left: -2px;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  animation: applePulse 2s ease-in-out infinite;
+}
+
+@keyframes applePulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.15); }
 }
 
 .goal-label {
   text-align: center;
   font-size: 0.75rem;
   color: var(--secondary);
-  margin-top: 6px;
+  margin-top: 10px;
   font-family: "SF Mono", Monaco, monospace;
 }
-
 
 /* Mobile: stack layout */
 @media (max-width: 860px) {
