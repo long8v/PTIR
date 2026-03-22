@@ -160,8 +160,10 @@ body {
   min-height: unset;
   font-size: 0.95rem;
   border: none;
+  border-bottom: 1px solid var(--border);
   background: transparent;
   box-shadow: none;
+  padding: 20px 0;
 }
 
 .first-entry:hover {
