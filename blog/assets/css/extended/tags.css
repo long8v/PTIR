@@ -126,66 +126,53 @@ body {
   margin: 14px 0;
 }
 
-.goal-bar-bg {
+.goal-road {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.goal-road-top {
   position: relative;
-  height: 22px;
+  height: 28px;
   background: var(--tertiary);
-  border-radius: 11px;
-  overflow: visible;
+  border-radius: 8px 8px 0 0;
+  border-bottom: 2px dashed var(--border);
+}
+
+.goal-road-bottom {
+  height: 24px;
+  background: var(--tertiary);
+  border-radius: 0 0 8px 8px;
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+  gap: 3px;
+  direction: rtl;
 }
 
 .goal-walker {
   position: absolute;
-  top: -14px;
+  top: 1px;
   transform: translateX(-50%);
-  font-size: 1.4rem;
+  font-size: 1.3rem;
+  z-index: 2;
   animation: walkerBounce 0.6s ease-in-out infinite alternate, walkerSlide 1.5s ease-out forwards;
 }
 
 @keyframes walkerBounce {
-  from { top: -14px; }
-  to { top: -18px; }
+  from { top: 1px; }
+  to { top: -3px; }
 }
 
 @keyframes walkerSlide {
   from { left: 100%; }
 }
 
-.goal-trail {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  border-radius: 11px;
-  background: repeating-linear-gradient(
-    -90deg,
-    transparent,
-    transparent 8px,
-    rgba(160, 120, 60, 0.15) 8px,
-    rgba(160, 120, 60, 0.15) 10px
-  );
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  overflow: hidden;
-  animation: trailGrow 1.5s ease-out forwards;
-}
-
-.goal-trail::after {
-  content: "🌰🌰🌰🌰🌰🌰🌰🌰🌰🌰";
-  font-size: 0.6rem;
-  letter-spacing: 4px;
-  opacity: 0.7;
-}
-
-@keyframes trailGrow {
-  from { width: 0%; }
-}
-
 .goal-apple {
   position: absolute;
-  top: -10px;
-  left: 4px;
+  top: 2px;
+  left: 6px;
   font-size: 1.2rem;
   z-index: 2;
   animation: applePulse 2s ease-in-out infinite;
@@ -194,6 +181,28 @@ body {
 @keyframes applePulse {
   0%, 100% { transform: scale(1); }
   50% { transform: scale(1.15); }
+}
+
+.goal-chestnut {
+  font-size: 0.7rem;
+  animation: chestnutDrop 0.4s ease-out forwards;
+  opacity: 0;
+}
+
+.goal-chestnut:nth-child(1) { animation-delay: 1.5s; }
+.goal-chestnut:nth-child(2) { animation-delay: 1.7s; }
+.goal-chestnut:nth-child(3) { animation-delay: 1.9s; }
+.goal-chestnut:nth-child(4) { animation-delay: 2.1s; }
+.goal-chestnut:nth-child(5) { animation-delay: 2.3s; }
+.goal-chestnut:nth-child(6) { animation-delay: 2.5s; }
+.goal-chestnut:nth-child(7) { animation-delay: 2.7s; }
+.goal-chestnut:nth-child(8) { animation-delay: 2.9s; }
+.goal-chestnut:nth-child(9) { animation-delay: 3.1s; }
+.goal-chestnut:nth-child(10) { animation-delay: 3.3s; }
+
+@keyframes chestnutDrop {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .goal-label {

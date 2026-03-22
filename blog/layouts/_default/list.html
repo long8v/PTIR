@@ -117,10 +117,16 @@
     {{- end }}
     {{- $leftPos := sub 100 (div (mul $count 100) $goal) }}
     <div class="goal-track">
-      <div class="goal-bar-bg">
-        <span class="goal-apple">🍎</span>
-        <span class="goal-trail" style="right: 0; width: {{ sub 100 $leftPos }}%"></span>
-        <span class="goal-walker" style="left: {{ $leftPos }}%">🦔</span>
+      <div class="goal-road">
+        <div class="goal-road-top">
+          <span class="goal-apple">🍎</span>
+          <span class="goal-walker" style="left: {{ $leftPos }}%">🦔</span>
+        </div>
+        <div class="goal-road-bottom">
+          {{- range seq $count }}
+          <span class="goal-chestnut">🌰</span>
+          {{- end }}
+        </div>
       </div>
       <div class="goal-label">{{ $count }} / {{ $goal }} papers 🔥</div>
     </div>
