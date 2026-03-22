@@ -9,18 +9,28 @@ defaultContentLanguage = "en"
   weight = 1
 
 [[languages.en.menus.main]]
+  name = "Arxiv"
+  url = "/arxiv/"
+  weight = 1
+
+[[languages.en.menus.main]]
   name = "About"
   url = "/about/"
-  weight = 1
+  weight = 2
 
 [languages.ko]
   languageName = "KR"
   weight = 2
 
 [[languages.ko.menus.main]]
+  name = "Arxiv"
+  url = "https://long8v.github.io/PTIR/ko/arxiv/"
+  weight = 1
+
+[[languages.ko.menus.main]]
   name = "About"
   url = "https://long8v.github.io/PTIR/ko/about/"
-  weight = 1
+  weight = 2
 
 [params]
   author = "long8v"
