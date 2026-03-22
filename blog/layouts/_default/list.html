@@ -115,7 +115,9 @@
       {{- $tags := site.Taxonomies.tags }}
       {{- $sorted := $tags.ByCount }}
       {{- range $sorted }}
+      {{- if ge .Count 10 }}
       <a href="{{ .Page.Permalink }}" class="tag-badge">{{ .Page.Title }} <span class="tag-count">{{ .Count }}</span></a>
+      {{- end }}
       {{- end }}
     </div>
   </div>

@@ -226,14 +226,8 @@ body {
   opacity: 0.75;
 }
 
-/* Warm muted palette */
-.tag-badge:nth-child(7n+1) { background: #e0daf5; color: #4a3d80; }
-.tag-badge:nth-child(7n+2) { background: #f5dae0; color: #804050; }
-.tag-badge:nth-child(7n+3) { background: #d5ece4; color: #2d6b54; }
-.tag-badge:nth-child(7n+4) { background: #f5ecd5; color: #7a6530; }
-.tag-badge:nth-child(7n+5) { background: #dae0f5; color: #3d4a80; }
-.tag-badge:nth-child(7n+6) { background: #f5dad5; color: #804030; }
-.tag-badge:nth-child(7n)   { background: #d5e8f5; color: #305a7a; }
+/* Default fallback — JS will override with hash-based autumn colors */
+.tag-badge { background: #e8dcc8; color: #5a4a35; }
 
 /* Original issue link */
 .original-issue {
