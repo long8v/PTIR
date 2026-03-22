@@ -1,7 +1,5 @@
 ---
 title: "About Me"
-layout: "single"
-url: "/about/"
 hideMeta: true
 ShowToc: false
 ---
