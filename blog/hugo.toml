@@ -37,11 +37,6 @@ defaultContentLanguage = "en"
   name = "github"
   url = "https://github.com/long8v/PTIR"
 
-[[menus.main]]
-  name = "About"
-  url = "/about/"
-  weight = 1
-
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
