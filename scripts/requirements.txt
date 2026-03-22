@@ -1,2 +1,2 @@
-anthropic>=0.40.0
+deepl>=1.18.0
 PyGithub>=2.0.0

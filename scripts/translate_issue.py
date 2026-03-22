@@ -5,10 +5,9 @@ import argparse
 import os
 import re
 import unicodedata
-from datetime import datetime
 
-import anthropic
-from github import Github
+import deepl
+from github import Auth, Github
 
 
 def slugify(text: str, max_length: int = 60) -> str:
@@ -25,26 +24,39 @@ def extract_paper_url(body: str) -> str:
     return match.group(1) if match else ""
 
 
-def translate_body(client: anthropic.Anthropic, body: str) -> str:
-    """Translate issue body to English using Claude API."""
-    response = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=4096,
-        messages=[
-            {
-                "role": "user",
-                "content": (
-                    "Translate the following paper review from Korean to English. "
-                    "Keep all markdown formatting, image tags, and URLs exactly as-is. "
-                    "Only translate the Korean text to natural English. "
-                    "If text is already in English, keep it unchanged. "
-                    "Do not add any commentary — return only the translated content.\n\n"
-                    f"{body}"
-                ),
-            }
-        ],
-    )
-    return response.content[0].text
+def translate_body(translator: deepl.Translator, body: str) -> str:
+    """Translate issue body to English using DeepL API."""
+    # Split by lines to preserve markdown structure
+    # Skip lines that are only images, URLs, or already English
+    lines = body.split("\n")
+    translated_lines = []
+
+    for line in lines:
+        stripped = line.strip()
+        # Skip empty lines, image-only lines, URL-only lines
+        if (
+            not stripped
+            or stripped.startswith("<img ")
+            or stripped.startswith("![")
+            or re.match(r"^https?://\S+$", stripped)
+            or re.match(r"^\[.*\]\(https?://\S+\)$", stripped)
+        ):
+            translated_lines.append(line)
+            continue
+
+        # Check if line has any Korean characters
+        if re.search(r"[\uac00-\ud7af\u1100-\u11ff\u3130-\u318f]", stripped):
+            try:
+                result = translator.translate_text(
+                    stripped, source_lang="KO", target_lang="EN-US"
+                )
+                translated_lines.append(result.text)
+            except Exception:
+                translated_lines.append(line)
+        else:
+            translated_lines.append(line)
+
+    return "\n".join(translated_lines)
 
 
 def clean_title(title: str) -> str:
@@ -59,7 +71,7 @@ def main():
     parser.add_argument("--output-dir", default="blog/content/posts")
     args = parser.parse_args()
 
-    gh = Github(os.environ["GH_TOKEN"])
+    gh = Github(auth=Auth.Token(os.environ["GH_TOKEN"]))
     repo = gh.get_repo(args.repo)
     issue = repo.get_issue(args.issue_number)
 
@@ -68,8 +80,8 @@ def main():
     paper_url = extract_paper_url(issue.body or "")
     created = issue.created_at.strftime("%Y-%m-%d")
 
-    client = anthropic.Anthropic()
-    translated_body = translate_body(client, issue.body or "")
+    translator = deepl.Translator(os.environ["DEEPL_API_KEY"])
+    translated_body = translate_body(translator, issue.body or "")
 
     slug = slugify(title)
     filename = f"{args.issue_number:03d}-{slug}.md"
