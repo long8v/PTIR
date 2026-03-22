@@ -14,7 +14,7 @@ defaultContentLanguage = "en"
 
 [params]
   author = "long8v"
-  description = "Paper reviews translated from Korean to English"
+  description = "Simple notes from reading papers — sometimes detailed, sometimes raw. Just my honest impressions, left as-is."
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
