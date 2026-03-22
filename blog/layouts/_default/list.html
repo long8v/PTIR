@@ -116,12 +116,11 @@
         {{- $count = add $count 1 }}
       {{- end }}
     {{- end }}
-    {{- $pct := mul (div (float $count) (float $goal)) 100 }}
+    {{- $leftPos := sub 100 (div (mul $count 100) $goal) }}
     <div class="goal-track">
       <div class="goal-bar-bg">
-        <div class="goal-bar-fill" style="width: {{ $pct }}%"></div>
         <span class="goal-apple">🍎</span>
-        <span class="goal-walker" style="right: {{ $pct }}%">🐣</span>
+        <span class="goal-walker" style="left: {{ $leftPos }}%">🦔</span>
       </div>
       <div class="goal-label">{{ $count }} / {{ $goal }} papers 🔥</div>
     </div>

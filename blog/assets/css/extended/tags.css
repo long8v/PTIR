@@ -134,34 +134,21 @@ body {
   overflow: visible;
 }
 
-.goal-bar-fill {
-  height: 100%;
-  background: linear-gradient(270deg, #d4a574, #c8a882);
-  border-radius: 11px;
-  min-width: 4px;
-  margin-left: auto;
-  animation: fillGrow 1.5s ease-out forwards;
-}
-
-@keyframes fillGrow {
-  from { width: 0%; }
-}
-
 .goal-walker {
   position: absolute;
-  top: -12px;
-  transform: translateX(50%) scaleX(-1);
+  top: -14px;
+  transform: translateX(-50%) scaleX(-1);
   font-size: 1.4rem;
   animation: walkerBounce 0.6s ease-in-out infinite alternate, walkerSlide 1.5s ease-out forwards;
 }
 
 @keyframes walkerBounce {
-  from { top: -12px; }
-  to { top: -16px; }
+  from { top: -14px; }
+  to { top: -18px; }
 }
 
 @keyframes walkerSlide {
-  from { right: 0%; }
+  from { left: 96%; }
 }
 
 .goal-apple {
