@@ -193,20 +193,35 @@ body {
 .goal-chestnut {
   font-size: 0.55rem;
   opacity: 0;
-  animation: chestnutDrop 0.3s ease-out forwards;
+  animation: chestnutDrop 0.25s ease-out forwards;
 }
 
-.goal-chestnut:nth-child(1) { animation-delay: 1.6s; }
-.goal-chestnut:nth-child(2) { animation-delay: 1.75s; }
-.goal-chestnut:nth-child(3) { animation-delay: 1.9s; }
-.goal-chestnut:nth-child(4) { animation-delay: 2.05s; }
-.goal-chestnut:nth-child(5) { animation-delay: 2.2s; }
-.goal-chestnut:nth-child(6) { animation-delay: 2.35s; }
-.goal-chestnut:nth-child(7) { animation-delay: 2.5s; }
-.goal-chestnut:nth-child(8) { animation-delay: 2.65s; }
-.goal-chestnut:nth-child(9) { animation-delay: 2.8s; }
-.goal-chestnut:nth-child(10) { animation-delay: 2.95s; }
-.goal-chestnut:nth-child(n+11) { animation-delay: 3.1s; }
+/* Chestnuts drop in sync with hedgehog slide (1.5s total) — rightmost first (rtl) */
+.goal-chestnut:nth-child(1)  { animation-delay: 0.1s; }
+.goal-chestnut:nth-child(2)  { animation-delay: 0.16s; }
+.goal-chestnut:nth-child(3)  { animation-delay: 0.22s; }
+.goal-chestnut:nth-child(4)  { animation-delay: 0.28s; }
+.goal-chestnut:nth-child(5)  { animation-delay: 0.34s; }
+.goal-chestnut:nth-child(6)  { animation-delay: 0.4s; }
+.goal-chestnut:nth-child(7)  { animation-delay: 0.46s; }
+.goal-chestnut:nth-child(8)  { animation-delay: 0.52s; }
+.goal-chestnut:nth-child(9)  { animation-delay: 0.58s; }
+.goal-chestnut:nth-child(10) { animation-delay: 0.64s; }
+.goal-chestnut:nth-child(11) { animation-delay: 0.7s; }
+.goal-chestnut:nth-child(12) { animation-delay: 0.76s; }
+.goal-chestnut:nth-child(13) { animation-delay: 0.82s; }
+.goal-chestnut:nth-child(14) { animation-delay: 0.88s; }
+.goal-chestnut:nth-child(15) { animation-delay: 0.94s; }
+.goal-chestnut:nth-child(16) { animation-delay: 1.0s; }
+.goal-chestnut:nth-child(17) { animation-delay: 1.06s; }
+.goal-chestnut:nth-child(18) { animation-delay: 1.12s; }
+.goal-chestnut:nth-child(19) { animation-delay: 1.18s; }
+.goal-chestnut:nth-child(20) { animation-delay: 1.24s; }
+.goal-chestnut:nth-child(21) { animation-delay: 1.3s; }
+.goal-chestnut:nth-child(22) { animation-delay: 1.36s; }
+.goal-chestnut:nth-child(23) { animation-delay: 1.42s; }
+.goal-chestnut:nth-child(24) { animation-delay: 1.48s; }
+.goal-chestnut:nth-child(25) { animation-delay: 1.54s; }
 
 @keyframes chestnutDrop {
   from { opacity: 0; transform: translateY(-6px) scale(0.4); }
