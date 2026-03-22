@@ -306,7 +306,8 @@ body {
 }
 
 .entry-footer {
-  display: none;
+  font-size: 0.65rem;
+  margin-top: 1px;
 }
 
 .post-meta {
