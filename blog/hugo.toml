@@ -13,6 +13,7 @@ theme = "PaperMod"
   ShowCodeCopyButtons = true
   defaultTheme = "auto"
   ShowToc = true
+  hideSummary = true
 
 [params.homeInfoParams]
   Title = "Paper Today I Read"
