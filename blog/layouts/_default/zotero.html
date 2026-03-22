@@ -5,123 +5,53 @@
     <p class="zotero-subtitle">My reading list — synced from <a href="https://www.zotero.org/long8v/library" target="_blank">Zotero</a></p>
   </header>
 
+  {{ $data := site.Data.zotero }}
+  {{ if $data }}
   <div class="zotero-controls">
     <input type="text" id="zotero-search" placeholder="Filter papers..." autocomplete="off">
-    <div class="zotero-meta" id="zotero-meta"></div>
+    <div class="zotero-meta">{{ $data.count }} papers</div>
   </div>
 
   <div id="zotero-list" class="zotero-list">
-    <p class="zotero-loading">Loading papers from Zotero...</p>
+    {{ range $data.papers }}
+    <div class="zotero-paper">
+      <div class="zotero-paper-header">
+        {{ if .url }}
+        <a href="{{ .url }}" target="_blank" rel="noopener" class="zotero-paper-title">{{ .title }}</a>
+        {{ else }}
+        <span class="zotero-paper-title">{{ .title }}</span>
+        {{ end }}
+      </div>
+      <div class="zotero-paper-meta">
+        <span class="zotero-paper-authors">{{ .authors }}</span>
+        {{ with .date }} · <span class="zotero-paper-date">{{ . }}</span>{{ end }}
+        {{ with .type }} · <span class="zotero-paper-type">{{ . }}</span>{{ end }}
+      </div>
+      {{ with .tags }}
+      <div class="zotero-paper-tags">
+        {{ range . }}<span class="tag-badge">{{ . }}</span>{{ end }}
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
   </div>
+
+  {{ else }}
+  <p>No data yet. The library syncs daily via GitHub Actions.</p>
+  {{ end }}
 </article>
 
 <script>
 (function() {
-  var USER_ID = "13937487";
-  var API = "https://api.zotero.org/users/" + USER_ID + "/items";
-  var EXCLUDE_COLLECTION = "STHVZEJQ"; // my draft/review
-  var TYPES = "journalArticle || preprint || conferencePaper || book || bookSection || report";
-  var PER_PAGE = 100;
-  var allPapers = [];
-  var excludeKeys = {};
-  var listEl = document.getElementById("zotero-list");
-  var metaEl = document.getElementById("zotero-meta");
-  var searchEl = document.getElementById("zotero-search");
-
-  function fetchPage(start) {
-    var url = API + "?format=json&v=3&itemType=" + encodeURIComponent(TYPES) +
-      "&sort=dateModified&direction=desc&limit=" + PER_PAGE + "&start=" + start;
-    return fetch(url).then(function(r) {
-      var total = parseInt(r.headers.get("Total-Results") || "0", 10);
-      return r.json().then(function(data) {
-        return { items: data, total: total };
-      });
+  var search = document.getElementById("zotero-search");
+  var papers = document.querySelectorAll(".zotero-paper");
+  if (!search) return;
+  search.addEventListener("input", function() {
+    var q = this.value.toLowerCase().trim();
+    papers.forEach(function(p) {
+      p.style.display = (!q || p.textContent.toLowerCase().includes(q)) ? "" : "none";
     });
-  }
-
-  function renderPapers(papers) {
-    if (papers.length === 0) {
-      listEl.innerHTML = '<p class="zotero-empty">No papers found.</p>';
-      return;
-    }
-    var html = papers.map(function(p) {
-      var d = p.data;
-      var authors = (d.creators || []).filter(function(c) { return c.creatorType === "author"; });
-      var authorStr = authors.slice(0, 3).map(function(a) { return a.lastName || a.name || ""; }).join(", ");
-      if (authors.length > 3) authorStr += " et al.";
-      var tags = (d.tags || []).map(function(t) { return t.tag; });
-      var link = d.url || (d.DOI ? "https://doi.org/" + d.DOI : "");
-      var date = d.date || "";
-
-      return '<div class="zotero-paper" data-text="' + (d.title + " " + authorStr + " " + tags.join(" ")).toLowerCase().replace(/"/g, '') + '">' +
-        '<div class="zotero-paper-header">' +
-          (link ? '<a href="' + link + '" target="_blank" rel="noopener" class="zotero-paper-title">' + d.title + '</a>' :
-            '<span class="zotero-paper-title">' + d.title + '</span>') +
-        '</div>' +
-        '<div class="zotero-paper-meta">' +
-          '<span class="zotero-paper-authors">' + authorStr + '</span>' +
-          (date ? ' · <span class="zotero-paper-date">' + date + '</span>' : '') +
-          (d.itemType ? ' · <span class="zotero-paper-type">' + d.itemType + '</span>' : '') +
-        '</div>' +
-        (tags.length > 0 ? '<div class="zotero-paper-tags">' +
-          tags.map(function(t) { return '<span class="tag-badge">' + t + '</span>'; }).join("") +
-        '</div>' : '') +
-      '</div>';
-    }).join("");
-    listEl.innerHTML = html;
-  }
-
-  function fetchExcluded() {
-    var url = "https://api.zotero.org/users/" + USER_ID + "/collections/" + EXCLUDE_COLLECTION + "/items?format=json&v=3&limit=100";
-    return fetch(url).then(function(r) { return r.json(); }).then(function(items) {
-      items.forEach(function(it) { excludeKeys[it.key] = true; });
-    }).catch(function() {});
-  }
-
-  function loadAll() {
-    fetchExcluded().then(function() {
-      return fetchPage(0);
-    }).then(function(first) {
-      allPapers = first.items;
-      var total = first.total;
-
-      if (total <= PER_PAGE) {
-        allPapers = allPapers.filter(function(p) { return !excludeKeys[p.key]; });
-        metaEl.textContent = allPapers.length + " papers";
-        renderPapers(allPapers);
-        return;
-      }
-
-      var promises = [];
-      for (var s = PER_PAGE; s < total; s += PER_PAGE) {
-        promises.push(fetchPage(s));
-      }
-      Promise.all(promises).then(function(results) {
-        results.forEach(function(r) { allPapers = allPapers.concat(r.items); });
-        allPapers = allPapers.filter(function(p) { return !excludeKeys[p.key]; });
-        metaEl.textContent = allPapers.length + " papers";
-        renderPapers(allPapers);
-      });
-    }).catch(function(err) {
-      listEl.innerHTML = '<p>Failed to load library. <a href="https://www.zotero.org/long8v/library" target="_blank">View on Zotero</a></p>';
-    });
-  }
-
-  if (searchEl) {
-    searchEl.addEventListener("input", function() {
-      var q = this.value.toLowerCase().trim();
-      var papers = document.querySelectorAll(".zotero-paper");
-      var count = 0;
-      papers.forEach(function(p) {
-        var match = !q || p.getAttribute("data-text").includes(q);
-        p.style.display = match ? "" : "none";
-        if (match) count++;
-      });
-      metaEl.textContent = count + " papers";
-    });
-  }
-
-  loadAll();
+  });
 })();
 </script>
 

@@ -1,0 +1,3470 @@
+{
+  "count": 317,
+  "papers": [
+    {
+      "title": "Qwen3 Technical Report",
+      "authors": "Yang, Li, Yang et al.",
+      "date": "2025-05-14",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.09388",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality",
+      "authors": "Dao, Gu",
+      "date": "2024-05-31",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2405.21060",
+      "tags": [
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Attention Is All You Need",
+      "authors": "Vaswani, Shazeer, Parmar et al.",
+      "date": "2023-08-02",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/1706.03762",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Rethinking Attention with Performers",
+      "authors": "Choromanski, Likhosherstov, Dohan et al.",
+      "date": "2022-11-19",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2009.14794",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning",
+        "Statistics - Machine Learning"
+      ]
+    },
+    {
+      "title": "On the Relationship between Self-Attention and Convolutional Layers",
+      "authors": "Cordonnier, Loukas, Jaggi",
+      "date": "2020-01-10",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/1911.03584",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning",
+        "Statistics - Machine Learning"
+      ]
+    },
+    {
+      "title": "Transformer Dissection: A Unified Understanding of Transformer's Attention via the Lens of Kernel",
+      "authors": "Tsai, Bai, Yamada et al.",
+      "date": "2019-11-11",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/1908.11775",
+      "tags": [
+        "Computer Science - Machine Learning",
+        "Statistics - Machine Learning"
+      ]
+    },
+    {
+      "title": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention",
+      "authors": "Katharopoulos, Vyas, Pappas et al.",
+      "date": "2020-08-31",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2006.16236",
+      "tags": [
+        "Computer Science - Machine Learning",
+        "Statistics - Machine Learning"
+      ]
+    },
+    {
+      "title": "LongVILA: Scaling Long-Context Visual Language Models for Long Videos",
+      "authors": "Chen, Xue, Li et al.",
+      "date": "2024-12-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2408.10188",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "LongVT: Incentivizing \"Thinking with Long Videos\" via Native Tool Calling",
+      "authors": "Yang, Wang, Zhang et al.",
+      "date": "2025-12-04",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2511.20785",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Scaling RL to Long Videos",
+      "authors": "Chen, Huang, Shi et al.",
+      "date": "2025-09-30",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.07966",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "LongCat-Flash-Omni Technical Report",
+      "authors": "Team, Wang, Bayan et al.",
+      "date": "2025-11-28",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2511.00279",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Distributed, Parallel, and Cluster Computing",
+        "Computer Science - Machine Learning",
+        "Computer Science - Multimedia",
+        "Computer Science - Sound"
+      ]
+    },
+    {
+      "title": "Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free",
+      "authors": "Qiu, Wang, Zheng et al.",
+      "date": "2025-05-10",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.06708",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Gated Delta Networks: Improving Mamba2 with Delta Rule",
+      "authors": "Yang, Kautz, Hatamizadeh",
+      "date": "2025-03-06",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2412.06464",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "The Platonic Representation Hypothesis",
+      "authors": "Huh, Cheung, Wang et al.",
+      "date": "2024-07-25",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2405.07987",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning",
+        "Computer Science - Neural and Evolutionary Computing"
+      ]
+    },
+    {
+      "title": "OneVision-Encoder: Codec-Aligned Sparsity as a Foundational Principle for Multimodal Intelligence",
+      "authors": "Tang, An, Yan et al.",
+      "date": "2026-02-09",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2602.08683",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Kimi K2.5: Visual Agentic Intelligence",
+      "authors": "Team, Bai, Bai et al.",
+      "date": "2026-02-02",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2602.02276",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Open Weights and Data for Vision-Language Models with Video Understanding and Grounding",
+      "authors": "Clark, Zhang, Ma et al.",
+      "date": "",
+      "type": "journalArticle",
+      "url": "",
+      "tags": []
+    },
+    {
+      "title": "Scaling Synthetic Data Creation with 1,000,000,000 Personas",
+      "authors": "Ge, Chan, Wang et al.",
+      "date": "2025-05-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2406.20094",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "MambaMia: A State-Space-Model-Based Compression for Efficient Video Understanding in Large Multimodal Models",
+      "authors": "Kim, Seo",
+      "date": "2025-06-16",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2506.13564",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Multi-Granular Spatio-Temporal Token Merging for Training-Free Acceleration of Video LLMs",
+      "authors": "Hyun, Hwang, Han et al.",
+      "date": "2025-07-10",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.07990",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "MambaMia: A State-Space-Model-Based Compression for Efficient Video Understanding in Large Multimodal Models",
+      "authors": "Kim, Seo",
+      "date": "2025-06-16",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2506.13564",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Streaming Video Question-Answering with In-context Video KV-Cache Retrieval",
+      "authors": "Di, Yu, Zhang et al.",
+      "date": "2025-03-01",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2503.00540",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Multi-Agent Collaboration via Evolving Orchestration",
+      "authors": "Dang, Qian, Luo et al.",
+      "date": "2025-10-21",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.19591",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Multiagent Systems"
+      ]
+    },
+    {
+      "title": "Kimi K2: Open Agentic Intelligence",
+      "authors": "Team, Bai, Bao et al.",
+      "date": "2025-07-28",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.20534",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Video-as-Answer: Predict and Generate Next Video Event with Joint-GRPO",
+      "authors": "Cheng, Hou, Tao et al.",
+      "date": "2025-11-23",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2511.16669",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "REVISOR: Beyond Textual Reflection, Towards Multimodal Introspective Reasoning in Long-Form Video Understanding",
+      "authors": "Li, Yin, Tan et al.",
+      "date": "2025-11-17",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2511.13026",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Gated Attention for Large Language Models: Non-linearity, Sparsity, and Attention-Sink-Free",
+      "authors": "Qiu, Wang, Zheng et al.",
+      "date": "2025-05-10",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.06708",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Qwen3-VL Technical Report",
+      "authors": "Bai, Cai, Chen et al.",
+      "date": "2025-11-26",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2511.21631",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Round and Round We Go! What makes Rotary Positional Encodings useful?",
+      "authors": "Barbero, Vitvitskyi, Perivolaropoulos et al.",
+      "date": "2025-05-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2410.06205",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Map the Flow: Revealing Hidden Pathways of Information in VideoLLMs",
+      "authors": "Kim, Kim, Han",
+      "date": "2025-10-15",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2510.13251",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "VideoRoPE: What Makes for Good Video Rotary Position Embedding?",
+      "authors": "Wei, Liu, Zang et al.",
+      "date": "2025-05-30",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2502.05173",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "HoPE: Hybrid of Position Embedding for Long Context Vision-Language Models",
+      "authors": "Li, Qin, Ou et al.",
+      "date": "2025-10-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.20444",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Rotary Position Embedding for Vision Transformer",
+      "authors": "Heo, Park, Han et al.",
+      "date": "2024-07-16",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2403.13298",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "SAM 3D: 3Dfy Anything in Images",
+      "authors": "Team, Chen, Chu et al.",
+      "date": "2025-11-20",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2511.16624",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "VIDEOP2R: Video Understanding from Perception to Reasoning",
+      "authors": "Jiang, Wang, Zhao et al.",
+      "date": "2025-11-14",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2511.11113",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "NVIDIA Nemotron Nano V2 VL",
+      "authors": "NVIDIA, Deshmukh, Chumachenko et al.",
+      "date": "2025-11-07",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2511.03929",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "TimeChat: A Time-sensitive Multimodal Large Language Model for Long Video Understanding",
+      "authors": "Ren, Yao, Li et al.",
+      "date": "2024-03-29",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2312.02051",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Universal Video Temporal Grounding with Generative Multi-modal Large Language Models",
+      "authors": "Li, Di, Zhai et al.",
+      "date": "2025-06-24",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2506.18883",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "MiMo-VL Technical Report",
+      "authors": "Team, Yue, Lin et al.",
+      "date": "2025-06-04",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2506.03569",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "GLM-4.5V and GLM-4.1V-Thinking: Towards Versatile Multimodal Reasoning with Scalable Reinforcement Learning",
+      "authors": "Team, Hong, Yu et al.",
+      "date": "2025-08-15",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.01006",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Pegasus-v1 Technical Report",
+      "authors": "Jung, Go, Yi et al.",
+      "date": "2024-04-23",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2404.14687",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Multimedia"
+      ]
+    },
+    {
+      "title": "Qwen2.5-VL Technical Report",
+      "authors": "Bai, Chen, Liu et al.",
+      "date": "2025-02-19",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2502.13923",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Scaling Latent Reasoning via Looped Language Models",
+      "authors": "Zhu, Wang, Hua et al.",
+      "date": "2025-11-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2510.25741",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Cambrian-S: Towards Spatial Supersensing in Video",
+      "authors": "Yang, Yang, Huang et al.",
+      "date": "2025-11-06",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2511.04670",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "EVA-CLIP: Improved Training Techniques for CLIP at Scale",
+      "authors": "Sun, Fang, Wu et al.",
+      "date": "2023-03-27",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2303.15389",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Perception Encoder: The best visual embeddings are not at the output of the network",
+      "authors": "Bolya, Huang, Sun et al.",
+      "date": "2025-04-28",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2504.13181",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "PerceptionLM: Open-Access Data and Models for Detailed Visual Understanding",
+      "authors": "Cho, Madotto, Mavroudi et al.",
+      "date": "2025-07-23",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2504.13180",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Seed1.5-VL Technical Report",
+      "authors": "Guo, Wu, Zhu et al.",
+      "date": "2025-05-11",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.07062",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities",
+      "authors": "Comanici, Bieber, Schaekermann et al.",
+      "date": "2025-10-16",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.06261",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "2.5 Years in Class: A Multimodal Textbook for Vision-Language Pretraining",
+      "authors": "Zhang, Zhang, Li et al.",
+      "date": "2025-05-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2501.00958",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Video models are zero-shot learners and reasoners",
+      "authors": "Wiedemer, Li, Vicol et al.",
+      "date": "2025-09-29",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2509.20328",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning",
+        "Computer Science - Robotics"
+      ]
+    },
+    {
+      "title": "The Art of Scaling Reinforcement Learning Compute for LLMs",
+      "authors": "Khatri, Madaan, Tiwari et al.",
+      "date": "2025-10-15",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2510.13786",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Qwen3-Omni Technical Report",
+      "authors": "Xu, Guo, Hu et al.",
+      "date": "2025-09-22",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2509.17765",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Electrical Engineering and Systems Science - Audio and Speech Processing"
+      ]
+    },
+    {
+      "title": "Perception Encoder: The best visual embeddings are not at the output of the network",
+      "authors": "Bolya, Huang, Sun et al.",
+      "date": "2025-04-28",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2504.13181",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "CE-GPPO: Coordinating Entropy via Gradient-Preserving Clipping Policy Optimization in Reinforcement Learning",
+      "authors": "Su, Pan, Lv et al.",
+      "date": "2025-10-04",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2509.20712",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Low-probability Tokens Sustain Exploration in Reinforcement Learning with Verifiable Reward",
+      "authors": "Huang, Xu, Wang et al.",
+      "date": "2025-10-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2510.03222",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Quantile Advantage Estimation for Entropy-Safe Reasoning",
+      "authors": "Wu, Huang, Wu et al.",
+      "date": "2025-09-26",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2509.22611",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "From $f(x)$ and $g(x)$ to $f(g(x))$: LLMs Learn New Skills in RL by Composing Old Ones",
+      "authors": "Yuan, Chen, Zhang et al.",
+      "date": "2025-10-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2509.25123",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Scaling Behaviors of LLM Reinforcement Learning Post-Training: An Empirical Study in Mathematical Reasoning",
+      "authors": "Tan, Geng, Zhang et al.",
+      "date": "2025-09-29",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2509.25300",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Learning to Reason as Action Abstractions with Scalable Mid-Training RL",
+      "authors": "Zhang, Yu, Feng et al.",
+      "date": "2025-10-11",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2509.25810",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning",
+        "Statistics - Machine Learning"
+      ]
+    },
+    {
+      "title": "NaViL: Rethinking Scaling Properties of Native Multimodal Large Language Models under Data Constraints",
+      "authors": "Tian, Li, Luo et al.",
+      "date": "2025-10-09",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2510.08565",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Better & Faster Large Language Models via Multi-token Prediction",
+      "authors": "Gloeckle, Idrissi, Rozière et al.",
+      "date": "2024-04-30",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2404.19737",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Scalable Diffusion Models with Transformers",
+      "authors": "Peebles, Xie",
+      "date": "2023-03-02",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2212.09748",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Flow Matching for Generative Modeling",
+      "authors": "Lipman, Chen, Ben-Hamu et al.",
+      "date": "2023-02-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2210.02747",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Machine Learning",
+        "Statistics - Machine Learning"
+      ]
+    },
+    {
+      "title": "Qwen2.5-Omni Technical Report",
+      "authors": "Xu, Guo, He et al.",
+      "date": "2025-03-26",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2503.20215",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Sound",
+        "Electrical Engineering and Systems Science - Audio and Speech Processing"
+      ]
+    },
+    {
+      "title": "Emerging Properties in Unified Multimodal Pretraining",
+      "authors": "Deng, Zhu, Li et al.",
+      "date": "2025-07-27",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.14683",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+      "authors": "Assran, Bardes, Fan et al.",
+      "date": "2025-06-11",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2506.09985",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning",
+        "Computer Science - Robotics"
+      ]
+    },
+    {
+      "title": "TWLV-I: Analysis and Insights from Holistic Evaluation on Video Foundation Models",
+      "authors": "Lee, Kim, Baek et al.",
+      "date": "2024-08-23",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2408.11318",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
+      "authors": "Tong, Brown, Wu et al.",
+      "date": "2024-12-04",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2406.16860",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "LongVU: Spatiotemporal Adaptive Compression for Long Video-Language Understanding",
+      "authors": "Shen, Xiong, Zhao et al.",
+      "date": "2024-10-22",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2410.17434",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Multi-Granular Spatio-Temporal Token Merging for Training-Free Acceleration of Video LLMs",
+      "authors": "Hyun, Hwang, Han et al.",
+      "date": "2025-07-10",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.07990",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "GR-3 Technical Report",
+      "authors": "Cheang, Chen, Cui et al.",
+      "date": "2025-07-22",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.15493",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Robotics"
+      ]
+    },
+    {
+      "title": "VideoWorld: Exploring Knowledge Learning from Unlabeled Videos",
+      "authors": "Ren, Wei, Guo et al.",
+      "date": "2025-03-05",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2501.09781",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "VeOmni: Scaling Any Modality Model Training with Model-Centric Distributed Recipe Zoo",
+      "authors": "Ma, Zheng, Shi et al.",
+      "date": "2025-08-07",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2508.02317",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Distributed, Parallel, and Cluster Computing"
+      ]
+    },
+    {
+      "title": "Emerging Properties in Unified Multimodal Pretraining",
+      "authors": "Deng, Zhu, Li et al.",
+      "date": "2025-07-27",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.14683",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model",
+      "authors": "Zhou, Yu, Babu et al.",
+      "date": "2024-08-20",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2408.11039",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "$π_{0.5}$: a Vision-Language-Action Model with Open-World Generalization",
+      "authors": "Intelligence, Black, Brown et al.",
+      "date": "2025-04-22",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2504.16054",
+      "tags": [
+        "Computer Science - Machine Learning",
+        "Computer Science - Robotics"
+      ]
+    },
+    {
+      "title": "Real-Time Execution of Action Chunking Flow Policies",
+      "authors": "Black, Galliker, Levine",
+      "date": "2025-06-09",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2506.07339",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Machine Learning",
+        "Computer Science - Robotics"
+      ]
+    },
+    {
+      "title": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
+      "authors": "Zhao, Kumar, Levine et al.",
+      "date": "2023-04-23",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2304.13705",
+      "tags": [
+        "Computer Science - Machine Learning",
+        "Computer Science - Robotics"
+      ]
+    },
+    {
+      "title": "$π_0$: A Vision-Language-Action Flow Model for General Robot Control",
+      "authors": "Black, Brown, Driess et al.",
+      "date": "2024-11-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2410.24164",
+      "tags": [
+        "Computer Science - Machine Learning",
+        "Computer Science - Robotics"
+      ]
+    },
+    {
+      "title": "Agent-Centric Actor-Critic for Asynchronous Multi-Agent Reinforcement Learning",
+      "authors": "Jung, Hong, Yoon et al.",
+      "date": "2025/06/18",
+      "type": "conferencePaper",
+      "url": "https://openreview.net/forum?id=323GZNnGqe",
+      "tags": []
+    },
+    {
+      "title": "Gemini Robotics: Bringing AI into the Physical World",
+      "authors": "Team, Abeyruwan, Ainslie et al.",
+      "date": "2025-03-25",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2503.20020",
+      "tags": [
+        "Computer Science - Robotics"
+      ]
+    },
+    {
+      "title": "DAPO: An Open-Source LLM Reinforcement Learning System at Scale",
+      "authors": "Yu, Zhang, Zhu et al.",
+      "date": "2025-05-20",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2503.14476",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Group Sequence Policy Optimization",
+      "authors": "Zheng, Liu, Li et al.",
+      "date": "2025-07-28",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.18071",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "X-Omni: Reinforcement Learning Makes Discrete Autoregressive Image Generative Models Great Again",
+      "authors": "Geng, Wang, Ma et al.",
+      "date": "2025-07-29",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.22058",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Emerging Properties in Unified Multimodal Pretraining",
+      "authors": "Deng, Zhu, Li et al.",
+      "date": "2025-05-23",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.14683",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "CLIP4Clip: An Empirical Study of CLIP for End to End Video Clip Retrieval",
+      "authors": "Luo, Ji, Zhong et al.",
+      "date": "2021-05-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2104.08860",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey",
+      "authors": "Wang, Wu, Zhang et al.",
+      "date": "2025-03-23",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2503.12605",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "VideoAgent: Long-form Video Understanding with Large Language Model as Agent",
+      "authors": "Wang, Zhang, Zohar et al.",
+      "date": "2024-03-15",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2403.10517",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Information Retrieval"
+      ]
+    },
+    {
+      "title": "E5-V: Universal Embeddings with Multimodal Large Language Models",
+      "authors": "Jiang, Song, Zhang et al.",
+      "date": "2024-07-17",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2407.12580",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Information Retrieval"
+      ]
+    },
+    {
+      "title": "VLM2Vec: Training Vision-Language Models for Massive Multimodal Embedding Tasks",
+      "authors": "Jiang, Meng, Yang et al.",
+      "date": "2025-01-02",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2410.05160",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "VLM2Vec-V2: Advancing Multimodal Embedding for Videos, Images, and Visual Documents",
+      "authors": "Meng, Jiang, Liu et al.",
+      "date": "2025-07-07",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.04590",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Mastering Diverse Domains through World Models",
+      "authors": "Hafner, Pasukonis, Ba et al.",
+      "date": "2024-04-17",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2301.04104",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Machine Learning",
+        "Statistics - Machine Learning"
+      ]
+    },
+    {
+      "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
+      "authors": "Tong, Brown, Wu et al.",
+      "date": "2024-12-04",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2406.16860",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "LongVU: Spatiotemporal Adaptive Compression for Long Video-Language Understanding",
+      "authors": "Shen, Xiong, Zhao et al.",
+      "date": "2024-10-22",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2410.17434",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Learning to Model the World with Language",
+      "authors": "Lin, Du, Watkins et al.",
+      "date": "2024-05-31",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2308.01399",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Generalizing Verifiable Instruction Following",
+      "authors": "Pyatkin, Malik, Graf et al.",
+      "date": "2025-07-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.02833",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Skywork-R1V3 Technical Report",
+      "authors": "Shen, Pei, Peng et al.",
+      "date": "2025-07-10",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.06167",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "BlueLM-2.5-3B Technical Report",
+      "authors": "Xiong, Chen, Wang et al.",
+      "date": "2025-07-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.05934",
+      "tags": [
+        "Computer Science - Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Does Math Reasoning Improve General LLM Capabilities? Understanding Transferability of LLM Reasoning",
+      "authors": "Huan, Li, Zheng et al.",
+      "date": "2025-07-01",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.00432",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Reinforcing General Reasoning without Verifiers",
+      "authors": "Zhou, Liu, Sims et al.",
+      "date": "2025-05-27",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.21493",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Skywork R1V2: Multimodal Hybrid Reinforcement Learning for Reasoning",
+      "authors": "Wang, Wei, Peng et al.",
+      "date": "2025-06-06",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2504.16656",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "MiMo-VL Technical Report",
+      "authors": "Team, Yue, Lin et al.",
+      "date": "2025-06-04",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2506.03569",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Skywork R1V: Pioneering Multimodal Reasoning with Chain-of-Thought",
+      "authors": "Peng, Wang, Wang et al.",
+      "date": "2025-06-09",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2504.05599",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Kimi-VL Technical Report",
+      "authors": "Team, Du, Yin et al.",
+      "date": "2025-06-23",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2504.07491",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning",
+      "authors": "Xie, Gao, Ren et al.",
+      "date": "2025-02-20",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2502.14768",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Self-play with Execution Feedback: Improving Instruction-following Capabilities of Large Language Models",
+      "authors": "Dong, Lu, Li et al.",
+      "date": "2024-07-18",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2406.13542",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "The Jumping Reasoning Curve? Tracking the Evolution of Reasoning Performance in GPT-[n] and o-[n] Models on Multimodal Puzzles",
+      "authors": "Toh, Chia, Ghosal et al.",
+      "date": "2025-05-21",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2502.01081",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "RLPR: Extrapolating RLVR to General Domains without Verifiers",
+      "authors": "Yu, Ji, Wang et al.",
+      "date": "2025-06-23",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2506.18254",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "The Entropy Mechanism of Reinforcement Learning for Reasoning Language Models",
+      "authors": "Cui, Zhang, Chen et al.",
+      "date": "2025-05-28",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.22617",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Qwen3 Technical Report",
+      "authors": "Yang, Li, Yang et al.",
+      "date": "2025-05-14",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.09388",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Inference-Aware Fine-Tuning for Best-of-N Sampling in Large Language Models",
+      "authors": "Chow, Tennenholtz, Gur et al.",
+      "date": "2024-12-18",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2412.15287",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "PRESERVING DIVERSITY IN SUPERVISED FINE-TUNING OF LARGE LANGUAGE MODELS",
+      "authors": "Li, Chen, Xu et al.",
+      "date": "2025",
+      "type": "journalArticle",
+      "url": "",
+      "tags": []
+    },
+    {
+      "title": "Skywork Open Reasoner 1 Technical Report",
+      "authors": "He, Liu, Liu et al.",
+      "date": "2025-05-29",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.22312",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "VerifyBench: Benchmarking Reference-based Reward Systems for Large Language Models",
+      "authors": "Yan, Jiang, Ren et al.",
+      "date": "2025-05-25",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.15801",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "One RL to See Them All: Visual Triple Unified Reinforcement Learning",
+      "authors": "Ma, Du, Shen et al.",
+      "date": "2025-05-23",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.18129",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "BLEUBERI: BLEU is a surprisingly effective reward for instruction following",
+      "authors": "Chang, Kim, Krumdick et al.",
+      "date": "2025-05-16",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.11080",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Emerging Properties in Unified Multimodal Pretraining",
+      "authors": "Deng, Zhu, Li et al.",
+      "date": "2025-05-20",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.14683",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Image2Struct: Benchmarking Structure Extraction for Vision-Language Models",
+      "authors": "Roberts, Lee, Wong et al.",
+      "date": "2024-10-29",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2410.22456",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
+      "authors": "Chu, Zhai, Yang et al.",
+      "date": "2025-01-28",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2501.17161",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Skywork R1V: Pioneering Multimodal Reasoning with Chain-of-Thought",
+      "authors": "Peng, Chris, Wang et al.",
+      "date": "2025-04-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2504.05599",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "EXAONE 3.5: Series of Large Language Models for Real-world Use Cases",
+      "authors": "Research, An, Bae et al.",
+      "date": "2024-12-09",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2412.04862",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Bring Reason to Vision: Understanding Perception and Reasoning through Model Merging",
+      "authors": "Chen, Zhang, Zhu et al.",
+      "date": "2025-05-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.05464",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Seed1.5-VL Technical Report",
+      "authors": "Guo, Wu, Zhu et al.",
+      "date": "2025-05-11",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.07062",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Skywork R1V2: Multimodal Hybrid Reinforcement Learning for Reasoning",
+      "authors": "Chris, Wei, Peng et al.",
+      "date": "2025-04-25",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2504.16656",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Bring Reason to Vision: Understanding Perception and Reasoning through Model Merging",
+      "authors": "Chen, Zhang, Zhu et al.",
+      "date": "2025-05-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.05464",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
+      "authors": "Chu, Zhai, Yang et al.",
+      "date": "2025-01-28",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2501.17161",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Extract Free Dense Misalignment from CLIP",
+      "authors": "Nam, Im, Kim et al.",
+      "date": "2025-04",
+      "type": "journalArticle",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/32660",
+      "tags": []
+    },
+    {
+      "title": "Weight Ensembling Improves Reasoning in Language Models",
+      "authors": "Dang, Baek, Wen et al.",
+      "date": "2025-04-15",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2504.10478",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "SFT or RL? An Early Investigation into Training R1-Like Reasoning Large Vision-Language Models",
+      "authors": "Chen, Tu, Wang et al.",
+      "date": "2025-04-10",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2504.11468",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "HybridFlow: A Flexible and Efficient RLHF Framework",
+      "authors": "Sheng, Zhang, Ye et al.",
+      "date": "2025-03-30",
+      "type": "conferencePaper",
+      "url": "http://arxiv.org/abs/2409.19256",
+      "tags": [
+        "Computer Science - Distributed, Parallel, and Cluster Computing",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "SimpleRL-Zoo: Investigating and Taming Zero Reinforcement Learning for Open Base Models in the Wild",
+      "authors": "Zeng, Huang, Liu et al.",
+      "date": "2025-03-24",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2503.18892",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "HybridFlow: A Flexible and Efficient RLHF Framework",
+      "authors": "Sheng, Zhang, Ye et al.",
+      "date": "2025-03-30",
+      "type": "conferencePaper",
+      "url": "http://arxiv.org/abs/2409.19256",
+      "tags": [
+        "Computer Science - Distributed, Parallel, and Cluster Computing",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "FastCuRL: Curriculum Reinforcement Learning with Progressive Context Extension for Efficient Training R1-like Reasoning Models",
+      "authors": "Song, Zheng, Li et al.",
+      "date": "2025-03-21",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2503.17287",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "TESS 2: A Large-Scale Generalist Diffusion Language Model",
+      "authors": "Tae, Ivison, Kumar et al.",
+      "date": "2025-02-19",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2502.13917",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "OlympiadBench: A Challenging Benchmark for Promoting AGI with Olympiad-Level Bilingual Multimodal Scientific Problems",
+      "authors": "He, Luo, Bai et al.",
+      "date": "2024-06-06",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2402.14008",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Exploring open-ended gameplay features with Micro RollerCoaster Tycoon",
+      "authors": "Green, Yen, Earle et al.",
+      "date": "2021-05-10",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2105.04342",
+      "tags": [
+        "Computer Science - Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "VLMs as GeoGuessr Masters: Exceptional Performance, Hidden Biases, and Privacy Risks",
+      "authors": "Huang, Huang, Liu et al.",
+      "date": "2025-02-16",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2502.11163",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "PIGEON: Predicting Image Geolocations",
+      "authors": "Haas, Skreta, Alberti et al.",
+      "date": "2024-05-28",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2307.05845",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "R1-Onevision: Advancing Generalized Multimodal Reasoning through Cross-Modal Formalization",
+      "authors": "Yang, He, Pan et al.",
+      "date": "2025-03-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2503.10615",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Quark: Controllable Text Generation with Reinforced Unlearning",
+      "authors": "Lu, Welleck, Hessel et al.",
+      "date": "2022-11-16",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2205.13636",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling",
+      "authors": "Chen, Wang, Cao et al.",
+      "date": "2025-01-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2412.05271",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "MAmmoTH-VL: Eliciting Multimodal Reasoning with Instruction Tuning at Scale",
+      "authors": "Guo, Zheng, Bai et al.",
+      "date": "2024-12-06",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2412.05237",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "SigLIP 2: Multilingual Vision-Language Encoders with Improved Semantic Understanding, Localization, and Dense Features",
+      "authors": "Tschannen, Gritsenko, Wang et al.",
+      "date": "2025-02-20",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2502.14786",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Rethinking Kullback-Leibler Divergence in Knowledge Distillation for Large Language Models",
+      "authors": "Wu, Tao, Wang et al.",
+      "date": "2024-12-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2404.02657",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Polymath: A Challenging Multi-modal Mathematical Reasoning Benchmark",
+      "authors": "Gupta, Verma, Anantheswaran et al.",
+      "date": "2024-10-06",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2410.14702",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "MM-Eureka: Exploring Visual Aha Moment with Rule-based Large-scale Reinforcement Learning",
+      "authors": "Meng, Du, Liu et al.",
+      "date": "2025-03-10",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2503.07365",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models",
+      "authors": "Huang, Jia, Zhai et al.",
+      "date": "2025-03-09",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2503.06749",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Visual-RFT: Visual Reinforcement Fine-Tuning",
+      "authors": "Liu, Sun, Zang et al.",
+      "date": "2025-03-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2503.01785",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Math-PUMA: Progressive Upward Multimodal Alignment to Enhance Mathematical Reasoning",
+      "authors": "Zhuang, Huang, Zhang et al.",
+      "date": "2024-09-25",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2408.08640",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Probabilistic Language-Image Pre-Training",
+      "authors": "Chun, Kim, Park et al.",
+      "date": "2024-12-06",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2410.18857",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Qwen2.5 Technical Report",
+      "authors": "Qwen, Yang, Yang et al.",
+      "date": "2025-01-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2412.15115",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "LLMs Can Easily Learn to Reason from Demonstrations Structure, not content, is what matters!",
+      "authors": "Li, Cao, Griggs et al.",
+      "date": "2025-02-18",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2502.07374",
+      "tags": [
+        "Computer Science - Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "DeepSeek-VL2: Mixture-of-Experts Vision-Language Models for Advanced Multimodal Understanding",
+      "authors": "Wu, Chen, Pan et al.",
+      "date": "2024-12-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2412.10302",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "DeepSeek-V3 Technical Report",
+      "authors": "DeepSeek-AI, Liu, Feng et al.",
+      "date": "2024-12-27",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2412.19437",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "s1: Simple test-time scaling",
+      "authors": "Muennighoff, Yang, Shi et al.",
+      "date": "2025-02-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2501.19393",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "VinePPO: Unlocking RL Potential For LLM Reasoning Through Refined Credit Assignment",
+      "authors": "Kazemnejad, Aghajohari, Portelance et al.",
+      "date": "2024-10-02",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2410.01679",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Fine-Tuning Large Vision-Language Models as Decision-Making Agents via Reinforcement Learning",
+      "authors": "Zhai, Bai, Lin et al.",
+      "date": "2024-10-07",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2405.10292",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Reinforcement Learning: An Overview",
+      "authors": "Murphy",
+      "date": "2024-12-06",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2412.05265",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Training language models to follow instructions with human feedback",
+      "authors": "Ouyang, Wu, Jiang et al.",
+      "date": "2022-03-04",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2203.02155",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Advancing Language Model Reasoning through Reinforcement Learning and Inference Scaling",
+      "authors": "Hou, Lv, Lu et al.",
+      "date": "2025-01-20",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2501.11651",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Qwen2 Technical Report",
+      "authors": "Yang, Yang, Hui et al.",
+      "date": "2024-09-10",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2407.10671",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Tulu 3: Pushing Frontiers in Open Language Model Post-Training",
+      "authors": "Lambert, Morrison, Pyatkin et al.",
+      "date": "2024-12-06",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2411.15124",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Free Process Rewards without Process Labels",
+      "authors": "Yuan, Li, Chen et al.",
+      "date": "2024-12-02",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2412.01981",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Making Large Language Models Better Reasoners with Step-Aware Verifier",
+      "authors": "Li, Lin, Zhang et al.",
+      "date": "2023-05-24",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2206.02336",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations",
+      "authors": "Wang, Li, Shao et al.",
+      "date": "2024-02-19",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2312.08935",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "PRIME: Prioritizing Interpretability in Failure Mode Extraction",
+      "authors": "Rezaei, Saberi, Moayeri et al.",
+      "date": "2024-03-14",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2310.00164",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "PRMBench: A Fine-grained and Challenging Benchmark for Process-Level Reward Models",
+      "authors": "Song, Su, Qu et al.",
+      "date": "2025-01-07",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2501.03124",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking",
+      "authors": "Guan, Zhang, Liu et al.",
+      "date": "2025-01-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2501.04519",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Scalable Vision Language Model Training via High Quality Data Curation",
+      "authors": "Dong, Kang, Yin et al.",
+      "date": "2025-01-10",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2501.05952",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "The Lessons of Developing Process Reward Models in Mathematical Reasoning",
+      "authors": "Zhang, Zheng, Wu et al.",
+      "date": "2025-01-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2501.07301",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "LayoutLLM: Layout Instruction Tuning with Large Language Models for Document Understanding",
+      "authors": "Luo, Shen, Zhu et al.",
+      "date": "2024-04-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2404.05225",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "STaR: Bootstrapping Reasoning With Reasoning",
+      "authors": "Zelikman, Wu, Mu et al.",
+      "date": "2022-05-20",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2203.14465",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Let's Verify Step by Step",
+      "authors": "Lightman, Kosaraju, Burda et al.",
+      "date": "2023-05-31",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2305.20050",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "OpenAI o1 System Card",
+      "authors": "OpenAI, Jaech, Kalai et al.",
+      "date": "2024-12-21",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2412.16720",
+      "tags": [
+        "Computer Science - Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "Fine-Tuning with Divergent Chains of Thought Boosts Reasoning Through Self-Correction in Language Models",
+      "authors": "Puerto, Chubakov, Zhu et al.",
+      "date": "2024-07-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2407.03181",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Scaling of Search and Learning: A Roadmap to Reproduce o1 from Reinforcement Learning Perspective",
+      "authors": "Zeng, Cheng, Yin et al.",
+      "date": "2024-12-18",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2412.14135",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+      "authors": "Snell, Lee, Xu et al.",
+      "date": "2024-08-06",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2408.03314",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Scaling of Search and Learning: A Roadmap to Reproduce o1 from Reinforcement Learning Perspective",
+      "authors": "Zeng, Cheng, Yin et al.",
+      "date": "2024-12-18",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2412.14135",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Critique-out-Loud Reward Models",
+      "authors": "Ankner, Paul, Cui et al.",
+      "date": "2024-08-21",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2408.11791",
+      "tags": [
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Solving math word problems with process- and outcome-based feedback",
+      "authors": "Uesato, Kushman, Kumar et al.",
+      "date": "2022-11-25",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2211.14275",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Iterative Reasoning Preference Optimization",
+      "authors": "Pang, Yuan, Cho et al.",
+      "date": "2024-06-26",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2404.19733",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Training Verifiers to Solve Math Word Problems",
+      "authors": "Cobbe, Kosaraju, Bavarian et al.",
+      "date": "2021-11-18",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2110.14168",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Improve Mathematical Reasoning in Language Models by Automated Process Supervision",
+      "authors": "Luo, Liu, Liu et al.",
+      "date": "2024-06-05",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2406.06592",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "O1 Replication Journey -- Part 2: Surpassing O1-preview through Simple Distillation, Big Progress or Bitter Lesson?",
+      "authors": "Huang, Zou, Li et al.",
+      "date": "2024-11-25",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2411.16489",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "O1 Replication Journey: A Strategic Progress Report -- Part 1",
+      "authors": "Qin, Li, Zou et al.",
+      "date": "2024-10-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2410.18982",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "LLaVA-CoT: Let Vision Language Models Reason Step-by-Step",
+      "authors": "Xu, Jin, Li et al.",
+      "date": "2024-11-25",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2411.10440",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+      "authors": "Shoeybi, Patwary, Puri et al.",
+      "date": "2020-03-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/1909.08053",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Reducing Activation Recomputation in Large Transformer Models",
+      "authors": "Korthikanti, Casper, Lym et al.",
+      "date": "2022-05-10",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2205.05198",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Improve Mathematical Reasoning in Language Models by Automated Process Supervision",
+      "authors": "Luo, Liu, Liu et al.",
+      "date": "2024-06-05",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2406.06592",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization",
+      "authors": "Wang, Chen, Wang et al.",
+      "date": "2024-11-15",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2411.10442",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "The Llama 3 Herd of Models",
+      "authors": "Dubey, Jauhri, Pandey et al.",
+      "date": "2024-08-15",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2407.21783",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+      "authors": "Wang, Bai, Tan et al.",
+      "date": "2024-10-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2409.12191",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Qwen2 Technical Report",
+      "authors": "Yang, Yang, Hui et al.",
+      "date": "2024-09-10",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2407.10671",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution",
+      "authors": "Wang, Bai, Tan et al.",
+      "date": "2024-10-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2409.12191",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "LLaVA-OneVision: Easy Visual Task Transfer",
+      "authors": "Li, Zhang, Guo et al.",
+      "date": "2024-10-26",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2408.03326",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Rotary Position Embedding for Vision Transformer",
+      "authors": "Heo, Park, Han et al.",
+      "date": "2024-07-16",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2403.13298",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "From $r$ to $Q^*$: Your Language Model is Secretly a Q-Function",
+      "authors": "Rafailov, Hejna, Park et al.",
+      "date": "2024-08-12",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2404.12358",
+      "tags": [
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Improve Vision Language Model Chain-of-thought Reasoning",
+      "authors": "Zhang, Zhang, Li et al.",
+      "date": "2024-10-21",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2410.16198",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "MultiMath: Bridging Visual and Mathematical Reasoning for Large Language Models",
+      "authors": "Peng, Fu, Gao et al.",
+      "date": "2024-08-30",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2409.00147",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Meteor: Mamba-based Traversal of Rationale for Large Language and Vision Models",
+      "authors": "Lee, Kim, Park et al.",
+      "date": "2024-05-27",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2405.15574",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "MMMU: A Massive Multi-discipline Multimodal Understanding and Reasoning Benchmark for Expert AGI",
+      "authors": "Yue, Ni, Zhang et al.",
+      "date": "2024-06-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2311.16502",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "eval"
+      ]
+    },
+    {
+      "title": "MathVista: Evaluating Mathematical Reasoning of Foundation Models in Visual Contexts",
+      "authors": "Lu, Bansal, Xia et al.",
+      "date": "2024-01-21",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2310.02255",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning",
+        "eval"
+      ]
+    },
+    {
+      "title": "Improved Baselines with Visual Instruction Tuning",
+      "authors": "Liu, Li, Li et al.",
+      "date": "2024-05-15",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2310.03744",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Large Language Models Can Self-Improve",
+      "authors": "Huang, Gu, Hou et al.",
+      "date": "2022-10-25",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2210.11610",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Less is More: Mitigating Multimodal Hallucination from an EOS Decision Perspective",
+      "authors": "Yue, Zhang, Jin",
+      "date": "2024-05-29",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2402.14545",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Calibrated Self-Rewarding Vision Language Models",
+      "authors": "Zhou, Fan, Cheng et al.",
+      "date": "2024-05-31",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2405.14622",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Phantom of Latent for Large Language and Vision Models",
+      "authors": "Lee, Chung, Kim et al.",
+      "date": "2024-09-23",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2409.14713",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Aligning Large Multimodal Models with Factually Augmented RLHF",
+      "authors": "Sun, Shen, Cao et al.",
+      "date": "2023-09-25",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2309.14525",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Analyzing and Mitigating Object Hallucination in Large Vision-Language Models",
+      "authors": "Zhou, Cui, Yoon et al.",
+      "date": "2024-03-16",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2310.00754",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Scaling Laws for Reward Model Overoptimization",
+      "authors": "Gao, Schulman, Hilton",
+      "date": "2022-10-19",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2210.10760",
+      "tags": [
+        "Computer Science - Machine Learning",
+        "Statistics - Machine Learning"
+      ]
+    },
+    {
+      "title": "Dense Reward for Free in Reinforcement Learning from Human Feedback",
+      "authors": "Chan, Sun, Holt et al.",
+      "date": "2024-02-01",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2402.00782",
+      "tags": [
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "RLAIF-V: Aligning MLLMs through Open-Source AI Feedback for Super GPT-4V Trustworthiness",
+      "authors": "Yu, Zhang, Yao et al.",
+      "date": "2024-05-27",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2405.17220",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "AMBER: An LLM-free Multi-dimensional Benchmark for MLLMs Hallucination Evaluation",
+      "authors": "Wang, Wang, Xu et al.",
+      "date": "2024-02-23",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2311.07397",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "CLIP-DPO: Vision-Language Models as a Source of Preference for Fixing Hallucinations in LVLMs",
+      "authors": "Ouali, Bulat, Martinez et al.",
+      "date": "2024-08-19",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2408.10433",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Unpacking DPO and PPO: Disentangling Best Practices for Learning from Preference Feedback",
+      "authors": "Ivison, Wang, Liu et al.",
+      "date": "2024-06-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2406.09279",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Advantage-Weighted Regression: Simple and Scalable Off-Policy Reinforcement Learning",
+      "authors": "Peng, Kumar, Zhang et al.",
+      "date": "2019-10-07",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/1910.00177",
+      "tags": [
+        "Computer Science - Machine Learning",
+        "Statistics - Machine Learning"
+      ]
+    },
+    {
+      "title": "Parrot Captions Teach CLIP to Spot Text",
+      "authors": "Lin, He, Wang et al.",
+      "date": "2024-02-01",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2312.14232",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Getting ViT in Shape: Scaling Laws for Compute-Optimal Model Design",
+      "authors": "Alabdulmohsin, Zhai, Kolesnikov et al.",
+      "date": "2024-01-09",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2305.13035",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning",
+        "I.2.10",
+        "I.2.6"
+      ]
+    },
+    {
+      "title": "Graph-RISE: Graph-Regularized Image Semantic Embedding",
+      "authors": "Juan, Lu, Li et al.",
+      "date": "2019-02-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/1902.10814",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning",
+        "Statistics - Machine Learning"
+      ]
+    },
+    {
+      "title": "PaLI: A Jointly-Scaled Multilingual Language-Image Model",
+      "authors": "Chen, Wang, Changpinyo et al.",
+      "date": "2023-06-05",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2209.06794",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "PaLI-3 Vision Language Models: Smaller, Faster, Stronger",
+      "authors": "Chen, Wang, Beyer et al.",
+      "date": "2023-10-17",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2310.09199",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "PaliGemma: A versatile 3B VLM for transfer",
+      "authors": "Beyer, Steiner, Pinto et al.",
+      "date": "2024-07-10",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2407.07726",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Sigmoid Loss for Language Image Pre-Training",
+      "authors": "Zhai, Mustafa, Kolesnikov et al.",
+      "date": "2023-09-27",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2303.15343",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Proximal Policy Optimization Algorithms",
+      "authors": "Schulman, Wolski, Dhariwal et al.",
+      "date": "2017-08-28",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/1707.06347",
+      "tags": [
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+      "authors": "Rafailov, Sharma, Mitchell et al.",
+      "date": "2024-07-29",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2305.18290",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Mismatch Quest: Visual and Textual Feedback for Image-Text Misalignment",
+      "authors": "Gordon, Bitton, Shafir et al.",
+      "date": "2024-07-17",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2312.03766",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "RLHF-V: Towards Trustworthy MLLMs via Behavior Alignment from Fine-grained Correctional Human Feedback",
+      "authors": "Yu, Yao, Zhang et al.",
+      "date": "2024-03-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2312.00849",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Detecting and Preventing Hallucinations in Large Vision Language Models",
+      "authors": "Gunjal, Yin, Bas",
+      "date": "2024-02-11",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2308.06394",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Fine-Grained Human Feedback Gives Better Rewards for Language Model Training",
+      "authors": "Wu, Hu, Shi et al.",
+      "date": "2023-10-30",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2306.01693",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "ViGoR: Improving Visual Grounding of Large Vision Language Models with Fine-Grained Reward Modeling",
+      "authors": "Yan, Bai, Chen et al.",
+      "date": "2024-04-18",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2402.06118",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "T2I-CompBench: A Comprehensive Benchmark for Open-world Compositional Text-to-image Generation",
+      "authors": "Huang, Sun, Xie et al.",
+      "date": "",
+      "type": "journalArticle",
+      "url": "",
+      "tags": []
+    },
+    {
+      "title": "Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers",
+      "authors": "Chefer, Gur, Wolf",
+      "date": "2021-03-29",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2103.15679",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Polos: Multimodal Metric Learning from Human Feedback for Image Captioning",
+      "authors": "Wada, Kaneda, Saito et al.",
+      "date": "2024-02-28",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2402.18091",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "VALSE: A Task-Independent Benchmark for Vision and Language Models Centered on Linguistic Phenomena",
+      "authors": "Parcalabescu, Cafagna, Muradjan et al.",
+      "date": "2022",
+      "type": "conferencePaper",
+      "url": "http://arxiv.org/abs/2112.07566",
+      "tags": [
+        "68Txx",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "I.2.10",
+        "I.2.7"
+      ]
+    },
+    {
+      "title": "Mind the Gap: Understanding the Modality Gap in Multi-modal Contrastive Representation Learning",
+      "authors": "Liang, Zhang, Kwon et al.",
+      "date": "2022-10-19",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2203.02053",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning",
+        "Computer Science - Multimedia"
+      ]
+    },
+    {
+      "title": "Dealing with Semantic Underspecification in Multimodal NLP",
+      "authors": "Pezzelle",
+      "date": "2023-07",
+      "type": "conferencePaper",
+      "url": "https://aclanthology.org/2023.acl-long.675",
+      "tags": []
+    },
+    {
+      "title": "WizardLM: Empowering Large Language Models to Follow Complex Instructions",
+      "authors": "Xu, Sun, Zheng et al.",
+      "date": "2023-06-10",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2304.12244",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "ALLaVA: Harnessing GPT4V-Synthesized Data for Lite Vision-Language Models",
+      "authors": "Chen, Chen, Zhang et al.",
+      "date": "2024-06-17",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2402.11684",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training",
+      "authors": "McKinzie, Gan, Fauconnier et al.",
+      "date": "2024-04-18",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2403.09611",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Mini-Gemini: Mining the Potential of Multi-modality Vision Language Models",
+      "authors": "Li, Zhang, Wang et al.",
+      "date": "2024-03-27",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2403.18814",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "TextGrad: Automatic \"Differentiation\" via Text",
+      "authors": "Yuksekgonul, Bianchi, Boen et al.",
+      "date": "2024-06-11",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2406.07496",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Automatic Prompt Optimization with \"Gradient Descent\" and Beam Search",
+      "authors": "Pryzant, Iter, Li et al.",
+      "date": "2023-10-19",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2305.03495",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "CLIPScore: A Reference-free Evaluation Metric for Image Captioning",
+      "authors": "Hessel, Holtzman, Forbes et al.",
+      "date": "2022-03-23",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2104.08718",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Rich Human Feedback for Text-to-Image Generation",
+      "authors": "Liang, He, Li et al.",
+      "date": "2024-04-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2312.10240",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Meteor: Mamba-based Traversal of Rationale for Large Language and Vision Models",
+      "authors": "Lee, Kim, Park et al.",
+      "date": "2024-05-27",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2405.15574",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Evaluating Text-to-Image Synthesis: Survey and Taxonomy of Image Quality Metrics",
+      "authors": "Hartwig, Engel, Sick et al.",
+      "date": "2024-04-15",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2403.11821",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Graphics"
+      ]
+    },
+    {
+      "title": "ALOHa: A New Measure for Hallucination in Captioning Models",
+      "authors": "Petryk, Chan, Kachinthaya et al.",
+      "date": "2024-04-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2404.02904",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+      "authors": "Li, Li, Xiong et al.",
+      "date": "2022-02-15",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2201.12086",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Chameleon: Mixed-Modal Early-Fusion Foundation Models",
+      "authors": "Chameleon Team",
+      "date": "2024-05-16",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2405.09818",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "ALOHa: A New Measure for Hallucination in Captioning Models",
+      "authors": "Petryk, Chan, Kachinthaya et al.",
+      "date": "2024-04-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2404.02904",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+      "authors": "Li, Li, Xiong et al.",
+      "date": "2022-02-15",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2201.12086",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "No \"Zero-Shot\" Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance",
+      "authors": "Udandarao, Prabhu, Ghosh et al.",
+      "date": "2024-04-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2404.04125",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Progress measures for grokking via mechanistic interpretability",
+      "authors": "Nanda, Chan, Lieberum et al.",
+      "date": "2023-10-19",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2301.05217",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "No \"Zero-Shot\" Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance",
+      "authors": "Udandarao, Prabhu, Ghosh et al.",
+      "date": "2024-04-04",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2404.04125",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "CLIPScore: A Reference-free Evaluation Metric for Image Captioning",
+      "authors": "Hessel, Holtzman, Forbes et al.",
+      "date": "2022-03-23",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2104.08718",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Mini-Gemini: Mining the Potential of Multi-modality Vision Language Models",
+      "authors": "Li, Zhang, Wang et al.",
+      "date": "2024-03-27",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2403.18814",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "CoLLaVO: Crayon Large Language and Vision mOdel",
+      "authors": "Lee, Park, Kim et al.",
+      "date": "2024-06-02",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2402.11248",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "MoAI: Mixture of All Intelligence for Large Language and Vision Models",
+      "authors": "Lee, Park, Kim et al.",
+      "date": "2024-07-14",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2403.07508",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "TroL: Traversal of Layers for Large Language and Vision Models",
+      "authors": "Lee, Chung, Kim et al.",
+      "date": "2024-06-19",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2406.12246",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Assessing Generative Models via Precision and Recall",
+      "authors": "Sajjadi, Bachem, Lucic et al.",
+      "date": "2018-10-28",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/1806.00035",
+      "tags": [
+        "Computer Science - Machine Learning",
+        "Statistics - Machine Learning"
+      ]
+    },
+    {
+      "title": "gScoreCAM: What Objects Is CLIP Looking At?",
+      "authors": "Chen, Li, Biaz et al.",
+      "date": "2023",
+      "type": "bookSection",
+      "url": "https://link.springer.com/10.1007/978-3-031-26316-3_35",
+      "tags": []
+    },
+    {
+      "title": "Exploring CLIP for Assessing the Look and Feel of Images",
+      "authors": "Wang, Chan, Loy",
+      "date": "2022-11-23",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2207.12396",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "CALIP: Zero-Shot Enhancement of CLIP with Parameter-free Attention",
+      "authors": "Guo, Zhang, Qiu et al.",
+      "date": "2022-12-18",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2209.14169",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Multimedia"
+      ]
+    },
+    {
+      "title": "MM-SHAP: A Performance-agnostic Metric for Measuring Multimodal Contributions in Vision and Language Models & Tasks",
+      "authors": "Parcalabescu, Frank",
+      "date": "2023",
+      "type": "conferencePaper",
+      "url": "http://arxiv.org/abs/2212.08158",
+      "tags": [
+        "68Txx",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "I.2.10",
+        "I.2.7"
+      ]
+    },
+    {
+      "title": "Prioritized Training on Points that are Learnable, Worth Learning, and Not Yet Learnt",
+      "authors": "Mindermann, Brauner, Razzak et al.",
+      "date": "2022-09-26",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2206.07137",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Make-A-Scene: Scene-Based Text-to-Image Generation with Human Priors",
+      "authors": "Gafni, Polyak, Ashual et al.",
+      "date": "2022-03-24",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2203.13131",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Graphics",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Transformer Interpretability Beyond Attention Visualization",
+      "authors": "Chefer, Gur, Wolf",
+      "date": "2021-04-05",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2012.09838",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "SugarCrepe: Fixing Hackable Benchmarks for Vision-Language Compositionality",
+      "authors": "Hsieh, Zhang, Ma et al.",
+      "date": "2023-06-26",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2306.14610",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "CIDEr: Consensus-based Image Description Evaluation",
+      "authors": "Vedantam, Zitnick, Parikh",
+      "date": "2015-06-02",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/1411.5726",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Information Retrieval"
+      ]
+    },
+    {
+      "title": "CapsFusion: Rethinking Image-Text Data at Scale",
+      "authors": "Yu, Sun, Zhang et al.",
+      "date": "2024-04-05",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2310.20550",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "FOIL it! Find One mismatch between Image and Language caption",
+      "authors": "Shekhar, Pezzelle, Klimovich et al.",
+      "date": "2017",
+      "type": "conferencePaper",
+      "url": "http://arxiv.org/abs/1705.01359",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Multimedia"
+      ]
+    },
+    {
+      "title": "Language Quantized AutoEncoders: Towards Unsupervised Text-Image Alignment",
+      "authors": "Liu, Yan, Abbeel",
+      "date": "2023-02-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2302.00902",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Probing Image-Language Transformers for Verb Understanding",
+      "authors": "Hendricks, Nematzadeh",
+      "date": "2021-06-16",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2106.09141",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Evaluating Object Hallucination in Large Vision-Language Models",
+      "authors": "Li, Du, Zhou et al.",
+      "date": "2023-10-25",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2305.10355",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Multimedia"
+      ]
+    },
+    {
+      "title": "Object Hallucination in Image Captioning",
+      "authors": "Rohrbach, Hendricks, Burns et al.",
+      "date": "2018",
+      "type": "conferencePaper",
+      "url": "https://aclanthology.org/D18-1437",
+      "tags": []
+    },
+    {
+      "title": "Vision Transformers Need Registers",
+      "authors": "Darcet, Oquab, Mairal et al.",
+      "date": "2024-04-12",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2309.16588",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Semantic Pyramid for Image Generation",
+      "authors": "Shocher, Gandelsman, Mosseri et al.",
+      "date": "6/2020",
+      "type": "conferencePaper",
+      "url": "https://ieeexplore.ieee.org/document/9157611/",
+      "tags": []
+    },
+    {
+      "title": "LeGrad: An Explainability Method for Vision Transformers via Feature Formation Sensitivity",
+      "authors": "Bousselham, Boggust, Chaybouti et al.",
+      "date": "2024-04-04",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2404.03214",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "MoDE: CLIP Data Experts via Clustering",
+      "authors": "Ma, Huang, Xie et al.",
+      "date": "2024-04-24",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2404.16030",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Question Aware Vision Transformer for Multimodal Reasoning",
+      "authors": "Ganz, Kittenplon, Aberdam et al.",
+      "date": "2024-02-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2402.05472",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Adventures of Trustworthy Vision-Language Models: A Survey",
+      "authors": "Vatsa, Jain, Singh",
+      "date": "2024-03-24",
+      "type": "journalArticle",
+      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30275",
+      "tags": [
+        "Robustness"
+      ]
+    },
+    {
+      "title": "Text2LIVE: Text-Driven Layered Image and Video Editing",
+      "authors": "Bar-Tal, Ofri-Amar, Fridman et al.",
+      "date": "2022-05-25",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2204.02491",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "CLIP Surgery for Better Explainability with Enhancement in Open-Vocabulary Tasks",
+      "authors": "Li, Wang, Duan et al.",
+      "date": "2023-04-12",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2304.05653",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization",
+      "authors": "Selvaraju, Cogswell, Das et al.",
+      "date": "02/2020",
+      "type": "journalArticle",
+      "url": "http://arxiv.org/abs/1610.02391",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "FILIP: Fine-grained Interactive Language-Image Pre-Training",
+      "authors": "Yao, Huang, Hou et al.",
+      "date": "2021-11-09",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2111.07783",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Interpreting CLIP's Image Representation via Text-Based Decomposition",
+      "authors": "Gandelsman, Efros, Steinhardt",
+      "date": "2023/10/13",
+      "type": "conferencePaper",
+      "url": "https://openreview.net/forum?id=5Ca9sSzuDp",
+      "tags": []
+    },
+    {
+      "title": "Optimizing Relevance Maps of Vision Transformers Improves Robustness",
+      "authors": "Chefer, Schwartz, Wolf",
+      "date": "2022-12-06",
+      "type": "journalArticle",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/d9fa720cf96f7c18ac4d9e04270f0bbf-Abstract-Conference.html",
+      "tags": []
+    },
+    {
+      "title": "Attend-and-Excite: Attention-Based Semantic Guidance for Text-to-Image Diffusion Models",
+      "authors": "Chefer, Alaluf, Vinker et al.",
+      "date": "2023-05-31",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2301.13826",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Graphics",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Attention is not Explanation",
+      "authors": "Jain, Wallace",
+      "date": "2019-05-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/1902.10186",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Shortcut Learning in Deep Neural Networks",
+      "authors": "Geirhos, Jacobsen, Michaelis et al.",
+      "date": "2020-11-10",
+      "type": "journalArticle",
+      "url": "http://arxiv.org/abs/2004.07780",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning",
+        "Quantitative Biology - Neurons and Cognition"
+      ]
+    },
+    {
+      "title": "When and why vision-language models behave like bags-of-words, and what to do about it?",
+      "authors": "Yuksekgonul, Bianchi, Kalluri et al.",
+      "date": "2023-03-23",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2210.01936",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Explaining Classifiers with Causal Concept Effect (CaCE)",
+      "authors": "Goyal, Feder, Shalit et al.",
+      "date": "",
+      "type": "journalArticle",
+      "url": "",
+      "tags": []
+    },
+    {
+      "title": "Learn \"No\" to Say \"Yes\" Better: Improving Vision-Language Models via Negations",
+      "authors": "Singh, Shrivastava, Vatsa et al.",
+      "date": "2024-03-29",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2403.20312",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "VL-InterpreT: An Interactive Visualization Tool for Interpreting Vision-Language Transformers",
+      "authors": "Aflalo, Du, Tseng et al.",
+      "date": "2022-08-22",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2203.17247",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Mismatch Quest: Visual and Textual Feedback for Image-Text Misalignment",
+      "authors": "Gordon, Bitton, Shafir et al.",
+      "date": "2023-12-05",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2312.03766",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Extract Free Dense Labels from CLIP",
+      "authors": "Zhou, Loy, Dai",
+      "date": "2022-07-27",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2112.01071",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Open Vocabulary Semantic Segmentation with Patch Aligned Contrastive Learning",
+      "authors": "Mukhoti, Lin, Poursaeed et al.",
+      "date": "6/2023",
+      "type": "conferencePaper",
+      "url": "https://ieeexplore.ieee.org/document/10203477/",
+      "tags": []
+    },
+    {
+      "title": "TIFA: Accurate and Interpretable Text-to-Image Faithfulness Evaluation with Question Answering",
+      "authors": "Hu, Liu, Kasai et al.",
+      "date": "2023-10-1",
+      "type": "conferencePaper",
+      "url": "https://ieeexplore.ieee.org/document/10377168/",
+      "tags": []
+    },
+    {
+      "title": "ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation",
+      "authors": "Xu, Liu, Wu et al.",
+      "date": "",
+      "type": "journalArticle",
+      "url": "",
+      "tags": [
+        "RL",
+        "motivation"
+      ]
+    },
+    {
+      "title": "Benchmark for Compositional Text-to-Image Synthesis",
+      "authors": "Park, Azadi, Liu et al.",
+      "date": "",
+      "type": "journalArticle",
+      "url": "",
+      "tags": []
+    },
+    {
+      "title": "VIEScore: Towards Explainable Metrics for Conditional Image Synthesis Evaluation",
+      "authors": "Ku, Jiang, Wei et al.",
+      "date": "2023-12-22",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2312.14867",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Multimedia"
+      ]
+    },
+    {
+      "title": "Amnesic Probing: Behavioral Explanation with Amnesic Counterfactuals",
+      "authors": "Elazar, Ravfogel, Jacovi et al.",
+      "date": "2021-02-19",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2006.00995",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "ATTENTION-BASED INTERPRETABILITY WITH CONCEPT TRANSFORMERS",
+      "authors": "Rigotti, Miksovic, Giurgiu et al.",
+      "date": "2022",
+      "type": "journalArticle",
+      "url": "",
+      "tags": []
+    },
+    {
+      "title": "Contrastive Explanations for Model Interpretability",
+      "authors": "Jacovi, Swayamdipta, Ravfogel et al.",
+      "date": "2021-09-14",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2103.01378",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Explanations based on the Missing: Towards Contrastive Explanations with Pertinent Negatives",
+      "authors": "Dhurandhar, Chen, Luss et al.",
+      "date": "2018",
+      "type": "conferencePaper",
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2018/hash/c5ff2543b53f4cc0ad3819a36752467b-Abstract.html",
+      "tags": []
+    },
+    {
+      "title": "SPAE: Semantic Pyramid AutoEncoder for Multimodal Generation with Frozen LLMs",
+      "authors": "Yu, Cheng, Wang et al.",
+      "date": "2023-10-28",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2306.17842",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Multimedia"
+      ]
+    },
+    {
+      "title": "Unicom: Universal and Compact Representation Learning for Image Retrieval",
+      "authors": "An, Deng, Yang et al.",
+      "date": "2023-04-12",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2304.05884",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
+      "authors": "Tan, Bansal",
+      "date": "2019-12-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/1908.07490",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "TVLT: Textless Vision-Language Transformer",
+      "authors": "Tang, Cho, Nie et al.",
+      "date": "",
+      "type": "journalArticle",
+      "url": "",
+      "tags": []
+    },
+    {
+      "title": "What Does BERT Look at? An Analysis of BERT’s Attention",
+      "authors": "Clark, Khandelwal, Levy et al.",
+      "date": "2019",
+      "type": "conferencePaper",
+      "url": "https://www.aclweb.org/anthology/W19-4828",
+      "tags": []
+    },
+    {
+      "title": "ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision",
+      "authors": "Kim, Son, Kim",
+      "date": "",
+      "type": "journalArticle",
+      "url": "",
+      "tags": []
+    },
+    {
+      "title": "CoCa: Contrastive Captioners are Image-Text Foundation Models",
+      "authors": "Yu, Wang",
+      "date": "",
+      "type": "journalArticle",
+      "url": "",
+      "tags": []
+    },
+    {
+      "title": "ViLLA: Fine-Grained Vision-Language Representation Learning from Real-World Data",
+      "authors": "Varma, Delbrouck, Hooper et al.",
+      "date": "2023-08-22",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2308.11194",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "mPLUG-DocOwl 1.5: Unified Structure Learning for OCR-free Document Understanding",
+      "authors": "Hu, Xu, Ye et al.",
+      "date": "2024-03-19",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2403.12895",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Contrastive Region Guidance: Improving Grounding in Vision-Language Models without Training",
+      "authors": "Wan, Cho, Stengel-Eskin et al.",
+      "date": "2024-03-04",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2403.02325",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "A Picture is Worth More Than 77 Text Tokens: Evaluating CLIP-Style Models on Dense Captions",
+      "authors": "Urbanek, Bordes, Astolfi et al.",
+      "date": "2023-12-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2312.08578",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    }
+  ]
+}
