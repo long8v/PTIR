@@ -1,0 +1,28 @@
+baseURL = "https://long8v.github.io/PTIR/"
+languageCode = "en-us"
+title = "Paper Today I Read"
+theme = "PaperMod"
+
+[params]
+  author = "long8v"
+  description = "Paper reviews translated from Korean to English"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
+  ShowToc = true
+
+[params.homeInfoParams]
+  Title = "Paper Today I Read"
+  Content = "Paper reviews and notes — auto-translated from [GitHub Issues](https://github.com/long8v/PTIR/issues)"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[taxonomies]
+  tag = "tags"
+
+[markup.goldmark.renderer]
+  unsafe = true
