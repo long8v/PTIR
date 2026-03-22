@@ -253,13 +253,20 @@ body {
 /* Post list entries */
 .post-entry,
 .first-entry {
-  padding: 10px 0;
+  padding: 6px 0;
   min-height: unset;
   border-bottom: 1px solid var(--border);
   border-radius: 0;
   background: transparent;
   box-shadow: none;
   margin: 0;
+}
+
+.entry-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
 }
 
 .post-entry:hover,
@@ -299,8 +306,7 @@ body {
 }
 
 .entry-footer {
-  font-size: 0.7rem;
-  margin-top: 2px;
+  display: none;
 }
 
 .post-meta {
@@ -317,9 +323,9 @@ body {
 /* Tag badges */
 .entry-tags {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   gap: 4px;
-  margin-top: 3px;
+  flex-shrink: 0;
 }
 
 .tag-badge {
