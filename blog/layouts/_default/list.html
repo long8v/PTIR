@@ -114,17 +114,49 @@
         {{- $count = add $count 1 }}
       {{- end }}
     {{- end }}
-    {{- $leftPos := sub 100 (div (mul $count 100) $goal) }}
+    {{- $perRow := 25 }}
+    {{- $row2Count := $count }}
+    {{- $row1Count := 0 }}
+    {{- if gt $count $perRow }}
+      {{- $row2Count = $perRow }}
+      {{- $row1Count = sub $count $perRow }}
+    {{- end }}
+    {{- $hedgehogOnRow := 2 }}
+    {{- $hedgehogLeft := sub 100 (div (mul $row2Count 100) $perRow) }}
+    {{- if gt $count $perRow }}
+      {{- $hedgehogOnRow = 1 }}
+      {{- $hedgehogLeft = sub 100 (div (mul $row1Count 100) $perRow) }}
+    {{- end }}
     <div class="goal-track">
-      <div class="goal-bar-bg">
-        <span class="goal-apple">🍎</span>
-        <div class="goal-chestnuts" style="left: {{ $leftPos }}%">
-          {{- range seq $count }}
+      {{- /* Row 1: top row, apple on left, fills after 25 papers */ -}}
+      <div class="goal-row goal-row-top">
+        <div class="goal-row-path">
+          <span class="goal-apple">🍎</span>
+          {{- if eq $hedgehogOnRow 1 }}
+          <span class="goal-walker" style="left: {{ $hedgehogLeft }}%">🦔</span>
+          {{- end }}
+        </div>
+        <div class="goal-row-chestnuts">
+          {{- range seq $row1Count }}
           <span class="goal-chestnut">🌰</span>
           {{- end }}
         </div>
-        <span class="goal-walker" style="left: {{ $leftPos }}%">🦔</span>
       </div>
+      {{- /* Row 2: bottom row, hedgehog starts here */ -}}
+      <div class="goal-row goal-row-bottom">
+        <div class="goal-row-path">
+          {{- if eq $hedgehogOnRow 2 }}
+          <span class="goal-walker" style="left: {{ $hedgehogLeft }}%">🦔</span>
+          {{- end }}
+          {{- if eq $row2Count $perRow }}
+          <span class="goal-row-done">✓</span>
+          {{- end }}
+        </div>
+        <div class="goal-row-chestnuts">
+          {{- range seq $row2Count }}
+          <span class="goal-chestnut">🌰</span>
+          {{- end }}
+        </div>
       </div>
       <div class="goal-label">{{ $count }} / {{ $goal }} papers 🔥</div>
     </div>
