@@ -28,3 +28,19 @@
 .tag-badge:nth-child(7n+5) { background: #8b5cf6; } /* violet */
 .tag-badge:nth-child(7n+6) { background: #ef4444; } /* red */
 .tag-badge:nth-child(7n)   { background: #3b82f6; } /* blue */
+
+.original-issue {
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
+.original-issue a {
+  color: var(--secondary);
+  text-decoration: none;
+  border-bottom: 1px dashed var(--secondary);
+}
+
+.original-issue a:hover {
+  color: var(--primary);
+  border-bottom-color: var(--primary);
+}
