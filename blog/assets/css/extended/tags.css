@@ -161,7 +161,7 @@ body {
 }
 
 @keyframes walkerSlide {
-  from { right: 100%; }
+  from { right: 0%; }
 }
 
 .goal-apple {
