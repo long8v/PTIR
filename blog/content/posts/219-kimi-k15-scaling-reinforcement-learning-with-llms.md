@@ -1,5 +1,5 @@
 ---
-title: "Kimi k1.5: Scaling Reinforcement Learning with LLMs"
+title: "[198] Kimi k1.5: Scaling Reinforcement Learning with LLMs"
 date: 2025-01-23
 tags: ['multimodal', 'RL', 'reasoning', '2025Q1']
 paper: "https://github.com/MoonshotAI/Kimi-k1.5/blob/main/Kimi_k1.5.pdf"

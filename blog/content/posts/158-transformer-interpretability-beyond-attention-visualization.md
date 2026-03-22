@@ -1,5 +1,5 @@
 ---
-title: "Transformer Interpretability Beyond Attention Visualization"
+title: "[146] Transformer Interpretability Beyond Attention Visualization"
 date: 2024-02-06
 tags: ['2020Q1', 'CVPR', 'XAI']
 paper: "https://arxiv.org/abs/2012.09838"

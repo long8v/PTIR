@@ -1,5 +1,5 @@
 ---
-title: "Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation"
+title: "[167] Pick-a-Pic: An Open Dataset of User Preferences for Text-to-Image Generation"
 date: 2024-07-24
 tags: ['NeurIPS', '2023Q4', 'generation']
 paper: "https://arxiv.org/abs/2305.01569"

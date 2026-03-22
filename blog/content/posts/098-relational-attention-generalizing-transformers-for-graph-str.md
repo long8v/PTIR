@@ -1,5 +1,5 @@
 ---
-title: "Relational Attention: Generalizing Transformers for Graph-Structured Tasks"
+title: "[89] Relational Attention: Generalizing Transformers for Graph-Structured Tasks"
 date: 2022-12-15
 tags: ['microsoft', 'graph', '2022Q4', 'transformer']
 paper: "https://arxiv.org/abs/2210.05062"

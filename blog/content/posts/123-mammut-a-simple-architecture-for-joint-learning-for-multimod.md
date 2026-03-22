@@ -1,5 +1,5 @@
 ---
-title: "MaMMUT: A Simple Architecture for Joint Learning for MultiModal Tasks"
+title: "[114] MaMMUT: A Simple Architecture for Joint Learning for MultiModal Tasks"
 date: 2023-05-09
 tags: ['multimodal', 'google', '2023Q1']
 paper: "https://arxiv.org/pdf/2303.16839.pdf"

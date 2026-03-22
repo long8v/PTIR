@@ -1,5 +1,5 @@
 ---
-title: "Generative Modeling by Estimating Gradients of the Data Distribution"
+title: "[61] Generative Modeling by Estimating Gradients of the Data Distribution"
 date: 2022-09-03
 tags: ['generative', '2020Q4']
 paper: "https://arxiv.org/pdf/1907.05600.pdf"

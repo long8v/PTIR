@@ -1,5 +1,5 @@
 ---
-title: "Mini-Gemini: Mining the Potential of Multi-modality Vision Language Models"
+title: "[166] Mini-Gemini: Mining the Potential of Multi-modality Vision Language Models"
 date: 2024-07-23
 tags: ['MLLM', '2024Q1']
 paper: "https://arxiv.org/abs/2403.18814"

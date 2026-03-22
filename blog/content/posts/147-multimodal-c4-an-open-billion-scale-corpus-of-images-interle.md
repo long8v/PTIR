@@ -1,5 +1,5 @@
 ---
-title: "Multimodal C4: An Open, Billion-scale Corpus of Images Interleaved with Text"
+title: "[135] Multimodal C4: An Open, Billion-scale Corpus of Images Interleaved with Text"
 date: 2023-11-23
 tags: ['multimodal', 'dataset', 'NeurIPS', '2023Q2']
 paper: "https://arxiv.org/abs/2304.06939"

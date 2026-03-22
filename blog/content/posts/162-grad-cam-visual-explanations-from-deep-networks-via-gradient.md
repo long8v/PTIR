@@ -1,5 +1,5 @@
 ---
-title: "Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization"
+title: "[150] Grad-CAM: Visual Explanations from Deep Networks via Gradient-based Localization"
 date: 2024-02-13
 tags: ['2016', '25min', 'XAI']
 paper: "https://arxiv.org/pdf/1610.02391.pdf"

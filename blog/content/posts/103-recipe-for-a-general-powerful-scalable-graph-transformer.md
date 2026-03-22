@@ -1,5 +1,5 @@
 ---
-title: "Recipe for a General, Powerful, Scalable Graph Transformer"
+title: "[94] Recipe for a General, Powerful, Scalable Graph Transformer"
 date: 2023-01-03
 tags: ['long', 'NeurIPS', 'graph', '25min', 'transformer']
 paper: "https://arxiv.org/pdf/2205.12454.pdf"

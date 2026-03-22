@@ -1,5 +1,5 @@
 ---
-title: "Sparse R-CNN: End-to-End Object Detection with Learnable Proposals"
+title: "[52] Sparse R-CNN: End-to-End Object Detection with Learnable Proposals"
 date: 2022-08-19
 tags: ['object detection', '2020Q4']
 paper: "https://openaccess.thecvf.com/content/CVPR2021/papers/Sun_Sparse_R-CNN_End-to-End_Object_Detection_With_Learnable_Proposals_CVPR_2021_paper.pdf"

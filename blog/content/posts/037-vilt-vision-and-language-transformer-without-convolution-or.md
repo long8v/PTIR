@@ -1,5 +1,5 @@
 ---
-title: "ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision"
+title: "[32] ViLT: Vision-and-Language Transformer Without Convolution or Region Supervision"
 date: 2022-06-28
 tags: ['multimodal', '2021Q2', 'naver']
 paper: "https://arxiv.org/pdf/2102.03334.pdf"

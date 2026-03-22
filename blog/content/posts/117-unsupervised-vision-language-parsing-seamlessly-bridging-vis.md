@@ -1,5 +1,5 @@
 ---
-title: "Unsupervised Vision-Language Parsing: Seamlessly Bridging Visual Scene Graphs with Language Structures via Dependency Relationships"
+title: "[108] Unsupervised Vision-Language Parsing: Seamlessly Bridging Visual Scene Graphs with Language Structures via Dependency Relationships"
 date: 2023-04-04
 tags: ['2022Q1', 'dataset', 'CVPR', 'graph']
 paper: "https://arxiv.org/abs/2203.14260"

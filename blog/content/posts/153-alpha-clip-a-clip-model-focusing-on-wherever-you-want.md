@@ -1,5 +1,5 @@
 ---
-title: "Alpha-CLIP: A CLIP Model Focusing on Wherever You Want"
+title: "[141] Alpha-CLIP: A CLIP Model Focusing on Wherever You Want"
 date: 2023-12-15
 tags: ['multimodal', 'CLIP', '2023Q4']
 paper: "https://arxiv.org/pdf/2312.03818.pdf"

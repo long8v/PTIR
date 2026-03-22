@@ -1,5 +1,5 @@
 ---
-title: "Trust Region Policy Optimization"
+title: "[142] Trust Region Policy Optimization"
 date: 2023-12-17
 tags: ['2015', 'RL']
 paper: "https://arxiv.org/pdf/1502.05477.pdf"

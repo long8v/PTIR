@@ -1,5 +1,5 @@
 ---
-title: "Bridging the Gap between Object and Image-level Representations for Open-Vocabulary Detection"
+title: "[98] Bridging the Gap between Object and Image-level Representations for Open-Vocabulary Detection"
 date: 2023-01-17
 tags: ['NeurIPS', 'object detection', '2022Q3', 'CLIP']
 paper: "https://arxiv.org/pdf/2207.03482.pdf"

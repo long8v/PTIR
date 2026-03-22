@@ -1,5 +1,5 @@
 ---
-title: "Visual Instruction Tuning"
+title: "[119] Visual Instruction Tuning"
 date: 2023-06-09
 tags: ['multimodal', 'NeurIPS', '2023Q2']
 paper: "https://arxiv.org/abs/2304.08485"

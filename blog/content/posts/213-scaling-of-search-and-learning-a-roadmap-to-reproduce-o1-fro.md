@@ -1,5 +1,5 @@
 ---
-title: "Scaling of Search and Learning: A Roadmap to Reproduce o1 from Reinforcement Learning Perspective"
+title: "[193] Scaling of Search and Learning: A Roadmap to Reproduce o1 from Reinforcement Learning Perspective"
 date: 2024-12-30
 tags: ['survey', '2024Q4', 'reasoning']
 paper: "https://arxiv.org/abs/2412.14135"

@@ -1,5 +1,5 @@
 ---
-title: "MiMo-VL Technical Report"
+title: "[212] MiMo-VL Technical Report"
 date: 2025-07-02
 tags: ['MLLM', 'reasoning', '2025Q2']
 paper: "https://arxiv.org/abs/2506.03569"

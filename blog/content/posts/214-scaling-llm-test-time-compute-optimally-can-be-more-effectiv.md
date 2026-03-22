@@ -1,5 +1,5 @@
 ---
-title: "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters"
+title: "[194] Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters"
 date: 2025-01-03
 tags: ['DeepMind', '2024Q3', 'reasoning']
 paper: "https://arxiv.org/abs/2408.03314"

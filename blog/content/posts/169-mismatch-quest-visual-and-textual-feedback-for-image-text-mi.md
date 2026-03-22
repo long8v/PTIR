@@ -1,5 +1,5 @@
 ---
-title: "Mismatch Quest: Visual and Textual Feedback for Image-Text Misalignment"
+title: "[154] Mismatch Quest: Visual and Textual Feedback for Image-Text Misalignment"
 date: 2024-04-03
 tags: ['google', 'XAI', 'evaluation', '2024Q2']
 paper: "https://arxiv.org/pdf/2312.03766.pdf"

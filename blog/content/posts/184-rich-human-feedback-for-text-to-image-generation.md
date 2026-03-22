@@ -1,5 +1,5 @@
 ---
-title: "Rich Human Feedback for Text-to-Image Generation"
+title: "[165] Rich Human Feedback for Text-to-Image Generation"
 date: 2024-07-19
 tags: ['CVPR', '2023Q4', 'evaluation']
 paper: "https://arxiv.org/abs/2312.10240"

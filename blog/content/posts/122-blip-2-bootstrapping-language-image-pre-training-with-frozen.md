@@ -1,5 +1,5 @@
 ---
-title: "BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models"
+title: "[113] BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models"
 date: 2023-04-27
 tags: ['multimodal', '2023Q1', 'salesforce']
 paper: "https://arxiv.org/pdf/2301.12597.pdf"

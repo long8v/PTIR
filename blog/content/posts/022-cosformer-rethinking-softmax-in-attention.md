@@ -1,5 +1,5 @@
 ---
-title: "cosFormer: Rethinking Softmax in Attention"
+title: "[21] cosFormer: Rethinking Softmax in Attention"
 date: 2022-04-20
 tags: ['NLP', 'attention', '2022Q1', 'ICLR', 'long']
 paper: "https://arxiv.org/pdf/2202.08791.pdf"

@@ -1,5 +1,5 @@
 ---
-title: "Dynamic Head: Unifying Object Detection Heads with Attentions"
+title: "[85] Dynamic Head: Unifying Object Detection Heads with Attentions"
 date: 2022-12-01
 tags: ['2021Q2', 'CVPR', 'microsoft', 'object detection']
 paper: "https://arxiv.org/pdf/2106.08322.pdf"

@@ -1,5 +1,5 @@
 ---
-title: "An Overview of Multi-Task Learning in Deep Neural Networks"
+title: "[100] An Overview of Multi-Task Learning in Deep Neural Networks"
 date: 2023-01-26
 tags: ['2017', 'survey', 'MTL']
 paper: "https://arxiv.org/pdf/1706.05098.pdf"

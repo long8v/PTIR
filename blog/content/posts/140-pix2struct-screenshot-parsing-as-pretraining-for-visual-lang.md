@@ -1,5 +1,5 @@
 ---
-title: "Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding"
+title: "[128] Pix2Struct: Screenshot Parsing as Pretraining for Visual Language Understanding"
 date: 2023-08-21
 tags: ['ICML', 'google', '2022Q3', 'document']
 paper: "https://arxiv.org/pdf/2210.03347.pdf"

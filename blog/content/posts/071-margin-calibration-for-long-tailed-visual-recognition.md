@@ -1,5 +1,5 @@
 ---
-title: "Margin Calibration for Long-Tailed Visual Recognition"
+title: "[65] Margin Calibration for Long-Tailed Visual Recognition"
 date: 2022-09-19
 tags: ['2021Q4', '25min', 'imbalance', 'ECCV']
 paper: "https://arxiv.org/pdf/2112.07225.pdf"

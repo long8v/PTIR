@@ -1,5 +1,5 @@
 ---
-title: "I Can't Believe There's No Images! Learning Visual Tasks Using only Language Supervision"
+title: "[148] I Can't Believe There's No Images! Learning Visual Tasks Using only Language Supervision"
 date: 2024-02-11
 tags: ['ICCV', '25min', 'CLIP', '2023Q3', 'AI2']
 paper: "https://arxiv.org/pdf/2211.09778.pdf"

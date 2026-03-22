@@ -1,5 +1,5 @@
 ---
-title: "Estimating and Evaluating Regression Predictive Uncertainty in Deep Object Detectors"
+title: "[82] Estimating and Evaluating Regression Predictive Uncertainty in Deep Object Detectors"
 date: 2022-11-24
 tags: ['2021Q1', 'ICLR', 'object detection', 'uncertainty', 'later..']
 paper: "https://arxiv.org/pdf/2101.05036.pdf"

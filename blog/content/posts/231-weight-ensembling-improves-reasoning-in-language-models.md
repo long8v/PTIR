@@ -1,5 +1,5 @@
 ---
-title: "Weight Ensembling Improves Reasoning in Language Models"
+title: "[210] Weight Ensembling Improves Reasoning in Language Models"
 date: 2025-05-30
 tags: ['RL', 'reasoning', '2025Q2']
 paper: "https://arxiv.org/abs/2504.10478"

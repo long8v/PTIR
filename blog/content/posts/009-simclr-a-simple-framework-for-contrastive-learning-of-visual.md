@@ -1,5 +1,5 @@
 ---
-title: "SimCLR : A Simple Framework for Contrastive Learning of Visual Representations"
+title: "[9] SimCLR : A Simple Framework for Contrastive Learning of Visual Representations"
 date: 2022-01-25
 tags: ['few-shot', 'SSL', '2020Q3', 'ICML', 'google']
 paper: ""

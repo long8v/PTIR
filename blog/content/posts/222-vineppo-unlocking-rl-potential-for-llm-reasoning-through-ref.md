@@ -1,5 +1,5 @@
 ---
-title: "VinePPO: Unlocking RL Potential For LLM Reasoning Through Refined Credit Assignment"
+title: "[201] VinePPO: Unlocking RL Potential For LLM Reasoning Through Refined Credit Assignment"
 date: 2025-02-08
 tags: ['RL', 'reasoning', '2025Q1']
 paper: "https://openreview.net/forum?id=5mJrGtXVwz"

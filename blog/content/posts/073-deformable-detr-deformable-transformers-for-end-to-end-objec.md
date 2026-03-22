@@ -1,5 +1,5 @@
 ---
-title: "Deformable DETR: Deformable Transformers for End-to-End Object Detection"
+title: "[67] Deformable DETR: Deformable Transformers for End-to-End Object Detection"
 date: 2022-09-21
 tags: ['2020Q3', 'ICLR', 'long', 'object detection', 'SenseTime']
 paper: "https://arxiv.org/abs/2010.04159"

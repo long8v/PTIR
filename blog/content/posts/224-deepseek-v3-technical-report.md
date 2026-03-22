@@ -1,5 +1,5 @@
 ---
-title: "DeepSeek-V3 Technical Report"
+title: "[203] DeepSeek-V3 Technical Report"
 date: 2025-02-13
 tags: ['WIP', '25min', 'LLM', 'RL', '2024Q4']
 paper: "https://arxiv.org/abs/2412.19437"

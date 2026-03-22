@@ -1,5 +1,5 @@
 ---
-title: "Training Verifiers to Solve Math Word Problems"
+title: "[189] Training Verifiers to Solve Math Word Problems"
 date: 2024-12-09
 tags: ['2021Q4', 'openAI', '25min', 'RL']
 paper: "https://arxiv.org/abs/2110.14168"

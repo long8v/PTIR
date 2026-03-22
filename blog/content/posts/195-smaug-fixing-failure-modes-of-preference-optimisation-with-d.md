@@ -1,5 +1,5 @@
 ---
-title: "Smaug: Fixing Failure Modes of Preference Optimisation with DPO-Positive"
+title: "[176] Smaug: Fixing Failure Modes of Preference Optimisation with DPO-Positive"
 date: 2024-09-05
 tags: ['LLM', 'RL', '2024Q1']
 paper: "https://arxiv.org/pdf/2402.13228"

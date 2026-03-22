@@ -1,5 +1,5 @@
 ---
-title: "Mining the Benefits of Two-stage and One-stage HOI Detection"
+title: "[93] Mining the Benefits of Two-stage and One-stage HOI Detection"
 date: 2022-12-29
 tags: ['2021Q2', 'NeurIPS', '25min', 'HOI']
 paper: "https://arxiv.org/pdf/2108.05077.pdf"

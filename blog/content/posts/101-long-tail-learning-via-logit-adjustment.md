@@ -1,5 +1,5 @@
 ---
-title: "Long-Tail Learning via Logit Adjustment"
+title: "[92] Long-Tail Learning via Logit Adjustment"
 date: 2022-12-26
 tags: ['2020Q3', 'google', '25min', 'imbalance']
 paper: "https://arxiv.org/pdf/2007.07314.pdf"

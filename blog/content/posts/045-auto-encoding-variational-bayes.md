@@ -1,5 +1,5 @@
 ---
-title: "Auto-Encoding Variational Bayes"
+title: "[39] Auto-Encoding Variational Bayes"
 date: 2022-07-24
 tags: ['fundamental', 'generative', '2013']
 paper: "https://arxiv.org/abs/1312.6114"

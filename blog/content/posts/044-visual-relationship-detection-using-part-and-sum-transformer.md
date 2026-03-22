@@ -1,5 +1,5 @@
 ---
-title: "Visual Relationship Detection Using Part-and-Sum Transformers with Composite Queries"
+title: "[38] Visual Relationship Detection Using Part-and-Sum Transformers with Composite Queries"
 date: 2022-07-22
 tags: ['ICCV', '2021Q2', 'SGG', 'one-stage']
 paper: "https://arxiv.org/pdf/2105.02170.pdf"

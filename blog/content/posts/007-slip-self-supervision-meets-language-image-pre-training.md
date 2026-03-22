@@ -1,5 +1,5 @@
 ---
-title: "SLIP: Self-supervision meets Language-Image Pre-training"
+title: "[7] SLIP: Self-supervision meets Language-Image Pre-training"
 date: 2022-01-20
 tags: ['multimodal', '2021Q4', 'few-shot', 'SSL']
 paper: ""

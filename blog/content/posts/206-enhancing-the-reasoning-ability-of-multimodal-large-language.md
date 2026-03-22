@@ -1,5 +1,5 @@
 ---
-title: "Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization"
+title: "[187] Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization"
 date: 2024-11-21
 tags: ['RL', 'MLLM', '2024Q4', 'SHU']
 paper: "https://arxiv.org/abs/2411.10442"

@@ -1,5 +1,5 @@
 ---
-title: "RoFormer: Enhanced Transformer with Rotary Position Embedding"
+title: "[112] RoFormer: Enhanced Transformer with Rotary Position Embedding"
 date: 2023-04-26
 tags: ['PE', '2021Q2']
 paper: "https://arxiv.org/pdf/2104.09864.pdf"

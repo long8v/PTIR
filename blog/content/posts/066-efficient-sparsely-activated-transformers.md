@@ -1,5 +1,5 @@
 ---
-title: "Efficient Sparsely Activated Transformers"
+title: "[60] Efficient Sparsely Activated Transformers"
 date: 2022-09-02
 tags: ['MoE', '2022Q3', '25min', 'AutoML']
 paper: "https://arxiv.org/pdf/2208.14580.pdf"

@@ -1,5 +1,5 @@
 ---
-title: "Intriguing Properties of Vision Transformers"
+title: "[25] Intriguing Properties of Vision Transformers"
 date: 2022-04-29
 tags: ['ViT', 'WIP', '2020Q2', 'NeurIPS']
 paper: "https://openreview.net/pdf?id=o2mbl-Hmfgd"

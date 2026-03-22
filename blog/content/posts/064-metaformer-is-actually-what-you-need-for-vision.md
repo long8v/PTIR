@@ -1,5 +1,5 @@
 ---
-title: "MetaFormer Is Actually What You Need for Vision"
+title: "[58] MetaFormer Is Actually What You Need for Vision"
 date: 2022-08-31
 tags: ['2021Q4', 'backbone', '25min']
 paper: "https://arxiv.org/pdf/2111.11418.pdf"

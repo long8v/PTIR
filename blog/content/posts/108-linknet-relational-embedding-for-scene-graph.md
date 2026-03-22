@@ -1,5 +1,5 @@
 ---
-title: "LinkNet: Relational Embedding for Scene Graph"
+title: "[99] LinkNet: Relational Embedding for Scene Graph"
 date: 2023-01-18
 tags: ['NeurIPS', '2017', 'SGG']
 paper: "https://arxiv.org/abs/1707.03718"

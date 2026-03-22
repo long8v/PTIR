@@ -1,5 +1,5 @@
 ---
-title: "Unpacking DPO and PPO: Disentangling Best Practices for Learning from Preference Feedback"
+title: "[170] Unpacking DPO and PPO: Disentangling Best Practices for Learning from Preference Feedback"
 date: 2024-08-27
 tags: ['RL', 'AI2', '2024Q2']
 paper: "https://arxiv.org/abs/2406.09279"

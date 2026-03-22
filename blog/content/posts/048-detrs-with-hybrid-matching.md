@@ -1,5 +1,5 @@
 ---
-title: "DETRs with Hybrid Matching"
+title: "[42] DETRs with Hybrid Matching"
 date: 2022-08-01
 tags: ['object detection', '2022Q3', '25min', 'DETR']
 paper: "https://arxiv.org/pdf/2207.13080.pdf"

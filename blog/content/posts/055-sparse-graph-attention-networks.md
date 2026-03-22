@@ -1,5 +1,5 @@
 ---
-title: "Sparse Graph Attention Networks"
+title: "[49] Sparse Graph Attention Networks"
 date: 2022-08-10
 tags: ['2019', 'graph', 'IEEE']
 paper: "https://arxiv.org/pdf/1912.00552.pdf"

@@ -1,5 +1,5 @@
 ---
-title: "Deep Learning with Differential Privacy"
+title: "[18] Deep Learning with Differential Privacy"
 date: 2022-04-04
 tags: ['WIP', 'privacy', '2016', 'google']
 paper: "https://arxiv.org/pdf/1607.00133.pdf"

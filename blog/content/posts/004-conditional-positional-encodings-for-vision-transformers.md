@@ -1,5 +1,5 @@
 ---
-title: "Conditional Positional Encodings for Vision Transformers"
+title: "[4] Conditional Positional Encodings for Vision Transformers"
 date: 2022-01-12
 tags: ['ViT', '2021Q1', 'PE']
 paper: "https://arxiv.org/pdf/2102.10882.pdf"

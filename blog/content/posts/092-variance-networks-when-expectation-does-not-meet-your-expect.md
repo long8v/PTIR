@@ -1,5 +1,5 @@
 ---
-title: "Variance Networks: When Expectation Does Not Meet Your Expectations"
+title: "[83] Variance Networks: When Expectation Does Not Meet Your Expectations"
 date: 2022-11-25
 tags: ['2018', 'ICLR', 'uncertainty', 'later..', 'bayesian']
 paper: "https://arxiv.org/abs/1803.03764"

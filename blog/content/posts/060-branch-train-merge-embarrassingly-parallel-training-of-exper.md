@@ -1,5 +1,5 @@
 ---
-title: "Branch-Train-Merge: Embarrassingly Parallel Training of Expert Language Models"
+title: "[54] Branch-Train-Merge: Embarrassingly Parallel Training of Expert Language Models"
 date: 2022-08-25
 tags: ['LM', 'MoE', '2022Q3', '25min']
 paper: "https://arxiv.org/pdf/2208.03306.pdf"

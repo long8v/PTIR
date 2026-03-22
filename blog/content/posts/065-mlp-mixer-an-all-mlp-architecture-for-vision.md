@@ -1,5 +1,5 @@
 ---
-title: "MLP-Mixer: An all-MLP Architecture for Vision"
+title: "[59] MLP-Mixer: An all-MLP Architecture for Vision"
 date: 2022-09-01
 tags: ['backbone', '2021Q2', 'google', '25min']
 paper: "https://arxiv.org/pdf/2105.01601.pdf"

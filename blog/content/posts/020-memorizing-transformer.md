@@ -1,5 +1,5 @@
 ---
-title: "Memorizing Transformer"
+title: "[20] Memorizing Transformer"
 date: 2022-04-07
 tags: ['NLP', '2022Q1', 'google', 'ICLR', 'long']
 paper: "https://arxiv.org/pdf/2203.08913.pdf"

@@ -1,5 +1,5 @@
 ---
-title: "Structured Sparse R-CNN for Direct Scene Graph Generation"
+title: "[51] Structured Sparse R-CNN for Direct Scene Graph Generation"
 date: 2022-08-19
 tags: ['2020Q2', 'CVPR', 'SGG', 'one-stage']
 paper: "https://openaccess.thecvf.com/content/CVPR2022/papers/Teng_Structured_Sparse_R-CNN_for_Direct_Scene_Graph_Generation_CVPR_2022_paper.pdf"

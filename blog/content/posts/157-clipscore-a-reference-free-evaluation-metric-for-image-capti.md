@@ -1,5 +1,5 @@
 ---
-title: "CLIPScore: A Reference-free Evaluation Metric for Image Captioning"
+title: "[145] CLIPScore: A Reference-free Evaluation Metric for Image Captioning"
 date: 2024-02-05
 tags: ['2021Q2', 'CLIP', 'emnlp', 'evaluation', 'AI2']
 paper: "https://arxiv.org/abs/2104.08718"

@@ -1,5 +1,5 @@
 ---
-title: "LiT: Zero-Shot Transfer with Locked-image text Tuning"
+title: "[124] LiT: Zero-Shot Transfer with Locked-image text Tuning"
 date: 2023-07-06
 tags: ['2021Q4', 'google', 'CLIP']
 paper: "https://arxiv.org/pdf/2111.07991.pdf"

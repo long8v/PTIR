@@ -1,5 +1,5 @@
 ---
-title: "Relation Networks for Object Detection"
+title: "[88] Relation Networks for Object Detection"
 date: 2022-12-11
 tags: ['2017', 'microsoft', 'object detection']
 paper: "https://arxiv.org/pdf/1711.11575.pdf"

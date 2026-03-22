@@ -1,5 +1,5 @@
 ---
-title: "Learning Transferable Architectures for Scalable Image Recognition"
+title: "[57] Learning Transferable Architectures for Scalable Image Recognition"
 date: 2022-08-30
 tags: ['fundamental', '2017', '25min', 'AutoML']
 paper: "https://arxiv.org/pdf/1707.07012.pdf"

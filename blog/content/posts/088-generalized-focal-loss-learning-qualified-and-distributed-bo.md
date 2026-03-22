@@ -1,5 +1,5 @@
 ---
-title: "Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection"
+title: "[80] Generalized Focal Loss: Learning Qualified and Distributed Bounding Boxes for Dense Object Detection"
 date: 2022-11-17
 tags: ['2020Q3', 'object detection', 'imbalance', 'uncertainty']
 paper: "https://arxiv.org/pdf/2006.04388.pdf"

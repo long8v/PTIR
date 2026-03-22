@@ -1,5 +1,5 @@
 ---
-title: "Neural Architecture Search without Training "
+title: "[122] Neural Architecture Search without Training "
 date: 2023-06-28
 tags: ['ICML', '2020Q2', 'NAS']
 paper: "https://arxiv.org/abs/2006.04647"

@@ -1,5 +1,5 @@
 ---
-title: "Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs"
+title: "[181] Step-DPO: Step-wise Preference Optimization for Long-chain Reasoning of LLMs"
 date: 2024-10-07
 tags: ['LLM', 'RL', '2023Q3']
 paper: "https://arxiv.org/abs/2406.18629"

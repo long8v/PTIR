@@ -1,5 +1,5 @@
 ---
-title: "Linearly Mapping from Image to Text Space"
+title: "[127] Linearly Mapping from Image to Text Space"
 date: 2023-08-17
 tags: ['multimodal', 'ICLR', '2023Q1']
 paper: "https://arxiv.org/abs/2209.15162"

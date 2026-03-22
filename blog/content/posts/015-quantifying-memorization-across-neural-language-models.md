@@ -1,5 +1,5 @@
 ---
-title: "Quantifying Memorization Across Neural Language Models"
+title: "[15] Quantifying Memorization Across Neural Language Models"
 date: 2022-03-24
 tags: ['NLP', '2022Q1', 'privacy', 'LM']
 paper: "https://arxiv.org/pdf/2202.07646.pdf"

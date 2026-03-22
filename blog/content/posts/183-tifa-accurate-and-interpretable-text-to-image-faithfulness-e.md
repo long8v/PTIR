@@ -1,5 +1,5 @@
 ---
-title: "TIFA: Accurate and Interpretable Text-to-Image Faithfulness Evaluation with Question Answering"
+title: "[164] TIFA: Accurate and Interpretable Text-to-Image Faithfulness Evaluation with Question Answering"
 date: 2024-07-18
 tags: ['ICCV', 'evaluation', '2023Q3']
 paper: "https://arxiv.org/abs/2303.11897"

@@ -1,5 +1,5 @@
 ---
-title: "Davidsonian Scene Graph: Improving Reliability in Fine-Grained Evaluation for Text-to-Image Generation"
+title: "[139] Davidsonian Scene Graph: Improving Reliability in Fine-Grained Evaluation for Text-to-Image Generation"
 date: 2023-12-11
 tags: ['google', '2023Q4', 'evaluation', 'generation']
 paper: "https://google.github.io/dsg/"

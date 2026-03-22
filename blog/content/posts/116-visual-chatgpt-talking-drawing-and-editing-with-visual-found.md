@@ -1,5 +1,5 @@
 ---
-title: "Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models"
+title: "[107] Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models"
 date: 2023-03-30
 tags: ['GPT', '2023Q1']
 paper: "https://arxiv.org/pdf/2303.04671.pdf"

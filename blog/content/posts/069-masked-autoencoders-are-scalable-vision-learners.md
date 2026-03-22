@@ -1,5 +1,5 @@
 ---
-title: "Masked Autoencoders Are Scalable Vision Learners "
+title: "[63] Masked Autoencoders Are Scalable Vision Learners "
 date: 2022-09-07
 tags: ['2021Q4', 'SSL', '25min']
 paper: "https://arxiv.org/pdf/2111.06377.pdf"

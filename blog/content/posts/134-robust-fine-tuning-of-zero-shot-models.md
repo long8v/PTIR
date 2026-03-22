@@ -1,5 +1,5 @@
 ---
-title: "Robust fine-tuning of zero-shot models"
+title: "[123] Robust fine-tuning of zero-shot models"
 date: 2023-07-05
 tags: ['openAI', 'google', 'CVPR', '2022Q3', 'CLIP', 'domainshift']
 paper: "https://arxiv.org/abs/2109.01903"

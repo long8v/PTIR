@@ -1,5 +1,5 @@
 ---
-title: "NICE: Non-linear Independent Components Estimation"
+title: "[56] NICE: Non-linear Independent Components Estimation"
 date: 2022-08-27
 tags: ['fundamental', 'generative', '2014']
 paper: "https://arxiv.org/pdf/1410.8516.pdf"

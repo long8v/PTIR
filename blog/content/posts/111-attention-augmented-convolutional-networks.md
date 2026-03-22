@@ -1,5 +1,5 @@
 ---
-title: "Attention Augmented Convolutional Networks"
+title: "[102] Attention Augmented Convolutional Networks"
 date: 2023-02-16
 tags: ['attention', '2019', '25min']
 paper: "https://arxiv.org/pdf/1904.09925.pdf"

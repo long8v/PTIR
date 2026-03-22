@@ -1,5 +1,5 @@
 ---
-title: "What to Hide from Your Students: Attention-Guided Masked Image Modeling"
+title: "[62] What to Hide from Your Students: Attention-Guided Masked Image Modeling"
 date: 2022-09-06
 tags: ['SSL', '2022Q1', '25min', 'ECCV']
 paper: "https://arxiv.org/pdf/2203.12719.pdf"

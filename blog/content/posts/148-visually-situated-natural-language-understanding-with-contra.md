@@ -1,5 +1,5 @@
 ---
-title: "Visually-Situated Natural Language Understanding with Contrastive Reading Model and Frozen Large Language Models"
+title: "[136] Visually-Situated Natural Language Understanding with Contrastive Reading Model and Frozen Large Language Models"
 date: 2023-11-28
 tags: ['multimodal', 'naver', '2021Q3', 'document', 'emnlp']
 paper: "https://arxiv.org/pdf/2305.15080.pdf"

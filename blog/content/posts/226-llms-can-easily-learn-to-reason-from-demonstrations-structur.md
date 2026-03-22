@@ -1,5 +1,5 @@
 ---
-title: "LLMs Can Easily Learn to Reason from Demonstrations Structure, not content, is what matters!"
+title: "[205] LLMs Can Easily Learn to Reason from Demonstrations Structure, not content, is what matters!"
 date: 2025-02-28
 tags: ['Berkley', 'reasoning', '2025Q1']
 paper: "https://arxiv.org/abs/2502.07374"

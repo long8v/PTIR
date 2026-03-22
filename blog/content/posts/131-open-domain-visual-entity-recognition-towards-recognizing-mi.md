@@ -1,5 +1,5 @@
 ---
-title: "Open-domain Visual Entity Recognition: Towards Recognizing Millions of Wikipedia Entities"
+title: "[121] Open-domain Visual Entity Recognition: Towards Recognizing Millions of Wikipedia Entities"
 date: 2023-06-23
 tags: ['multimodal', 'CLIP', '2023Q1', 'retrieval']
 paper: "https://arxiv.org/abs/2302.11154"

@@ -1,5 +1,5 @@
 ---
-title: "Noise-aware Learning from Web-crawled Image-Text Data for Image Captioning"
+title: "[149] Noise-aware Learning from Web-crawled Image-Text Data for Image Captioning"
 date: 2024-02-12
 tags: ['ICCV', '25min', '2022Q4', 'kakao']
 paper: "https://arxiv.org/pdf/2212.13563.pdf"

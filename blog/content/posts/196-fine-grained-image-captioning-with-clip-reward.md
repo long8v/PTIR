@@ -1,5 +1,5 @@
 ---
-title: "Fine-grained Image Captioning with CLIP Reward"
+title: "[177] Fine-grained Image Captioning with CLIP Reward"
 date: 2024-09-06
 tags: ['2022Q2', '25min', 'RL', 'NAACL']
 paper: "https://arxiv.org/abs/2205.13115"

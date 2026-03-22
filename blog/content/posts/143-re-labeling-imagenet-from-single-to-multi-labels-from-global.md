@@ -1,5 +1,5 @@
 ---
-title: "Re-labeling ImageNet: from Single to Multi-Labels, from Global to Localized Labels"
+title: "[131] Re-labeling ImageNet: from Single to Multi-Labels, from Global to Localized Labels"
 date: 2023-09-13
 tags: ['2021Q1', 'CVPR', 'naver']
 paper: "https://arxiv.org/pdf/2101.05022.pdf"

@@ -1,5 +1,5 @@
 ---
-title: "Scaling Test-time Compute with Open Models (hf blog)"
+title: "[192] Scaling Test-time Compute with Open Models (hf blog)"
 date: 2024-12-23
 tags: ['2024Q4', 'test-time-scaling', 'reasoning']
 paper: "https://huggingface.co/spaces/HuggingFaceH4/blogpost-scaling-test-time-compute"

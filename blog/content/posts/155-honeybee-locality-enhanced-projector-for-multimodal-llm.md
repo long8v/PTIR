@@ -1,5 +1,5 @@
 ---
-title: "Honeybee: Locality-enhanced Projector for Multimodal LLM"
+title: "[143] Honeybee: Locality-enhanced Projector for Multimodal LLM"
 date: 2023-12-22
 tags: ['kakao', '2023Q4', 'MLLM']
 paper: "https://arxiv.org/pdf/2312.06742.pdf"

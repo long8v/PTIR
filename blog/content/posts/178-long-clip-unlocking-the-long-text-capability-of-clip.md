@@ -1,5 +1,5 @@
 ---
-title: "Long-CLIP: Unlocking the Long-Text Capability of CLIP"
+title: "[159] Long-CLIP: Unlocking the Long-Text Capability of CLIP"
 date: 2024-05-10
 tags: ['25min', 'CLIP', '2024Q1']
 paper: "https://arxiv.org/pdf/2403.15378"

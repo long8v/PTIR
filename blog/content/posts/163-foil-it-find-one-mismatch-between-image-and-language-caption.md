@@ -1,5 +1,5 @@
 ---
-title: "FOIL it! Find One mismatch between Image and Language caption"
+title: "[151] FOIL it! Find One mismatch between Image and Language caption"
 date: 2024-03-03
 tags: ['dataset', '2017', 'XAI', 'evaluation']
 paper: "https://arxiv.org/pdf/1705.01359.pdf"

@@ -1,5 +1,5 @@
 ---
-title: "Pointly-Supervised Instance Segmentation"
+title: "[66] Pointly-Supervised Instance Segmentation"
 date: 2022-09-20
 tags: ['2022Q2', '25min', 'ECCV', 'annotation', 'segmentation']
 paper: "https://arxiv.org/pdf/2104.06404.pdf"

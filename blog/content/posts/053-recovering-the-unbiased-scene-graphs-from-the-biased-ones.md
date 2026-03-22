@@ -1,5 +1,5 @@
 ---
-title: "Recovering the Unbiased Scene Graphs from the Biased Ones"
+title: "[47] Recovering the Unbiased Scene Graphs from the Biased Ones"
 date: 2022-08-05
 tags: ['SGG', '25min', '2021Q3', 'imbalance']
 paper: "https://arxiv.org/pdf/2107.02112v1.pdf"

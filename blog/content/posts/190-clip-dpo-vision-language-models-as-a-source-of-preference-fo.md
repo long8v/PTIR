@@ -1,5 +1,5 @@
 ---
-title: "CLIP-DPO: Vision-Language Models as a Source of Preference for Fixing Hallucinations in LVLMs"
+title: "[171] CLIP-DPO: Vision-Language Models as a Source of Preference for Fixing Hallucinations in LVLMs"
 date: 2024-08-30
 tags: ['ECCV', 'RL', 'MLLM', '2024Q3']
 paper: "https://www.arxiv.org/abs/2408.10433"

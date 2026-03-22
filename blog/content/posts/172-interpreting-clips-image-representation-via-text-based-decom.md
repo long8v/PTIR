@@ -1,5 +1,5 @@
 ---
-title: "Interpreting CLIP's Image Representation via Text-Based Decomposition"
+title: "[156] Interpreting CLIP's Image Representation via Text-Based Decomposition"
 date: 2024-05-06
 tags: ['ICLR', 'CLIP', 'XAI', '2023Q4']
 paper: "https://arxiv.org/abs/2310.05916"

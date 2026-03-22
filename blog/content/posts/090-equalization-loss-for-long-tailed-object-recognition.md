@@ -1,5 +1,5 @@
 ---
-title: "Equalization Loss for Long-Tailed Object Recognition"
+title: "[81] Equalization Loss for Long-Tailed Object Recognition"
 date: 2022-11-22
 tags: ['2020Q1', 'object detection', 'SenseTime', 'imbalance']
 paper: "https://arxiv.org/pdf/2003.05176.pdf"

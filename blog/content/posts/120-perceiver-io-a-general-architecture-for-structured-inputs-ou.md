@@ -1,5 +1,5 @@
 ---
-title: "Perceiver IO: A General Architecture for Structured Inputs & Outputs"
+title: "[111] Perceiver IO: A General Architecture for Structured Inputs & Outputs"
 date: 2023-04-24
 tags: ['multimodal', '2021Q2', 'ICLR', 'DeepMind', 'MTL']
 paper: "https://arxiv.org/pdf/2107.14795.pdf"

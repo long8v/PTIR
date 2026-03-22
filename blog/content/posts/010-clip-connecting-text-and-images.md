@@ -1,5 +1,5 @@
 ---
-title: "CLIP: Connecting Text and Images"
+title: "[10] CLIP: Connecting Text and Images"
 date: 2022-01-27
 tags: ['multimodal', '2021Q1', 'few-shot', 'SSL', 'zero-shot', 'CLIP']
 paper: "https://arxiv.org/abs/2103.00020"

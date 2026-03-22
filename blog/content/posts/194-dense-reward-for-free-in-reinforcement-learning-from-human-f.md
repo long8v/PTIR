@@ -1,5 +1,5 @@
 ---
-title: "Dense Reward for Free in Reinforcement Learning from Human Feedback"
+title: "[175] Dense Reward for Free in Reinforcement Learning from Human Feedback"
 date: 2024-09-04
 tags: ['ICML', 'LLM', 'RL', '2024Q3']
 paper: "https://arxiv.org/abs/2402.00782"

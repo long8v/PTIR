@@ -1,5 +1,5 @@
 ---
-title: "mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration"
+title: "[137] mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration"
 date: 2023-12-05
 tags: ['multimodal', 'LLM', '2023Q4', 'alibaba']
 paper: "https://arxiv.org/abs/2311.04257"

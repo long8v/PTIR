@@ -1,5 +1,5 @@
 ---
-title: "SAC: Accelerating and Structuring Self-Attention via Sparse Adaptive Connection"
+title: "[48] SAC: Accelerating and Structuring Self-Attention via Sparse Adaptive Connection"
 date: 2022-08-09
 tags: ['2020Q1', 'long', 'NeurIPS', 'graph', '25min']
 paper: "https://proceedings.neurips.cc/paper/2020/file/c5c1bda1194f9423d744e0ef67df94ee-Paper.pdf"

@@ -1,5 +1,5 @@
 ---
-title: "Large-scale Bilingual Language-Image Contrastive Learning"
+title: "[120] Large-scale Bilingual Language-Image Contrastive Learning"
 date: 2023-06-19
 tags: ['2022Q1', 'CLIP', 'multilingual']
 paper: "https://arxiv.org/pdf/2203.14463.pdf"

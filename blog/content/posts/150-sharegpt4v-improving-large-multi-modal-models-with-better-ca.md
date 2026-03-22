@@ -1,5 +1,5 @@
 ---
-title: "ShareGPT4V: Improving Large Multi-Modal Models with Better Captions"
+title: "[138] ShareGPT4V: Improving Large Multi-Modal Models with Better Captions"
 date: 2023-12-08
 tags: ['multimodal', 'dataset', '2023Q4', 'MLLM']
 paper: "https://arxiv.org/abs/2311.12793"

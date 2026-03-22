@@ -1,5 +1,5 @@
 ---
-title: "MM-EUREKA: Exploring Visual Aha Moment with Rule-based Large-scale Reinforcement Learning"
+title: "[207] MM-EUREKA: Exploring Visual Aha Moment with Rule-based Large-scale Reinforcement Learning"
 date: 2025-03-12
 tags: ['RL', 'MLLM', '2025Q1']
 paper: "https://github.com/ModalMinds/MM-EUREKA/blob/main/MM_Eureka_paper.pdf"

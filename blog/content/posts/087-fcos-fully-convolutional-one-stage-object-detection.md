@@ -1,5 +1,5 @@
 ---
-title: "FCOS: Fully Convolutional One-Stage Object Detection"
+title: "[79] FCOS: Fully Convolutional One-Stage Object Detection"
 date: 2022-11-15
 tags: ['2019', 'fundamental', 'object detection']
 paper: "https://arxiv.org/pdf/1904.01355.pdf"

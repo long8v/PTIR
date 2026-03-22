@@ -1,5 +1,5 @@
 ---
-title: "Relation Transformer Network"
+title: "[43] Relation Transformer Network"
 date: 2022-08-01
 tags: ['2020Q2', 'SGG', 'graph']
 paper: "https://arxiv.org/pdf/2004.06193.pdf"

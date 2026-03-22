@@ -1,5 +1,5 @@
 ---
-title: "Evaluations for Object Hallucinations "
+title: "[174] Evaluations for Object Hallucinations "
 date: 2024-09-02
 tags: ['survey', 'evaluation', 'MLLM']
 paper: ""

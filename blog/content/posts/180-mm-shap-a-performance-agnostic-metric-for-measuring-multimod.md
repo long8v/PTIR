@@ -1,5 +1,5 @@
 ---
-title: "MM-SHAP: A Performance-agnostic Metric for Measuring Multimodal Contributions in Vision and Language Models & Tasks"
+title: "[161] MM-SHAP: A Performance-agnostic Metric for Measuring Multimodal Contributions in Vision and Language Models & Tasks"
 date: 2024-07-09
 tags: ['25min', '2022Q4', 'XAI', 'ACL']
 paper: "https://arxiv.org/pdf/2212.08158"

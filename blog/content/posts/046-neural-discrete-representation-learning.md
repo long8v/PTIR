@@ -1,5 +1,5 @@
 ---
-title: "Neural Discrete Representation Learning"
+title: "[40] Neural Discrete Representation Learning"
 date: 2022-07-30
 tags: ['DeepMind', '2017', 'generative']
 paper: "https://arxiv.org/pdf/1711.00937.pdf"

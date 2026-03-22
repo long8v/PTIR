@@ -1,5 +1,5 @@
 ---
-title: "“This is my unicorn, Fluffy”: Personalizing frozen vision-language representations"
+title: "[74] “This is my unicorn, Fluffy”: Personalizing frozen vision-language representations"
 date: 2022-11-04
 tags: ['dataset', '2022Q3', '25min', 'ECCV', 'nvidia', 'CLIP']
 paper: "https://arxiv.org/pdf/2204.01694.pdf"

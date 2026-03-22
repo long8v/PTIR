@@ -1,5 +1,5 @@
 ---
-title: "LLaVA-OneVision: Easy Visual Task Transfer"
+title: "[185] LLaVA-OneVision: Easy Visual Task Transfer"
 date: 2024-11-12
 tags: ['25min', 'MLLM', '2024Q4']
 paper: "https://arxiv.org/pdf/2408.03326"

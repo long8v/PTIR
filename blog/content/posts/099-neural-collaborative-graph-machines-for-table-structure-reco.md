@@ -1,5 +1,5 @@
 ---
-title: "Neural Collaborative Graph Machines for Table Structure Recognition"
+title: "[90] Neural Collaborative Graph Machines for Table Structure Recognition"
 date: 2022-12-22
 tags: ['2021Q4', 'CVPR', 'graph', 'document']
 paper: "https://arxiv.org/abs/2111.13359"

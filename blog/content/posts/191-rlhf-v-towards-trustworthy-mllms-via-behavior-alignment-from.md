@@ -1,5 +1,5 @@
 ---
-title: "RLHF-V: Towards Trustworthy MLLMs via Behavior Alignment from Fine-grained Correctional Human Feedback"
+title: "[172] RLHF-V: Towards Trustworthy MLLMs via Behavior Alignment from Fine-grained Correctional Human Feedback"
 date: 2024-08-30
 tags: ['CVPR', 'RL', 'MLLM', '2024Q2']
 paper: "https://arxiv.org/abs/2312.00849"

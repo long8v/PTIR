@@ -1,5 +1,5 @@
 ---
-title: "CALIP: Zero-Shot Enhancement of CLIP with Parameter-free Attention"
+title: "[162] CALIP: Zero-Shot Enhancement of CLIP with Parameter-free Attention"
 date: 2024-07-11
 tags: ['AAAI', '2022Q3', '25min', 'CLIP']
 paper: "https://arxiv.org/abs/2209.14169"

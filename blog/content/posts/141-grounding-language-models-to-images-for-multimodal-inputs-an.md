@@ -1,5 +1,5 @@
 ---
-title: "Grounding Language Models to Images for Multimodal Inputs and Outputs"
+title: "[129] Grounding Language Models to Images for Multimodal Inputs and Outputs"
 date: 2023-09-04
 tags: ['ICML', '25min', '2023Q1', 'CMU']
 paper: "https://arxiv.org/pdf/2301.13823.pdf"

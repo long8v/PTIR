@@ -1,5 +1,5 @@
 ---
-title: "Hyperbolic Image-Text Representations"
+title: "[132] Hyperbolic Image-Text Representations"
 date: 2023-09-26
 tags: ['ICML', 'CLIP', '2023Q2', 'meta']
 paper: "https://arxiv.org/abs/2304.09172"

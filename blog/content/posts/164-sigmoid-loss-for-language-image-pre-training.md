@@ -1,5 +1,5 @@
 ---
-title: "Sigmoid Loss for Language Image Pre-Training"
+title: "[152] Sigmoid Loss for Language Image Pre-Training"
 date: 2024-03-12
 tags: ['25min', 'CLIP', '2023Q1']
 paper: "https://arxiv.org/ftp/arxiv/papers/2303/2303.15343.pdf"

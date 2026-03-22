@@ -1,5 +1,5 @@
 ---
-title: "ReFormer: The Relational Transformer for Image Captioning"
+title: "[46] ReFormer: The Relational Transformer for Image Captioning"
 date: 2022-08-03
 tags: ['SGG', '2021Q3', 'captioning']
 paper: "https://arxiv.org/pdf/2107.14178.pdf"

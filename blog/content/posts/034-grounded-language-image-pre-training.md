@@ -1,5 +1,5 @@
 ---
-title: "Grounded Language-Image Pre-training"
+title: "[29] Grounded Language-Image Pre-training"
 date: 2022-06-21
 tags: ['multimodal', '2021Q4', 'few-shot', 'zero-shot', 'microsoft', 'object detection']
 paper: "https://arxiv.org/abs/2112.03857"

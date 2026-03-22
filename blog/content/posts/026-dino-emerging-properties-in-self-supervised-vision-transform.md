@@ -1,5 +1,5 @@
 ---
-title: "DINO: Emerging Properties in Self-Supervised Vision Transformers"
+title: "[24] DINO: Emerging Properties in Self-Supervised Vision Transformers"
 date: 2022-04-26
 tags: ['ViT', 'SSL', '2021Q2', 'facebook']
 paper: "https://arxiv.org/pdf/2104.14294.pdf"

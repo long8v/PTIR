@@ -1,5 +1,5 @@
 ---
-title: "Counterfactual Memorization in Neural Language Models"
+title: "[16] Counterfactual Memorization in Neural Language Models"
 date: 2022-03-25
 tags: ['NLP', '2021Q4', 'privacy', 'LM']
 paper: "https://arxiv.org/pdf/2112.12938.pdf"

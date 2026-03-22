@@ -1,5 +1,5 @@
 ---
-title: "InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets"
+title: "[53] InfoGAN: Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets"
 date: 2022-08-20
 tags: ['openAI', '2016', 'fundamental', 'generative']
 paper: "https://arxiv.org/abs/1606.03657"

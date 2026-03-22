@@ -1,5 +1,5 @@
 ---
-title: "Aligning Large Multimodal Models with Factually Augmented RLHF"
+title: "[179] Aligning Large Multimodal Models with Factually Augmented RLHF"
 date: 2024-09-25
 tags: ['25min', 'RL', '2023Q3', 'MLLM', 'Berkley']
 paper: "https://arxiv.org/abs/2309.14525"

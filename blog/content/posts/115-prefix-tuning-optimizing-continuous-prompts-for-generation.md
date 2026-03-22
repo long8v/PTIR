@@ -1,5 +1,5 @@
 ---
-title: "Prefix-Tuning: Optimizing Continuous Prompts for Generation"
+title: "[106] Prefix-Tuning: Optimizing Continuous Prompts for Generation"
 date: 2023-03-28
 tags: ['2021Q1', '25min', 'finetuning', 'LLM', 'ACL']
 paper: "https://aclanthology.org/2021.acl-long.353.pdf"

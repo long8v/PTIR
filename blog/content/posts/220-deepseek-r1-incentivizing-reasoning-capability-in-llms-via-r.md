@@ -1,5 +1,5 @@
 ---
-title: "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning"
+title: "[199] DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning"
 date: 2025-01-24
 tags: ['RL', 'reasoning', '2025Q1']
 paper: "https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf"

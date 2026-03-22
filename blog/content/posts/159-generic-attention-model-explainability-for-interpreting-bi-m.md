@@ -1,5 +1,5 @@
 ---
-title: "Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers"
+title: "[147] Generic Attention-model Explainability for Interpreting Bi-Modal and Encoder-Decoder Transformers"
 date: 2024-02-07
 tags: ['ICCV', '2021Q1', 'XAI']
 paper: "https://arxiv.org/pdf/2103.15679.pdf"

@@ -1,5 +1,5 @@
 ---
-title: "Improve Vision Language Model Chain-of-thought Reasoning"
+title: "[184] Improve Vision Language Model Chain-of-thought Reasoning"
 date: 2024-10-29
 tags: ['CMU', 'MLLM', '2024Q3']
 paper: "https://arxiv.org/abs/2410.16198"

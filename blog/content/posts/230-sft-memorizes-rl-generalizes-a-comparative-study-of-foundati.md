@@ -1,5 +1,5 @@
 ---
-title: "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training"
+title: "[209] SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training"
 date: 2025-05-21
 tags: ['google', 'RL', 'Berkley', '2025Q1']
 paper: "https://arxiv.org/pdf/2501.17161#page=11&zoom=100,384,536"

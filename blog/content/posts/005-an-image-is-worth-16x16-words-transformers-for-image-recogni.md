@@ -1,5 +1,5 @@
 ---
-title: "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
+title: "[5] An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale"
 date: 2022-01-13
 tags: ['ViT', 'backbone', '2021Q1', 're-read']
 paper: "https://arxiv.org/pdf/2010.11929.pdf"

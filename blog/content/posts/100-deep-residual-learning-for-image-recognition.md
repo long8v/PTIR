@@ -1,5 +1,5 @@
 ---
-title: "Deep Residual Learning for Image Recognition"
+title: "[91] Deep Residual Learning for Image Recognition"
 date: 2022-12-25
 tags: ['fundamental', 'microsoft', '2015']
 paper: "https://arxiv.org/abs/1512.03385"

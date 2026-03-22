@@ -1,5 +1,5 @@
 ---
-title: "Skywork R1V: Pioneering Multimodal Reasoning with Chain-of-Thought"
+title: "[211] Skywork R1V: Pioneering Multimodal Reasoning with Chain-of-Thought"
 date: 2025-07-02
 tags: ['MLLM', 'reasoning', '2025Q2']
 paper: "https://arxiv.org/abs/2504.05599"

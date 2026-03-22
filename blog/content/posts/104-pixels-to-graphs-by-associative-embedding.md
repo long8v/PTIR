@@ -1,5 +1,5 @@
 ---
-title: "Pixels to Graphs by Associative Embedding"
+title: "[95] Pixels to Graphs by Associative Embedding"
 date: 2023-01-04
 tags: ['NeurIPS', '2017', 'SGG', 'one-stage']
 paper: "https://arxiv.org/pdf/1706.07365.pdf"

@@ -1,5 +1,5 @@
 ---
-title: "Open-Vocabulary DETR with Conditional Matching"
+title: "[64] Open-Vocabulary DETR with Conditional Matching"
 date: 2022-09-16
 tags: ['2022Q1', 'object detection', 'ECCV', 'OV']
 paper: "https://arxiv.org/pdf/2203.11876.pdf"

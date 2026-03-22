@@ -1,5 +1,5 @@
 ---
-title: "Transformers without Tears: Improving the Normalization of Self-Attention"
+title: "[22] Transformers without Tears: Improving the Normalization of Self-Attention"
 date: 2022-04-21
 tags: ['NLP', '2019', 'fundamental', 'norm']
 paper: ""

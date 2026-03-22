@@ -1,5 +1,5 @@
 ---
-title: "Long-tail Detection with Effective Class-Margins"
+title: "[76] Long-tail Detection with Effective Class-Margins"
 date: 2022-11-08
 tags: ['2022Q3', 'imbalance', 'ECCV']
 paper: "https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136680684.pdf"

@@ -1,5 +1,5 @@
 ---
-title: "🦩 Flamingo: a Visual Language Model for Few-Shot Learning"
+title: "[109] 🦩 Flamingo: a Visual Language Model for Few-Shot Learning"
 date: 2023-04-10
 tags: ['multimodal', 'DeepMind', 'LLM']
 paper: "https://arxiv.org/pdf/2204.14198.pdf"

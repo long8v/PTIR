@@ -1,5 +1,5 @@
 ---
-title: "Free Process Rewards without Process Labels"
+title: "[197] Free Process Rewards without Process Labels"
 date: 2025-01-20
 tags: ['25min', 'RL', '2024Q4']
 paper: "https://arxiv.org/abs/2412.01981"

@@ -1,5 +1,5 @@
 ---
-title: "Proximal Policy Optimization Algorithms"
+title: "[168] Proximal Policy Optimization Algorithms"
 date: 2024-08-21
 tags: ['2017', 'RL']
 paper: "https://arxiv.org/pdf/1707.06347"

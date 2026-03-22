@@ -1,5 +1,5 @@
 ---
-title: "Cross-Domain Few-Shot Classification via Learned Feature-Wise Transformation"
+title: "[27] Cross-Domain Few-Shot Classification via Learned Feature-Wise Transformation"
 date: 2022-05-23
 tags: ['few-shot', '2020Q1', 'ICLR']
 paper: "https://arxiv.org/pdf/2001.08735.pdf"

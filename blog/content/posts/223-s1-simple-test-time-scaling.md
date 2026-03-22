@@ -1,5 +1,5 @@
 ---
-title: "s1: Simple test-time scaling"
+title: "[202] s1: Simple test-time scaling"
 date: 2025-02-10
 tags: ['25min', 'test-time-scaling', 'reasoning', '2025Q1']
 paper: "https://arxiv.org/pdf/2501.19393"

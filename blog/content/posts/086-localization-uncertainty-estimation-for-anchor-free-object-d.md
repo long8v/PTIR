@@ -1,5 +1,5 @@
 ---
-title: "Localization Uncertainty Estimation for Anchor-Free Object Detection"
+title: "[78] Localization Uncertainty Estimation for Anchor-Free Object Detection"
 date: 2022-11-10
 tags: ['2020Q2', '25min', 'uncertainty']
 paper: "https://arxiv.org/pdf/2006.15607.pdf"

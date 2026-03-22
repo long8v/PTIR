@@ -1,5 +1,5 @@
 ---
-title: "MultiMath: Bridging Visual and Mathematical Reasoning for Large Language Models"
+title: "[183] MultiMath: Bridging Visual and Mathematical Reasoning for Large Language Models"
 date: 2024-10-24
 tags: ['MLLM', '2024Q3', 'STEM']
 paper: "https://arxiv.org/abs/2409.00147"

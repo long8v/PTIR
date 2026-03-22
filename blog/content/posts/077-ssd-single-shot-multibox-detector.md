@@ -1,5 +1,5 @@
 ---
-title: "SSD: Single Shot MultiBox Detector"
+title: "[70] SSD: Single Shot MultiBox Detector"
 date: 2022-10-12
 tags: ['object detection', '2015']
 paper: "https://arxiv.org/pdf/1512.02325.pdf"

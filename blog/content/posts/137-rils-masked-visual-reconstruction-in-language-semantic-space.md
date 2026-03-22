@@ -1,5 +1,5 @@
 ---
-title: "RILS: Masked Visual Reconstruction in Language Semantic Space"
+title: "[125] RILS: Masked Visual Reconstruction in Language Semantic Space"
 date: 2023-08-02
 tags: ['CVPR', 'CLIP', '2023Q1']
 paper: "https://arxiv.org/pdf/2301.06958.pdf"

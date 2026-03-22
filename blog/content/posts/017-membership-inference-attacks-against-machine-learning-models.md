@@ -1,5 +1,5 @@
 ---
-title: "Membership Inference Attacks Against Machine Learning Models"
+title: "[17] Membership Inference Attacks Against Machine Learning Models"
 date: 2022-03-28
 tags: ['privacy', '2016']
 paper: "https://arxiv.org/pdf/1610.05820.pdf"

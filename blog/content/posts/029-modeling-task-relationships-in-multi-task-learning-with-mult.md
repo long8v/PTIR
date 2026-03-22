@@ -1,5 +1,5 @@
 ---
-title: "Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts"
+title: "[26] Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts"
 date: 2022-05-13
 tags: ['2018', 'MoE', 'KDD']
 paper: "https://dl.acm.org/doi/pdf/10.1145/3219819.3220007"

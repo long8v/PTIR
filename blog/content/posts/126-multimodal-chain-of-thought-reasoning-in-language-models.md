@@ -1,5 +1,5 @@
 ---
-title: "Multimodal Chain-of-Thought Reasoning in Language Models"
+title: "[117] Multimodal Chain-of-Thought Reasoning in Language Models"
 date: 2023-06-07
 tags: ['multimodal', '2023Q1']
 paper: "https://arxiv.org/abs/2302.00923"

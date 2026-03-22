@@ -1,5 +1,5 @@
 ---
-title: "Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations"
+title: "[196] Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations"
 date: 2025-01-17
 tags: ['ACL', 'RL', '2023Q4', 'reasoning']
 paper: "https://arxiv.org/abs/2312.08935"

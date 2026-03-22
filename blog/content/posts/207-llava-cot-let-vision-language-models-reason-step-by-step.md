@@ -1,5 +1,5 @@
 ---
-title: "LLaVA-CoT: Let Vision Language Models Reason Step-by-Step"
+title: "[188] LLaVA-CoT: Let Vision Language Models Reason Step-by-Step"
 date: 2024-12-02
 tags: ['MLLM', '2024Q4']
 paper: "https://arxiv.org/abs/2411.10440"

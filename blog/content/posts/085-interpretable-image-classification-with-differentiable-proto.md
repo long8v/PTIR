@@ -1,5 +1,5 @@
 ---
-title: "Interpretable Image Classification with Differentiable Prototype Assignment"
+title: "[77] Interpretable Image Classification with Differentiable Prototype Assignment"
 date: 2022-11-09
 tags: ['2022Q3', 'ECCV', 'XAI']
 paper: "https://arxiv.org/abs/2112.02902"

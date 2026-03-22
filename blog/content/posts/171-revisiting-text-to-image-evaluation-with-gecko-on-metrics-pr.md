@@ -1,5 +1,5 @@
 ---
-title: "Revisiting Text-to-Image Evaluation with Gecko: On Metrics, Prompts, and Human Ratings"
+title: "[155] Revisiting Text-to-Image Evaluation with Gecko: On Metrics, Prompts, and Human Ratings"
 date: 2024-05-03
 tags: ['google', 'evaluation', 'generation', '2024Q2']
 paper: "https://arxiv.org/pdf/2404.16820"

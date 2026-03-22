@@ -1,5 +1,5 @@
 ---
-title: "A Mathematical Framework for Transformer Circuits"
+title: "[158] A Mathematical Framework for Transformer Circuits"
 date: 2024-05-09
 tags: ['2021Q4', 'XAI', 'anthropic']
 paper: "https://transformer-circuits.pub/2021/framework/index.html"

@@ -1,5 +1,5 @@
 ---
-title: "Improved Baselines with Visual Instruction Tuning"
+title: "[140] Improved Baselines with Visual Instruction Tuning"
 date: 2023-12-12
 tags: ['multimodal', 'LLM', '2023Q3', 'MLLM']
 paper: "https://arxiv.org/pdf/2310.03744.pdf"

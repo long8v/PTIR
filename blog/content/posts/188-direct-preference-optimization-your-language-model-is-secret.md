@@ -1,5 +1,5 @@
 ---
-title: "Direct Preference Optimization: Your Language Model is Secretly a Reward Model"
+title: "[169] Direct Preference Optimization: Your Language Model is Secretly a Reward Model"
 date: 2024-08-26
 tags: ['2023Q2', 'RL']
 paper: "https://arxiv.org/abs/2305.18290"

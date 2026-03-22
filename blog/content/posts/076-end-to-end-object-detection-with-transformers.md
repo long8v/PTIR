@@ -1,5 +1,5 @@
 ---
-title: "End-to-End Object Detection with Transformers"
+title: "[69] End-to-End Object Detection with Transformers"
 date: 2022-10-07
 tags: ['facebook', '2020Q2', 'object detection', 're-read']
 paper: "https://arxiv.org/pdf/2005.12872.pdf"

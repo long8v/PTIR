@@ -1,5 +1,5 @@
 ---
-title: "Phantom of Latent for Large Language and Vision Models"
+title: "[180] Phantom of Latent for Large Language and Vision Models"
 date: 2024-09-30
 tags: ['MLLM', '2024Q3']
 paper: "https://github.com/ByungKwanLee/Phantom/tree/master"

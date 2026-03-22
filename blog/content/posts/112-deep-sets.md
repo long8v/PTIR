@@ -1,5 +1,5 @@
 ---
-title: "Deep Sets"
+title: "[103] Deep Sets"
 date: 2023-03-20
 tags: ['NeurIPS', '2017']
 paper: "https://arxiv.org/pdf/1703.06114.pdf"

@@ -1,5 +1,5 @@
 ---
-title: "ALOHa: A New Measure for Hallucination in Captioning Models"
+title: "[160] ALOHa: A New Measure for Hallucination in Captioning Models"
 date: 2024-06-15
 tags: ['evaluation', '2024Q2', 'NAACL']
 paper: "https://arxiv.org/pdf/2404.02904"

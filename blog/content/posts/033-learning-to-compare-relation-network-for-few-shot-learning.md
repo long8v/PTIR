@@ -1,5 +1,5 @@
 ---
-title: "Learning to Compare: Relation Network for Few-Shot Learning"
+title: "[28] Learning to Compare: Relation Network for Few-Shot Learning"
 date: 2022-05-31
 tags: ['few-shot', 'zero-shot', '2018', 'CVPR']
 paper: "https://arxiv.org/abs/1711.06025"

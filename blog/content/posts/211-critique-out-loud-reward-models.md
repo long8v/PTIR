@@ -1,5 +1,5 @@
 ---
-title: "Critique-out-Loud Reward Models"
+title: "[191] Critique-out-Loud Reward Models"
 date: 2024-12-17
 tags: ['AllenAI', 'LLM', 'RL', '2024Q3']
 paper: "https://arxiv.org/abs/2408.11791"

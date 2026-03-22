@@ -1,5 +1,5 @@
 ---
-title: "DiffusionDet: Diffusion Model for Object Detection"
+title: "[84] DiffusionDet: Diffusion Model for Object Detection"
 date: 2022-11-29
 tags: ['object detection', 'generative', '2022Q4']
 paper: "https://arxiv.org/abs/2211.09788"

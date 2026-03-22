@@ -1,5 +1,5 @@
 ---
-title: "Multimodal Explanations: Justifying Decisions and Pointing to the Evidence"
+title: "[19] Multimodal Explanations: Justifying Decisions and Pointing to the Evidence"
 date: 2022-04-06
 tags: ['multimodal', '2018', 'dataset']
 paper: "https://arxiv.org/pdf/1802.08129.pdf"

@@ -1,5 +1,5 @@
 ---
-title: "DALL-E : Zero-Shot Text-to-Image Generation"
+title: "[11] DALL-E : Zero-Shot Text-to-Image Generation"
 date: 2022-02-07
 tags: ['multimodal', '2021Q1', 'zero-shot', 'openAI']
 paper: "https://arxiv.org/pdf/2102.12092.pdf"

@@ -1,5 +1,5 @@
 ---
-title: "LeGrad: An Explainability Method for Vision Transformers via Feature Formation Sensitivity"
+title: "[157] LeGrad: An Explainability Method for Vision Transformers via Feature Formation Sensitivity"
 date: 2024-05-06
 tags: ['CLIP', 'XAI', '2024Q2']
 paper: "https://arxiv.org/pdf/2404.03214"

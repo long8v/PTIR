@@ -1,5 +1,5 @@
 ---
-title: "Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models"
+title: "[206] Vision-R1: Incentivizing Reasoning Capability in Multimodal Large Language Models"
 date: 2025-03-12
 tags: ['25min', 'RL', 'MLLM', '2025Q1']
 paper: "https://arxiv.org/abs/2503.06749"

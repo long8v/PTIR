@@ -1,5 +1,5 @@
 ---
-title: "Detecting and Preventing Hallucinations in Large Vision Language Models"
+title: "[173] Detecting and Preventing Hallucinations in Large Vision Language Models"
 date: 2024-08-30
 tags: ['AAAI', 'RL', '2023Q3', 'MLLM', 'ScaleAI']
 paper: "https://arxiv.org/pdf/2308.06394"

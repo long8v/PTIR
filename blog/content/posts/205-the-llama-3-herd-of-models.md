@@ -1,5 +1,5 @@
 ---
-title: "The Llama 3 Herd of Models "
+title: "[186] The Llama 3 Herd of Models "
 date: 2024-11-15
 tags: ['LLM', 'meta', '2024Q3']
 paper: "https://scontent-nrt1-1.xx.fbcdn.net/v/t39.2365-6/463020162_522238820565582_8192401983671993921_n.pdf?_nc_cat=108&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=6V_W4zoVlq0Q7kNvgHWuJ7j&_nc_zt=14&_nc_ht=scontent-nrt1-1.xx&_nc_gid=AyU86C3DYuf-4PmOosJFbYv&oh=00_AYDGekjv4Wb1d1PVWmRzuYLeVW9wLE9u4YJKFjCuah0Dew&oe=673CC719"

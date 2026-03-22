@@ -1,5 +1,5 @@
 ---
-title: "What Regularized Auto-Encoders Learn from the Data Generating Distribution"
+title: "[34] What Regularized Auto-Encoders Learn from the Data Generating Distribution"
 date: 2022-07-16
 tags: ['fundamental', '2012', 'generative']
 paper: "https://arxiv.org/pdf/1211.4246.pdf"

@@ -1,5 +1,5 @@
 ---
-title: "Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics"
+title: "[101] Multi-Task Learning Using Uncertainty to Weigh Losses for Scene Geometry and Semantics"
 date: 2023-01-31
 tags: ['2017', 'uncertainty', 'MTL']
 paper: "https://arxiv.org/pdf/1705.07115.pdf"

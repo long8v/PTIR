@@ -1,5 +1,5 @@
 ---
-title: "Asynchronous Methods for Deep Reinforcement Learning"
+title: "[134] Asynchronous Methods for Deep Reinforcement Learning"
 date: 2023-10-18
 tags: ['2016', 'DeepMind', 'RL']
 paper: "https://arxiv.org/pdf/1602.01783.pdf"

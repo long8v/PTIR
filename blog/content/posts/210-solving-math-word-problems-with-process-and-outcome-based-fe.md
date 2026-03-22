@@ -1,5 +1,5 @@
 ---
-title: "Solving math word problems with process and outcome-based feedback"
+title: "[190] Solving math word problems with process and outcome-based feedback"
 date: 2024-12-16
 tags: ['DeepMind', '2022Q4', 'RL']
 paper: "https://arxiv.org/abs/2211.14275"

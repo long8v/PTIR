@@ -1,5 +1,5 @@
 ---
-title: "Iterative Scene Graph Generation"
+title: "[68] Iterative Scene Graph Generation"
 date: 2022-10-05
 tags: ['SGG', '2022Q3', 'one-stage']
 paper: "https://arxiv.org/pdf/2207.13440.pdf"

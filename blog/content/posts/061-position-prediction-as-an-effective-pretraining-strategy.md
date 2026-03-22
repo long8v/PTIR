@@ -1,5 +1,5 @@
 ---
-title: "Position Prediction as an Effective Pretraining Strategy"
+title: "[55] Position Prediction as an Effective Pretraining Strategy"
 date: 2022-08-26
 tags: ['ViT', 'PE', '2022Q2', '25min', 'apple']
 paper: "https://arxiv.org/pdf/2207.07611.pdf"

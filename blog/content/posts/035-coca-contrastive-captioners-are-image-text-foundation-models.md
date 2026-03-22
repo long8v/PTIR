@@ -1,5 +1,5 @@
 ---
-title: "CoCa: Contrastive Captioners are Image-Text Foundation Models"
+title: "[30] CoCa: Contrastive Captioners are Image-Text Foundation Models"
 date: 2022-06-22
 tags: ['multimodal', 'backbone', 'google', '2022Q2']
 paper: "https://arxiv.org/pdf/2205.01917.pdf"

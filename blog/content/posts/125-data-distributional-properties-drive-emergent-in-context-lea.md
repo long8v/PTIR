@@ -1,5 +1,5 @@
 ---
-title: "Data Distributional Properties Drive Emergent In-Context Learning in Transformers"
+title: "[116] Data Distributional Properties Drive Emergent In-Context Learning in Transformers"
 date: 2023-05-22
 tags: ['DeepMind', 'NeurIPS', '2022Q2']
 paper: "https://arxiv.org/abs/2205.05055"

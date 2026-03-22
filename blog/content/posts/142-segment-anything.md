@@ -1,5 +1,5 @@
 ---
-title: "Segment Anything "
+title: "[130] Segment Anything "
 date: 2023-09-04
 tags: ['segmentation', '2023Q2', 'meta']
 paper: "https://arxiv.org/pdf/2304.02643.pdf"

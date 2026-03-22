@@ -1,5 +1,5 @@
 ---
-title: "FastCuRL: Curriculum Reinforcement Learning with Progressive Context Extension for Efficient Training R1-like Reasoning Models"
+title: "[208] FastCuRL: Curriculum Reinforcement Learning with Progressive Context Extension for Efficient Training R1-like Reasoning Models"
 date: 2025-03-27
 tags: ['25min', 'RL', '2025Q1']
 paper: "https://arxiv.org/abs/2503.17287"

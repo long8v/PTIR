@@ -1,5 +1,5 @@
 ---
-title: "Crossing the Format Boundary of Text and Boxes: Towards Unified Vision-Language Modeling"
+title: "[6] Crossing the Format Boundary of Text and Boxes: Towards Unified Vision-Language Modeling"
 date: 2022-01-18
 tags: ['multimodal', '2021Q4', 'backbone', 'multitask']
 paper: ""

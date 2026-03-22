@@ -1,5 +1,5 @@
 ---
-title: "Generative Adversarial Networks"
+title: "[50] Generative Adversarial Networks"
 date: 2022-08-13
 tags: ['fundamental', 'generative', 're-read', '2014']
 paper: "https://arxiv.org/abs/1406.2661"

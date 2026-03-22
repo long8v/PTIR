@@ -1,5 +1,5 @@
 ---
-title: "Understanding the Role of Self Attention for Efficient Speech Recognition"
+title: "[110] Understanding the Role of Self Attention for Efficient Speech Recognition"
 date: 2023-04-17
 tags: ['2022Q1', 'ICLR', '25min', 'transformer']
 paper: "https://openreview.net/pdf?id=AvcfxqRy4Y"

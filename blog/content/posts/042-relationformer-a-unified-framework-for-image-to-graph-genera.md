@@ -1,5 +1,5 @@
 ---
-title: "Relationformer: A Unified Framework for Image-to-Graph Generation"
+title: "[37] Relationformer: A Unified Framework for Image-to-Graph Generation"
 date: 2022-07-21
 tags: ['2022Q1', 'SGG', 'graph', 'one-stage', 'ECCV']
 paper: "https://arxiv.org/pdf/2203.10202.pdf"

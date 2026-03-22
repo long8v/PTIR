@@ -1,5 +1,5 @@
 ---
-title: "Simple Open-Vocabulary Object Detection with Vision Transformers"
+title: "[73] Simple Open-Vocabulary Object Detection with Vision Transformers"
 date: 2022-11-03
 tags: ['google', 'object detection', '2022Q2', '25min', 'ECCV', 'OV']
 paper: "https://arxiv.org/abs/2205.06230"

@@ -1,5 +1,5 @@
 ---
-title: "Context-Aware Scene Graph Generation With Seq2Seq Transformers"
+title: "[44] Context-Aware Scene Graph Generation With Seq2Seq Transformers"
 date: 2022-08-02
 tags: ['ICCV', '2021Q4', 'SGG', 'graph']
 paper: "https://openaccess.thecvf.com/content/ICCV2021/papers/Lu_Context-Aware_Scene_Graph_Generation_With_Seq2Seq_Transformers_ICCV_2021_paper.pdf"

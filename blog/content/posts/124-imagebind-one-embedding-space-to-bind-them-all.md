@@ -1,5 +1,5 @@
 ---
-title: "ImageBind: One Embedding Space To Bind Them All"
+title: "[115] ImageBind: One Embedding Space To Bind Them All"
 date: 2023-05-16
 tags: ['multimodal', '25min', '2023Q2', 'meta']
 paper: "http://facebookresearch.github.io/ImageBind/paper"

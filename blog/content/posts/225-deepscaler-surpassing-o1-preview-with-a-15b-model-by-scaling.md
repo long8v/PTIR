@@ -1,5 +1,5 @@
 ---
-title: "DeepScaleR: Surpassing O1-Preview with a 1.5B Model by Scaling RL"
+title: "[204] DeepScaleR: Surpassing O1-Preview with a 1.5B Model by Scaling RL"
 date: 2025-02-19
 tags: ['25min', 'RL', 'reasoning', '2025Q1']
 paper: ""

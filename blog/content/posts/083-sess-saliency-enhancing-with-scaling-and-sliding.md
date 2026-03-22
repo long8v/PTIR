@@ -1,5 +1,5 @@
 ---
-title: "SESS: Saliency Enhancing with Scaling and Sliding"
+title: "[75] SESS: Saliency Enhancing with Scaling and Sliding"
 date: 2022-11-08
 tags: ['2022Q3', '25min', 'ECCV', 'XAI']
 paper: "https://arxiv.org/abs/2207.01769"

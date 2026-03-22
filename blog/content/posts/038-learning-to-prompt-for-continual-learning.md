@@ -1,5 +1,5 @@
 ---
-title: "Learning to Prompt for Continual Learning"
+title: "[33] Learning to Prompt for Continual Learning"
 date: 2022-07-13
 tags: ['2021Q4', 'google', 'CVPR', 'continual learning']
 paper: "https://arxiv.org/pdf/2112.08654.pdf"

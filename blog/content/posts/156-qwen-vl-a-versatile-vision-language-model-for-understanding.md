@@ -1,5 +1,5 @@
 ---
-title: "Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond"
+title: "[144] Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond"
 date: 2023-12-26
 tags: ['multilingual', 'alibaba', '2023Q3', 'MLLM', 'qwen']
 paper: "https://arxiv.org/pdf/2308.12966.pdf"

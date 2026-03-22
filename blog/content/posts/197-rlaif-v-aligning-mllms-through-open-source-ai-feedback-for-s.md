@@ -1,5 +1,5 @@
 ---
-title: "RLAIF-V: Aligning MLLMs through Open-Source AI Feedback for Super GPT-4V Trustworthiness"
+title: "[178] RLAIF-V: Aligning MLLMs through Open-Source AI Feedback for Super GPT-4V Trustworthiness"
 date: 2024-09-23
 tags: ['RL', 'MLLM', '2024Q2']
 paper: "https://arxiv.org/pdf/2405.17220"

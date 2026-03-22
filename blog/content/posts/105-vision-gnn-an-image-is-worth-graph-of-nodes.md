@@ -1,5 +1,5 @@
 ---
-title: "Vision GNN: An Image is Worth Graph of Nodes"
+title: "[96] Vision GNN: An Image is Worth Graph of Nodes"
 date: 2023-01-05
 tags: ['backbone', '2022Q1', 'NeurIPS', 'graph']
 paper: "https://arxiv.org/pdf/2206.00272.pdf"

@@ -1,5 +1,5 @@
 ---
-title: "PaLI-X: On Scaling up a Multilingual Vision and Language Model"
+title: "[118] PaLI-X: On Scaling up a Multilingual Vision and Language Model"
 date: 2023-06-08
 tags: ['multimodal', 'google', '2023Q2']
 paper: "https://arxiv.org/pdf/2305.18565.pdf"

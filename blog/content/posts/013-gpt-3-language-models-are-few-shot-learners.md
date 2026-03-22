@@ -1,5 +1,5 @@
 ---
-title: "GPT-3 : Language Models are Few-Shot Learners"
+title: "[13] GPT-3 : Language Models are Few-Shot Learners"
 date: 2022-02-21
 tags: ['NLP', 'few-shot', 'zero-shot', 'openAI', '2020Q2']
 paper: ""

@@ -1,5 +1,5 @@
 ---
-title: "BBPE: Neural Machine Translation with Byte-Level Subwords"
+title: "[12] BBPE: Neural Machine Translation with Byte-Level Subwords"
 date: 2022-02-18
 tags: ['NLP', '2019', 'tokenizing', 'facebook', 'AAAI']
 paper: "https://arxiv.org/pdf/1909.03341.pdf"

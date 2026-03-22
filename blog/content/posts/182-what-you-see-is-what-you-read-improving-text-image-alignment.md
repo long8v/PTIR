@@ -1,5 +1,5 @@
 ---
-title: "What You See is What You Read? Improving Text-Image Alignment Evaluation"
+title: "[163] What You See is What You Read? Improving Text-Image Alignment Evaluation"
 date: 2024-07-18
 tags: ['google', 'NeurIPS', '2023Q2', 'evaluation']
 paper: "https://arxiv.org/abs/2305.10400"

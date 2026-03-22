@@ -1,5 +1,5 @@
 ---
-title: "DataComp: In search of the next generation of multimodal datasets"
+title: "[133] DataComp: In search of the next generation of multimodal datasets"
 date: 2023-10-05
 tags: ['dataset', 'CLIP', '2023Q2']
 paper: "https://arxiv.org/pdf/2304.14108.pdf"

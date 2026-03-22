@@ -1,5 +1,5 @@
 ---
-title: "Advancing Language Model Reasoning through Reinforcement Learning and Inference Scaling"
+title: "[200] Advancing Language Model Reasoning through Reinforcement Learning and Inference Scaling"
 date: 2025-02-03
 tags: ['25min', 'RL', '2025Q1', 'THU']
 paper: "https://arxiv.org/abs/2501.11651"

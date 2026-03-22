@@ -1,5 +1,5 @@
 ---
-title: "Contrastive Language-Image Pre-Training with Knowledge Graph"
+title: "[97] Contrastive Language-Image Pre-Training with Knowledge Graph"
 date: 2023-01-12
 tags: ['multimodal', 'NeurIPS', 'graph', '2022Q4', 'CLIP']
 paper: "https://arxiv.org/pdf/2210.08901.pdf"

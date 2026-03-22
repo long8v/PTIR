@@ -1,5 +1,5 @@
 ---
-title: "Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning"
+title: "[23] Bootstrap Your Own Latent: A New Approach to Self-Supervised Learning"
 date: 2022-04-25
 tags: ['SSL', '2020Q2', 'google', 'DeepMind']
 paper: "https://arxiv.org/pdf/2006.07733.pdf"

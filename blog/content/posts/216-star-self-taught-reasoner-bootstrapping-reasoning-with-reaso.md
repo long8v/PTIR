@@ -1,5 +1,5 @@
 ---
-title: "STaR: Self-Taught Reasoner Bootstrapping Reasoning With Reasoning"
+title: "[195] STaR: Self-Taught Reasoner Bootstrapping Reasoning With Reasoning"
 date: 2025-01-09
 tags: ['2022Q1', 'google', '25min', 'reasoning']
 paper: "https://arxiv.org/abs/2203.14465"

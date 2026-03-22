@@ -1,5 +1,5 @@
 ---
-title: "Sparse DETR: Efficient End-to-End Object Detection with Learnable Sparsity"
+title: "[72] Sparse DETR: Efficient End-to-End Object Detection with Learnable Sparsity"
 date: 2022-10-20
 tags: ['2021Q4', 'ICLR', 'object detection', 'sparse', 'kakao']
 paper: "https://arxiv.org/abs/2111.14330"

@@ -1,5 +1,5 @@
 ---
-title: "BGT-Net: Bidirectional GRU Transformer Network for Scene Graph Generation"
+title: "[45] BGT-Net: Bidirectional GRU Transformer Network for Scene Graph Generation"
 date: 2022-08-03
 tags: ['2021Q4', 'SGG', 'graph']
 paper: "https://arxiv.org/pdf/2109.05346.pdf"

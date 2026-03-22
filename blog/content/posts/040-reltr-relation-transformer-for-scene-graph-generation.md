@@ -1,5 +1,5 @@
 ---
-title: "RelTR: Relation Transformer for Scene Graph Generation"
+title: "[35] RelTR: Relation Transformer for Scene Graph Generation"
 date: 2022-07-18
 tags: ['2022Q1', 'SGG', 'graph', 'one-stage']
 paper: "https://arxiv.org/pdf/2201.11460.pdf"

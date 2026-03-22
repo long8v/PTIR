@@ -1,5 +1,5 @@
 ---
-title: "Calibrated Self-Rewarding Vision Language Models"
+title: "[182] Calibrated Self-Rewarding Vision Language Models"
 date: 2024-10-10
 tags: ['NeurIPS', '25min', 'RL', 'MLLM', '2024Q2']
 paper: "https://arxiv.org/abs/2405.14622"

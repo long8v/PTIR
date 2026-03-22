@@ -1,5 +1,5 @@
 ---
-title: "GIT: A Generative Image-to-text Transformer for Vision and Language"
+title: "[31] GIT: A Generative Image-to-text Transformer for Vision and Language"
 date: 2022-06-26
 tags: ['multimodal', 'microsoft', '2022Q2']
 paper: "https://arxiv.org/pdf/2205.14100.pdf"

@@ -1,5 +1,5 @@
 ---
-title: "SGTR: End-to-end Scene Graph Generation with Transformer"
+title: "[36] SGTR: End-to-end Scene Graph Generation with Transformer"
 date: 2022-07-19
 tags: ['2022Q1', 'CVPR', 'SGG', 'graph', 'one-stage']
 paper: "https://openaccess.thecvf.com/content/CVPR2022/papers/Li_SGTR_End-to-End_Scene_Graph_Generation_With_Transformer_CVPR_2022_paper.pdf"

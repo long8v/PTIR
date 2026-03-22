@@ -1,5 +1,5 @@
 ---
-title: "ELSA: Enhanced Local Self-Attention for Vision Transformer"
+title: "[2] ELSA: Enhanced Local Self-Attention for Vision Transformer"
 date: 2022-01-07
 tags: ['2021Q4', 'ViT', 'attention']
 paper: "https://arxiv.org/pdf/2112.12786v1.pdf"

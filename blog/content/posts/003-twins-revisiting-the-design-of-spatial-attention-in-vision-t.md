@@ -1,5 +1,5 @@
 ---
-title: "Twins: Revisiting the Design of Spatial Attention in Vision Transformers"
+title: "[3] Twins: Revisiting the Design of Spatial Attention in Vision Transformers"
 date: 2022-01-10
 tags: ['ViT', 'backbone', '2021Q1']
 paper: "https://arxiv.org/pdf/2104.12753.pdf"

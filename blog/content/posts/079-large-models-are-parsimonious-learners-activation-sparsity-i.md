@@ -1,5 +1,5 @@
 ---
-title: "Large Models are Parsimonious Learners: Activation Sparsity in Trained Transformers"
+title: "[71] Large Models are Parsimonious Learners: Activation Sparsity in Trained Transformers"
 date: 2022-10-17
 tags: ['25min', 'sparse', '2022Q4', 'transformer']
 paper: "https://arxiv.org/pdf/2210.06313.pdf"

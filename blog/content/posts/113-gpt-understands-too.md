@@ -1,5 +1,5 @@
 ---
-title: "GPT Understands, too"
+title: "[104] GPT Understands, too"
 date: 2023-03-23
 tags: ['2021Q1', 'prompt', 'GPT', 'finetuning', 'LLM']
 paper: "https://arxiv.org/pdf/2103.10385.pdf"

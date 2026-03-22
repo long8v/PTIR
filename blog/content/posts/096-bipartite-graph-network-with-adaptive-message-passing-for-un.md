@@ -1,5 +1,5 @@
 ---
-title: "Bipartite Graph Network with Adaptive Message Passing for Unbiased Scene Graph Generation"
+title: "[87] Bipartite Graph Network with Adaptive Message Passing for Unbiased Scene Graph Generation"
 date: 2022-12-08
 tags: ['2021Q4', 'CVPR', 'SGG', 'imbalance']
 paper: "https://arxiv.org/abs/2104.00308"

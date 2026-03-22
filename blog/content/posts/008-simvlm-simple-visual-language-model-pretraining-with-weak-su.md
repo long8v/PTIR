@@ -1,5 +1,5 @@
 ---
-title: "SimVLM: Simple Visual Language Model Pretraining with Weak Supervision"
+title: "[8] SimVLM: Simple Visual Language Model Pretraining with Weak Supervision"
 date: 2022-01-24
 tags: ['multimodal', 'SSL', '2021Q2', 'zero-shot']
 paper: ""

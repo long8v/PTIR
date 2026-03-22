@@ -1,5 +1,5 @@
 ---
-title: "Graph R-CNN for Scene Graph Generation"
+title: "[86] Graph R-CNN for Scene Graph Generation"
 date: 2022-12-06
 tags: ['2018', 'SGG', 'graph', 'two-stage']
 paper: "https://arxiv.org/pdf/1808.00191.pdf"

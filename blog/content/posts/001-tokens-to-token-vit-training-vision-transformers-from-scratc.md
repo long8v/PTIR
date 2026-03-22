@@ -1,5 +1,5 @@
 ---
-title: "Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet"
+title: "[1] Tokens-to-Token ViT: Training Vision Transformers from Scratch on ImageNet"
 date: 2022-01-05
 tags: ['2021Q4', 'ViT', 'backbone']
 paper: "https://arxiv.org/pdf/2101.11986.pdf"

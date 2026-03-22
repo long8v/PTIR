@@ -1,5 +1,5 @@
 ---
-title: "Panoptic Scene Graph Generation"
+title: "[41] Panoptic Scene Graph Generation"
 date: 2022-08-01
 tags: ['dataset', 'SGG', '2022Q3', '25min']
 paper: "https://arxiv.org/pdf/2207.11247.pdf"
