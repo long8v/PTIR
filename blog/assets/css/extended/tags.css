@@ -35,7 +35,7 @@ body {
 
 /* Post list entries */
 .post-entry {
-  padding: 14px 0;
+  padding: 20px 0;
   min-height: unset;
   border-bottom: 1px solid var(--border);
   border-radius: 0;

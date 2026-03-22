@@ -16,9 +16,28 @@ paginate = 9999
   ShowToc = true
   hideSummary = true
 
-[params.homeInfoParams]
-  Title = "Paper Today I Read"
-  Content = "Paper reviews and notes — auto-translated from [GitHub Issues](https://github.com/long8v/PTIR/issues)"
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "tags", "contents"]
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/long8v/PTIR"
+
+[[menus.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 1
+
+[[menus.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 2
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
