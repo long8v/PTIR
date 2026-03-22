@@ -6,22 +6,11 @@ paper: ""
 issue: 244
 issueUrl: "https://github.com/long8v/PTIR/issues/244"
 ---
-[paper]( )
-
 ## TL;DR
-- **I read this because.. :**
-- **task :**
-- **problem :**
-- **idea :**
-- **input/output :**
-- **architecture :**
-- **objective :**
-- **baseline :**
-- **data :** 
-- **evaluation :**
-- **result :**
-- **contribution :**
-- **etc. :**
+- **I read this because.. :** This is a testing issue
+- **task :** testing
+- **idea:** Testing the GitHub Actions automated translation pipeline
+- **result :** If all goes well, success!
 
 ## Details
-
+This issue is for testing the automatic translation + blog deployment pipeline.
