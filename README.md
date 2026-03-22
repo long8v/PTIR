@@ -1,4 +1,5 @@
 # 📚 Paper Today I Read 📓
+- 🌐 **Blog**: [https://long8v.github.io/PTIR/](https://long8v.github.io/PTIR/) (auto-translated to English)
 - 21년도까지 [markdown + notion](https://github.com/long8v/PTIR/blob/main/2021.md), 22년부터 [issue](https://github.com/long8v/PTIR/issues)로 관리
 - 26년도 목표는 50개! -> <img alt="issues" src="https://img.shields.io/github/issues/long8v/PTIR?color=0088ff"> / 271
 - 25년도 목표는 50개! -> 27개 읽음 
