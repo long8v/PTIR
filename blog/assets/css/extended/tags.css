@@ -61,22 +61,21 @@
   font-weight: 500;
   font-family: monospace;
   text-decoration: none;
-  color: #fff;
   transition: opacity 0.2s;
 }
 
 .tag-badge:hover {
-  opacity: 0.85;
+  opacity: 0.75;
 }
 
-/* Color palette for tags */
-.tag-badge:nth-child(7n+1) { background: #6366f1; }
-.tag-badge:nth-child(7n+2) { background: #ec4899; }
-.tag-badge:nth-child(7n+3) { background: #14b8a6; }
-.tag-badge:nth-child(7n+4) { background: #f59e0b; }
-.tag-badge:nth-child(7n+5) { background: #8b5cf6; }
-.tag-badge:nth-child(7n+6) { background: #ef4444; }
-.tag-badge:nth-child(7n)   { background: #3b82f6; }
+/* Muted color palette for tags */
+.tag-badge:nth-child(7n+1) { background: #818cf8; color: #312e81; } /* muted indigo */
+.tag-badge:nth-child(7n+2) { background: #f0abfc; color: #701a75; } /* muted purple */
+.tag-badge:nth-child(7n+3) { background: #6ee7b7; color: #064e3b; } /* muted green */
+.tag-badge:nth-child(7n+4) { background: #fcd34d; color: #713f12; } /* muted amber */
+.tag-badge:nth-child(7n+5) { background: #a5b4fc; color: #3730a3; } /* muted periwinkle */
+.tag-badge:nth-child(7n+6) { background: #fca5a5; color: #7f1d1d; } /* muted red */
+.tag-badge:nth-child(7n)   { background: #93c5fd; color: #1e3a5f; } /* muted blue */
 
 /* Original issue link */
 .original-issue {
