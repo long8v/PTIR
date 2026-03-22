@@ -140,6 +140,23 @@ summary: "{safe_summary}"
         f.write(front_matter)
         f.write(translated_body)
 
+    # Also generate Korean version (original body, no translation)
+    ko_filename = f"{args.issue_number:03d}-{slug}.ko.md"
+    ko_filepath = os.path.join(args.output_dir, ko_filename)
+
+    ko_front_matter = f'''---
+title: "{safe_title}"
+date: {created}
+tags: {labels}
+paper: "{paper_url}"
+issue: {args.issue_number}
+issueUrl: "https://github.com/{args.repo}/issues/{args.issue_number}"
+---
+'''
+    with open(ko_filepath, "w") as f:
+        f.write(ko_front_matter)
+        f.write(issue.body or "")
+
     print(filepath)
 
 

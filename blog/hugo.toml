@@ -1,8 +1,16 @@
 baseURL = "https://long8v.github.io/PTIR/"
-languageCode = "en-us"
 title = "Paper Today I Read"
 theme = "PaperMod"
 paginate = 9999
+defaultContentLanguage = "en"
+
+[languages.en]
+  languageName = "EN"
+  weight = 1
+
+[languages.ko]
+  languageName = "KR"
+  weight = 2
 
 [params]
   author = "long8v"

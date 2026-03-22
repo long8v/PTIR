@@ -1,0 +1,84 @@
+---
+title: "[137] mPLUG-Owl2: Revolutionizing Multi-modal Large Language Model with Modality Collaboration"
+date: 2023-12-05
+tags: ['multimodal', 'LLM', '2023Q4', 'alibaba']
+paper: "https://arxiv.org/abs/2311.04257"
+issue: 149
+issueUrl: "https://github.com/long8v/PTIR/issues/149"
+---
+
+<img width="813" alt="image" src="https://github.com/long8v/PTIR/assets/46675408/679dc334-d193-439c-b819-66b32c4fb322">
+
+[paper](https://arxiv.org/abs/2311.04257)
+
+## TL;DR
+- **I read this because.. :** very recent VLM model
+- **task :** VLM + LLM
+- **problem :** multi-modal task는 LLM freeze 시키고 사실상 V+L을 잘하려고 하는 시도가 많은데 V/L 둘다 잘하게 하고 싶다
+- **idea :** 전반적으로 BLIP-2 style. 이때 LLM을 modality별로 $W_K$, $W_V$, Norm을 다르게 하는게 다른 점. 그리고 LLM도 같이 tuning.
+- **input/output :** text + image -> text 
+- **architecture :** CLIP ViT-L/14 + vision abstractor(=Q-former) + LLaMA-2 w/ Modality-Adaptive Module(MAM)
+- **objective :** ce loss
+- **baseline :** 7B LLM 기반의 모델들. BLIP-2, MiniGPT-4, LLAVA, mPLUG-Owl, InstructBLIP, Otter, Qwen-VL-Chat, LLaVA-1.5
+- **data :** 400M samples from {CC3/12M, COCO, COYO, LAION-en, DataComp} for pretraining / {captioning(TextCaps, COCO), VQA(VQAv2, OKVQA, OCR-VQA, GQA, A-OKVQA), region-aware(RefCOCO, VisualGenome), multi-modal instruction(LLaVa-instruct-150k), text-only instruction data(ShareGPT80-K, SlimOrca)}
+- **evaluation :** caption / vqa / multimodal benchmark(MME, MMBench, MM-Vet, SEED-Bench, Q-Bench) / text benchmark(MMLU, BBH, AGIEval, ARC-c, ARC-e)
+- **result :** 7B model 들 중에 거의 다 sota. textual instruction도 같이 씀 + MAM에 따라 pure text benchmark에서도 LLaMA2보다 성능 개선
+- **contribution :** VLM 모델이 text 성능도 개선하는건 아마 처음?
+- **etc. :** alibaba 돈 많은듯..
+
+## Details
+<img width="493" alt="image" src="https://github.com/long8v/PTIR/assets/46675408/efad2f51-3e9c-4bc7-a499-ebe1edcae6dd">
+
+### Architecture
+<img width="973" alt="image" src="https://github.com/long8v/PTIR/assets/46675408/1b1bc124-7120-4799-a689-47c21ad6a81c">
+
+- Vision Abstractor는 결국 Q-former
+- Modality-Adaptive Module은 결국 input의 modality에 따라 weight / norm을 다르게 하겠다는 점. 근데 query weight는 같음. 여기서 이미지에 대한 W는 새로 initialize되었기 때문에 step-1 pretraining 때 학습되는 부분. 
+- 학습 단계는 두 단계인데
+1) Pre-training 때는 {CC3/12M, COCO, COYO, LAION-en, DataComp} 이런 걸로 vision encoder / q-former / language decoder의 초기화된 부분을 학습. 
+[BLIP-2](https://docs.google.com/presentation/d/1SBMWFARCLolhcGyKCT7-TzPt1l7hDkMByiT9TWZfOqM/edit#slide=id.g245ab93dc34_1_26)랑 비교 하면 재밌을 것 같은데, BLIP-2에서는 CLIP ViT 가져와서 vision encoder freeze. 그리고 사용하는 이미지는 비슷한 소스의 새로 캡셔닝된 데이터(CapFilt)
+여기서는 vision encoder freeze 하지 않고 상대적으로 Noisy한 alt-text류를 그대로 사용! 어떻게 보면 CLIP에서 본 종류의 데이터를 generation 형태로 다시 학습하는 꼴. 
+2) joint-instruction tuning 때는 다 unfreeze하고 instruction data로만 학습. 이때 text instruction data도 넣은게 다른 점.
+
+<img width="517" alt="image" src="https://github.com/long8v/PTIR/assets/46675408/50bf1220-295d-4388-98e9-ec39268a584a">
+
+두 단계에서 달라지는거 resolution / LLM seq len
+
+### Result
+- caption, VQA / multi-modal benchmark
+<img width="982" alt="image" src="https://github.com/long8v/PTIR/assets/46675408/7fe4a521-f562-4206-8e7b-08970c73747c">
+
+- pure text benchmark
+<img width="486" alt="image" src="https://github.com/long8v/PTIR/assets/46675408/c7ceb420-d999-4005-88af-dcfa7d75c9e7">
+
+이건 MAM 덕분이다라고 말함
+<img width="462" alt="image" src="https://github.com/long8v/PTIR/assets/46675408/7e40d6e4-7956-4738-9804-a2dd787851f4">
+
+- instruction data를 두 modality를 사용하는 것의 효과 + MAM의 효과
+ 
+<img width="478" alt="image" src="https://github.com/long8v/PTIR/assets/46675408/ce00bdb1-3c42-4eac-8fd4-669357337ca8">
+
+text intstruction data사용하면 mm 성능이 안좋고 mm instruction 사용하면 text가 안 좋아지는데 둘다 사용하면 각자 사용한 것보다 성능이 약간 안좋음 + MAM 쓰면 둘다 좋아짐 
+
+- vision encoder freeze 효과
+<img width="472" alt="image" src="https://github.com/long8v/PTIR/assets/46675408/994fb00a-18d7-4294-ae18-d9fe5bbabc9d">
+
+- num queries
+<img width="480" alt="image" src="https://github.com/long8v/PTIR/assets/46675408/ef6c5b45-702d-4825-ac03-79c10c36ca87">
+
+text VQA가 많이 필요
+
+- resolution
+<img width="460" alt="image" src="https://github.com/long8v/PTIR/assets/46675408/0966b184-7425-4af1-a621-8b5c19820ab7">
+
+textVQA가 압도적으로 효과가 좋넹 ㅋㅋ
+
+### Qualitative Result
+<img width="471" alt="image" src="https://github.com/long8v/PTIR/assets/46675408/5db5f102-c6ea-40e4-808b-3ab54905e040">
+
+MAM 덕분에 초기 레이어엔 텍스트, 후반 레이어엔 이미지를 본다고 주장 -> 뭐가 좋은건지 잘(?)
+
+<img width="498" alt="image" src="https://github.com/long8v/PTIR/assets/46675408/f5e9124f-3add-44e3-8c81-64322ee27e20">
+
+관련없는 이미지랑 텍스트 주어졌을 때 MAM 가 있을 경우 텍스트에 집중했다고 서술
+둘다 틀린 것 같긴한데.. MAM 있으면 적어도 7개 말하긴 함 ㅋㅋ
