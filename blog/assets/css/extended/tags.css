@@ -137,7 +137,7 @@ body {
 .goal-walker {
   position: absolute;
   top: -14px;
-  transform: translateX(-50%) scaleX(-1);
+  transform: translateX(-50%);
   font-size: 1.4rem;
   animation: walkerBounce 0.6s ease-in-out infinite alternate, walkerSlide 1.5s ease-out forwards;
 }
