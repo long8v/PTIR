@@ -76,4 +76,36 @@
     });
     results.innerHTML = '<span style="color:var(--secondary)">' + count + " results</span>";
   });
+
+  // Fetch GoatCounter view counts for visible posts
+  var viewEls = document.querySelectorAll(".entry-views[data-path]");
+  if (viewEls.length === 0) return;
+
+  var BATCH = 10;
+  var idx = 0;
+
+  function fetchBatch() {
+    var batch = [];
+    while (idx < viewEls.length && batch.length < BATCH) {
+      batch.push(viewEls[idx]);
+      idx++;
+    }
+    batch.forEach(function (el) {
+      var path = el.getAttribute("data-path");
+      var url = "https://long8v-ptir.goatcounter.com/counter/" + encodeURIComponent(path) + ".json";
+      fetch(url)
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          if (data.count) {
+            el.textContent = "👁 " + data.count;
+          }
+        })
+        .catch(function () {});
+    });
+    if (idx < viewEls.length) {
+      setTimeout(fetchBatch, 300);
+    }
+  }
+
+  fetchBatch();
 })();

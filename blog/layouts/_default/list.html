@@ -65,13 +65,16 @@
   <header class="entry-header">
     <div class="entry-row">
       <h2 class="entry-hint-parent">{{- .Title -}}</h2>
-      {{- with .Params.tags }}
-      <div class="entry-tags">
-        {{- range . }}
-        <a href="{{ absURL (printf "tags/%s/" (. | urlize)) }}" class="tag-badge">{{ . }}</a>
+      <div class="entry-right">
+        <span class="entry-views" data-path="{{ .RelPermalink }}"></span>
+        {{- with .Params.tags }}
+        <div class="entry-tags">
+          {{- range . }}
+          <a href="{{ absURL (printf "tags/%s/" (. | urlize)) }}" class="tag-badge">{{ . }}</a>
+          {{- end }}
+        </div>
         {{- end }}
       </div>
-      {{- end }}
     </div>
   </header>
   {{- if (ne (.Param "hideSummary") true) }}
