@@ -425,6 +425,24 @@ body {
   letter-spacing: 0.02em;
 }
 
+/* Read paper button */
+.read-paper-btn {
+  display: inline-block;
+  padding: 8px 20px;
+  background: var(--primary);
+  color: var(--theme);
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s;
+  margin-top: 12px;
+}
+
+.read-paper-btn:hover {
+  opacity: 0.85;
+}
+
 /* Smooth scrollbar */
 ::-webkit-scrollbar {
   width: 6px;
