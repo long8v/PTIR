@@ -14,7 +14,7 @@ summary: ""
 - I read this because.. : April is linear transformer -- first paper
 - task : autoregressive sequence modeling, language modeling, machine translation
 - problem : self-attention compares all pairs of tokens, time/memory O(N²), inefficient for long sequences
-- idea : Replace softmax attention with kernel form $\phi(Q)\phi(K)^T$, reorganize into combinatorics, improve via cumulative sum
+- idea : Replace softmax attention with kernel form $\phi(Q)\phi(K)^T$, reorganize into combinatorics, improve with cumulative sum
 - input/output : token -> token 
 - architecture: replaced softmax with kernel with elu function. No other architectural changes
 - objective : CE loss 
@@ -43,7 +43,7 @@ We could have just expressed the softmax term there as the similarity function $
 ### 3.2. Linearized attention
 This is where I get confused, we're going to use something called a Kernel Trick.
 The only constraint on attention is that $sim(\cdot)$ must be "non-negative"
-Then, among all kernels , $k(x,y) : \mathbb{R}^{2 \times F} -> \mathbb{R}_{+}$ can be contained.
+Then, among all kernels, $k(x,y) : \mathbb{R}^{2 \times F} -> \mathbb{R}_{+}$ can be contained.
 
 Suppose we have such an "imagination kernel" ($k$), then rewriting eq (2) for the feature representation $\phi(x)$, we get
 
@@ -65,7 +65,7 @@ I used relu over elu because I wanted the gradient to flow even when below zero.
 
 ### 3.3 Causal Masking
 How do I get Transformer's Causal masking here?
-This can be accomplished by changing the summation to $i$ instead of doing it for all j
+This can be accomplished by changing the summation to $i$ instead of over all j
 
 (previous expression)
 
@@ -76,7 +76,7 @@ This can be accomplished by changing the summation to $i$ instead of doing it fo
 <img width="429" height="475" alt="Image" src="https://github.com/user-attachments/assets/cf7e737b-1ea1-4a04-9a04-fbb02e9ba86f" />
 
 We can calculate $S_{i}$ from $S_{i-1}$. because it is a cumulative sum.
-(i.e., unlike transformer, it does not parallelize over the time axis N)
+~(i.e., unlike transformer, it does not parallelize over the time axis N).
 
 #### 3.3.1 Gradient Computation
 If you solve for the gradient naively, it's another $O(N^2)$ complexity, but we got it right and made this one linear
@@ -84,8 +84,6 @@ If you solve for the gradient naively, it's another $O(N^2)$ complexity, but we 
 <img width="423" height="317" alt="Image" src="https://github.com/user-attachments/assets/2fdcfcbb-ba51-4c02-94ae-723b2e493457" />
 
 #### 3.3.2 Training and Inference
-What's better?
-RNNs are not layer wise parallelizable because they need to get the hidden state of the previous layer. Linear transformer is layer parallelizable because $S_i$ is created every layer.
 The good thing about Transformer is that you don't need to have QKs for inference, so memory doesn't grow proportional to seq len. In other words, it takes all the good things about train and inference
 <img width="654" height="467" alt="Image" src="https://github.com/user-attachments/assets/da071831-893e-4452-8fb4-f0cebe4002b2" />
 
