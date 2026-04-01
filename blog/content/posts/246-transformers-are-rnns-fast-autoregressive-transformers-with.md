@@ -14,7 +14,7 @@ summary: ""
 - I read this because.. : April is linear transformer -- first paper
 - task : autoregressive sequence modeling, language modeling, machine translation
 - problem : self-attention compares all pairs of tokens, time/memory O(N²), inefficient for long sequences
-- idea : Replace softmax attention with kernel form $\phi(Q)\phi(K)^T$, reorganize into combinatorics, improve with cumulative sum
+- idea : Replace softmax attention with kernel form $\phi(Q)\phi(K)^T$, reorganize into combinatorics, improve via cumulative sum
 - input/output : token -> token 
 - architecture : softmax -> elu function. No other architectural changes
 - objective : CE loss 
@@ -29,12 +29,12 @@ summary: ""
 - conversation with chatGPT: [link](https://chatgpt.com/share/69cc5fbf-78d0-83a9-8ce0-27d5878abf8a)
 - X$
 ### 3.1 Transformer 
-<img width="600" height="138" alt="Image" src="https://github.com/user-attachments/assets/14065146-a0cb-4f96-bdc8-113bf1d5f406" />
+<img width="400" height="138" alt="Image" src="https://github.com/user-attachments/assets/14065146-a0cb-4f96-bdc8-113bf1d5f406" />
 
 - f_l(.)$ is just FFN
 - $A_l(.)$ self-attnetion
 
-<img width="600" height="223" alt="Image" src="https://github.com/user-attachments/assets/4bd06bf0-53cd-4099-a8b0-3f664fd07017" />
+<img width="400" height="223" alt="Image" src="https://github.com/user-attachments/assets/4bd06bf0-53cd-4099-a8b0-3f664fd07017" />
 
 We could have just expressed the softmax term there as the similarity function $sim(\cdot)$
 
@@ -53,7 +53,7 @@ Above, $\sum _j$ is the value for j, so we can pass over $\phi(Q_i)^T$, which gi
 <img width="412" height="212" alt="Image" src="https://github.com/user-attachments/assets/e8c1acfb-6c0c-4e83-b0fa-20dbe0a6e639" />
 
 In this case, the feature map $\phi(\cdot)$ is computed row-wise on the $Q$, $K$ matrices
-The parentheses in eq (6) are $\phi(X)^T\in \mathbb{R}^{D\times N}$, followed by $\phi(X)^T\in \mathbb{R}^{N\times D}$, resulting in a time and space complexity of $O(N)$. (I'm confused about the spatial and temporal complexities...) --
+The parentheses in eq (6) are $\phi(X)^T\in \mathbb{R}^{D\times N}$, followed by $\phi(X)^T\in \mathbb{R}^{N\times D}$, resulting in a time and space complexity of $O(N)$. (I'm confused about the spatial and temporal complexity...) --
 The reason for this is that we will store and reuse KV, K once.
 <img width="407" height="62" alt="Image" src="https://github.com/user-attachments/assets/7efdd83c-83ba-4500-ba71-ea65faee9f50" />
 

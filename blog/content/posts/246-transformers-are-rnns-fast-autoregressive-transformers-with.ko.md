@@ -28,12 +28,12 @@ issueUrl: "https://github.com/long8v/PTIR/issues/246"
 - conversation with chatGPT: [link](https://chatgpt.com/share/69cc5fbf-78d0-83a9-8ce0-27d5878abf8a)
 - X$
 ### 3.1 Transformer 
-<img width="600" height="138" alt="Image" src="https://github.com/user-attachments/assets/14065146-a0cb-4f96-bdc8-113bf1d5f406" />
+<img width="400" height="138" alt="Image" src="https://github.com/user-attachments/assets/14065146-a0cb-4f96-bdc8-113bf1d5f406" />
 
 - $f_l(.)$은 그냥 FFN
 - $A_l(.)$ self-attnetion
 
-<img width="600" height="223" alt="Image" src="https://github.com/user-attachments/assets/4bd06bf0-53cd-4099-a8b0-3f664fd07017" />
+<img width="400" height="223" alt="Image" src="https://github.com/user-attachments/assets/4bd06bf0-53cd-4099-a8b0-3f664fd07017" />
 
 저기서 softmax term을 그냥 유사도 함수 $sim(\cdot)$로 표현할 수 있음
 
