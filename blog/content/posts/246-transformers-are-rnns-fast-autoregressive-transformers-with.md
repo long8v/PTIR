@@ -16,7 +16,7 @@ summary: ""
 - problem : self-attention compares all pairs of tokens, time/memory O(N²), inefficient for long sequences
 - idea : Replace softmax attention with kernel form $\phi(Q)\phi(K)^T$, reorganize into combinatorics, improve via cumulative sum
 - input/output : token -> token 
-- architecture : softmax -> elu function. No other architectural changes
+- architecture: replaced softmax with kernel with elu function. No other architectural changes
 - objective : CE loss 
 - baseline : Transformer, RoFormer 
 - data : WMT, language modeling benchmark 
@@ -53,7 +53,7 @@ Above, $\sum _j$ is the value for j, so we can pass over $\phi(Q_i)^T$, which gi
 <img width="412" height="212" alt="Image" src="https://github.com/user-attachments/assets/e8c1acfb-6c0c-4e83-b0fa-20dbe0a6e639" />
 
 In this case, the feature map $\phi(\cdot)$ is computed row-wise on the $Q$, $K$ matrices
-The parentheses in eq (6) are $\phi(X)^T\in \mathbb{R}^{D\times N}$, followed by $\phi(X)^T\in \mathbb{R}^{N\times D}$, resulting in a time and space complexity of $O(N)$. (I'm confused about the spatial and temporal complexity...) --
+The parentheses in eq (6) are $\phi(X)^T\in \mathbb{R}^{D\times N}$, followed by $\phi(X)^T\in \mathbb{R}^{N\times D}$, resulting in a time and space complexity of $O(N)$. (I'm confused about the spatial and temporal complexities...) --
 The reason for this is that we will store and reuse KV, K once.
 <img width="407" height="62" alt="Image" src="https://github.com/user-attachments/assets/7efdd83c-83ba-4500-ba71-ea65faee9f50" />
 
@@ -79,7 +79,7 @@ We can calculate $S_{i}$ from $S_{i-1}$. because it is a cumulative sum.
 (i.e., unlike transformer, it does not parallelize over the time axis N)
 
 #### 3.3.1 Gradient Computation
-If you solve for the gradient naively, it's another $O(N^2)$ complexity, but we did a good job and made this one linear.
+If you solve for the gradient naively, it's another $O(N^2)$ complexity, but we got it right and made this one linear
 
 <img width="423" height="317" alt="Image" src="https://github.com/user-attachments/assets/2fdcfcbb-ba51-4c02-94ae-723b2e493457" />
 

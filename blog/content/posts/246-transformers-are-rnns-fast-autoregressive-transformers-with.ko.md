@@ -15,7 +15,7 @@ issueUrl: "https://github.com/long8v/PTIR/issues/246"
 - problem : self-attention이 모든 토큰 쌍을 비교해서 시간/메모리 O(N²), 긴 시퀀스에서 비효율적
 - idea : softmax attention을 kernel 형태 $\phi(Q)\phi(K)^T$로 바꿔서 결합법칙으로 재배열, cumulative sum을 통해 개선 
 - input/output : token -> token 
-- architecture : softmax -> elu function으로 바꿈. 그 외 아키텍쳐 상 변경점은 없음 
+- architecture : softmax 대신 kernel with elu function으로 바꿈. 그 외 아키텍쳐 상 변경점은 없음 
 - objective : CE loss 
 - baseline : Transformer, RoFormer 
 - data : WMT, language modeling benchmark 
