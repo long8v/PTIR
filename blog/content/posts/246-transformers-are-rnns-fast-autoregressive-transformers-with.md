@@ -14,7 +14,7 @@ summary: ""
 - I read this because.. : April is linear transformer -- first paper
 - task : autoregressive sequence modeling, language modeling, machine translation
 - problem : self-attention compares all pairs of tokens, time/memory O(N²), inefficient for long sequences
-- idea : Replace softmax attention with kernel form $\phi(Q)\phi(K)^T$, reorganize into combinatorics, improve via cumulative sum
+- idea : Replace softmax attention with kernel form $\phi(Q)\phi(K)^T$ and rearrange it as a combinatorial law, which allows cumulative sum
 - input/output : token -> token 
 - architecture: replaced softmax with kernel with elu function. No other architectural changes
 - objective : CE loss 
@@ -27,7 +27,7 @@ summary: ""
 
 ## Details
 - conversation with chatGPT: [link](https://chatgpt.com/share/69cc5fbf-78d0-83a9-8ce0-27d5878abf8a)
-
+- X$
 ### 3.1 Transformer 
 <img width="400" height="138" alt="Image" src="https://github.com/user-attachments/assets/14065146-a0cb-4f96-bdc8-113bf1d5f406" />
 
@@ -65,7 +65,7 @@ I used relu over elu because I wanted the gradient to flow even when below zero.
 
 ### 3.3 Causal Masking
 How do I get Transformer's Causal masking here?
-This can be accomplished by changing the summation to $i$ instead of over all j
+This can be accomplished by changing the summation to $i$ instead of doing it for all j
 
 (previous expression)
 
@@ -76,10 +76,10 @@ This can be accomplished by changing the summation to $i$ instead of over all j
 <img width="429" height="475" alt="Image" src="https://github.com/user-attachments/assets/cf7e737b-1ea1-4a04-9a04-fbb02e9ba86f" />
 
 We can calculate $S_{i}$ from $S_{i-1}$. because it is a cumulative sum.
-~(i.e., unlike transformer, it does not parallelize over the time axis N).
+I was confused when I first read this, but it seems like you're using cumulative sums for inference and applying causal masks like the original transformer for actual training.
 
 #### 3.3.1 Gradient Computation
-If you solve for the gradient naively, it's another $O(N^2)$ complexity, but we got it right and made this one linear
+If we solve for the gradient naively, we get another $O(N^2)$ complexity, but we solve nicely and make this one linear as well
 
 <img width="423" height="317" alt="Image" src="https://github.com/user-attachments/assets/2fdcfcbb-ba51-4c02-94ae-723b2e493457" />
 

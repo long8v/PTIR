@@ -13,7 +13,7 @@ issueUrl: "https://github.com/long8v/PTIR/issues/246"
 - I read this because.. : 4월은 linear transformer -- 첫번째 논문 
 - task : autoregressive sequence modeling, language modeling, machine translation
 - problem : self-attention이 모든 토큰 쌍을 비교해서 시간/메모리 O(N²), 긴 시퀀스에서 비효율적
-- idea : softmax attention을 kernel 형태 $\phi(Q)\phi(K)^T$로 바꿔서 결합법칙으로 재배열, cumulative sum을 통해 개선 
+- idea : softmax attention을 kernel 형태 $\phi(Q)\phi(K)^T$로 바꿔서 결합법칙으로 재배열, 이를 통해 cumulative sum을 함
 - input/output : token -> token 
 - architecture : softmax 대신 kernel with elu function으로 바꿈. 그 외 아키텍쳐 상 변경점은 없음 
 - objective : CE loss 
@@ -26,7 +26,7 @@ issueUrl: "https://github.com/long8v/PTIR/issues/246"
 
 ## Details
 - conversation with chatGPT: [link](https://chatgpt.com/share/69cc5fbf-78d0-83a9-8ce0-27d5878abf8a)
-
+- X$
 ### 3.1 Transformer 
 <img width="400" height="138" alt="Image" src="https://github.com/user-attachments/assets/14065146-a0cb-4f96-bdc8-113bf1d5f406" />
 
@@ -75,10 +75,10 @@ Transformer의 Causal masking을 여기선 어떻게 구할 수 있냐
 <img width="429" height="475" alt="Image" src="https://github.com/user-attachments/assets/cf7e737b-1ea1-4a04-9a04-fbb02e9ba86f" />
 
 우리는 $S_{i-1}$로 부터 $S_{i}$를 계산할 수 있음. 왜냐하면 누적합이기 때문에.
-~(즉 transformer와 달리 시간 축 N 에 대해 병렬화 하지는 않음)~
+여기서 처음 읽을 때 헷갈렸는데, Inference 시에 누적합으로 한다는 것이고 실제 학습 때는 원래의 transformer처럼 causal mask를 적용.
 
 #### 3.3.1 Gradient Computation
-gradient를 나이브하게 구하면 또 $O(N^2)$ 복잡도가 되지만 잘 구해서 얘도 Linear하게 ㄱ함
+gradient를 나이브하게 구하면 또 $O(N^2)$ 복잡도가 되지만 잘 구해서 얘도 Linear하게 함
 
 <img width="423" height="317" alt="Image" src="https://github.com/user-attachments/assets/2fdcfcbb-ba51-4c02-94ae-723b2e493457" />
 
