@@ -1,6 +1,50 @@
 {
-  "count": 317,
+  "count": 321,
   "papers": [
+    {
+      "title": "Finetuning Pretrained Transformers into RNNs",
+      "authors": "Kasai, Peng, Zhang et al.",
+      "date": "2021-09-20",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2103.13076",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "On The Computational Complexity of Self-Attention",
+      "authors": "Keles, Wijewardena, Hegde",
+      "date": "2022-09-11",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2209.04881",
+      "tags": [
+        "Computer Science - Computational Complexity",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "How Do Vision Transformers Work?",
+      "authors": "Park, Kim",
+      "date": "2022-06-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2202.06709",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "The Hedgehog & the Porcupine: Expressive Linear Attentions with Softmax Mimicry",
+      "authors": "Zhang, Bhatia, Kumbong et al.",
+      "date": "2024-02-06",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2402.04347",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning",
+        "linear"
+      ]
+    },
     {
       "title": "Qwen3 Technical Report",
       "authors": "Yang, Li, Yang et al.",
