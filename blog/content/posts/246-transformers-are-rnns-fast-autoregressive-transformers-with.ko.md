@@ -26,7 +26,7 @@ issueUrl: "https://github.com/long8v/PTIR/issues/246"
 
 ## Details
 - conversation with chatGPT: [link](https://chatgpt.com/share/69cc5fbf-78d0-83a9-8ce0-27d5878abf8a)
-- X$
+
 ### 3.1 Transformer 
 <img width="400" height="138" alt="Image" src="https://github.com/user-attachments/assets/14065146-a0cb-4f96-bdc8-113bf1d5f406" />
 
