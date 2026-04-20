@@ -1,6 +1,28 @@
 {
-  "count": 321,
+  "count": 323,
   "papers": [
+    {
+      "title": "PersonaVLM: Long-Term Personalized Multimodal LLMs",
+      "authors": "Nie, Fu, Zhang et al.",
+      "date": "2026-03-20",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2604.13074",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Qwen3.5-Omni Technical Report",
+      "authors": "Team",
+      "date": "2026-04-17",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2604.15804",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Electrical Engineering and Systems Science - Audio and Speech Processing"
+      ]
+    },
     {
       "title": "Finetuning Pretrained Transformers into RNNs",
       "authors": "Kasai, Peng, Zhang et al.",
