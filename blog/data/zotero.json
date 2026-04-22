@@ -1,6 +1,18 @@
 {
-  "count": 330,
+  "count": 331,
   "papers": [
+    {
+      "title": "HiPPO: Recurrent Memory with Optimal Polynomial Projections",
+      "authors": "Gu, Dao, Ermon et al.",
+      "date": "2020-10-23",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2008.07669",
+      "tags": [
+        "Computer Science - Machine Learning",
+        "Statistics - Machine Learning",
+        "linear"
+      ]
+    },
     {
       "title": "Streaming Video Question-Answering with In-context Video KV-Cache Retrieval",
       "authors": "Di, Yu, Zhang et al.",
