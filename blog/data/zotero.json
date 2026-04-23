@@ -1,6 +1,51 @@
 {
-  "count": 331,
+  "count": 335,
   "papers": [
+    {
+      "title": "Olmo 3",
+      "authors": "Olmo, Ettinger, Bertsch et al.",
+      "date": "2026-04-14",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2512.13961",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Vero: An Open RL Recipe for General Visual Reasoning",
+      "authors": "Sarch, Cai, Wang et al.",
+      "date": "2026-04-07",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2604.04917",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "RL makes MLLMs see better than SFT",
+      "authors": "Song, Yun, Han et al.",
+      "date": "2026-04-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2510.16333",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "LeWorldModel: Stable End-to-End Joint-Embedding Predictive Architecture from Pixels",
+      "authors": "Maes, Lidec, Scieur et al.",
+      "date": "2026-03-24",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2603.19312",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Machine Learning"
+      ]
+    },
     {
       "title": "HiPPO: Recurrent Memory with Optimal Polynomial Projections",
       "authors": "Gu, Dao, Ermon et al.",
