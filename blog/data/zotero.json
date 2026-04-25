@@ -1,6 +1,19 @@
 {
-  "count": 335,
+  "count": 336,
   "papers": [
+    {
+      "title": "In-Place Test-Time Training",
+      "authors": "Feng, Luo, Hua et al.",
+      "date": "2026-04-07",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2604.06169",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning",
+        "Statistics - Machine Learning"
+      ]
+    },
     {
       "title": "Olmo 3",
       "authors": "Olmo, Ettinger, Bertsch et al.",
