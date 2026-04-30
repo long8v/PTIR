@@ -1,6 +1,16 @@
 {
-  "count": 336,
+  "count": 337,
   "papers": [
+    {
+      "title": "Mamba-3: Improved Sequence Modeling using State Space Principles",
+      "authors": "Lahoti, Li, Chen et al.",
+      "date": "2026-03-16",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2603.15569",
+      "tags": [
+        "Computer Science - Machine Learning"
+      ]
+    },
     {
       "title": "In-Place Test-Time Training",
       "authors": "Feng, Luo, Hua et al.",
@@ -2902,97 +2912,9 @@
       ]
     },
     {
-      "title": "Rich Human Feedback for Text-to-Image Generation",
-      "authors": "Liang, He, Li et al.",
-      "date": "2024-04-08",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2312.10240",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
-      "title": "Meteor: Mamba-based Traversal of Rationale for Large Language and Vision Models",
-      "authors": "Lee, Kim, Park et al.",
-      "date": "2024-05-27",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2405.15574",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
-      "title": "Evaluating Text-to-Image Synthesis: Survey and Taxonomy of Image Quality Metrics",
-      "authors": "Hartwig, Engel, Sick et al.",
-      "date": "2024-04-15",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2403.11821",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
-        "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Graphics"
-      ]
-    },
-    {
-      "title": "ALOHa: A New Measure for Hallucination in Captioning Models",
-      "authors": "Petryk, Chan, Kachinthaya et al.",
-      "date": "2024-04-03",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2404.02904",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
-        "Computer Science - Computation and Language",
-        "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Machine Learning"
-      ]
-    },
-    {
-      "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
-      "authors": "Li, Li, Xiong et al.",
-      "date": "2022-02-15",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2201.12086",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
-      "title": "Chameleon: Mixed-Modal Early-Fusion Foundation Models",
-      "authors": "Chameleon Team",
-      "date": "2024-05-16",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2405.09818",
-      "tags": [
-        "Computer Science - Computation and Language"
-      ]
-    },
-    {
-      "title": "ALOHa: A New Measure for Hallucination in Captioning Models",
-      "authors": "Petryk, Chan, Kachinthaya et al.",
-      "date": "2024-04-03",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2404.02904",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
-        "Computer Science - Computation and Language",
-        "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Machine Learning"
-      ]
-    },
-    {
-      "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
-      "authors": "Li, Li, Xiong et al.",
-      "date": "2022-02-15",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2201.12086",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
       "title": "No \"Zero-Shot\" Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance",
       "authors": "Udandarao, Prabhu, Ghosh et al.",
-      "date": "2024-04-08",
+      "date": "2024-04-04",
       "type": "preprint",
       "url": "http://arxiv.org/abs/2404.04125",
       "tags": [
@@ -3015,13 +2937,101 @@
     {
       "title": "No \"Zero-Shot\" Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance",
       "authors": "Udandarao, Prabhu, Ghosh et al.",
-      "date": "2024-04-04",
+      "date": "2024-04-08",
       "type": "preprint",
       "url": "http://arxiv.org/abs/2404.04125",
       "tags": [
         "Computer Science - Computation and Language",
         "Computer Science - Computer Vision and Pattern Recognition",
         "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+      "authors": "Li, Li, Xiong et al.",
+      "date": "2022-02-15",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2201.12086",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "ALOHa: A New Measure for Hallucination in Captioning Models",
+      "authors": "Petryk, Chan, Kachinthaya et al.",
+      "date": "2024-04-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2404.02904",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Chameleon: Mixed-Modal Early-Fusion Foundation Models",
+      "authors": "Chameleon Team",
+      "date": "2024-05-16",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2405.09818",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
+      "authors": "Li, Li, Xiong et al.",
+      "date": "2022-02-15",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2201.12086",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "ALOHa: A New Measure for Hallucination in Captioning Models",
+      "authors": "Petryk, Chan, Kachinthaya et al.",
+      "date": "2024-04-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2404.02904",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Evaluating Text-to-Image Synthesis: Survey and Taxonomy of Image Quality Metrics",
+      "authors": "Hartwig, Engel, Sick et al.",
+      "date": "2024-04-15",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2403.11821",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Graphics"
+      ]
+    },
+    {
+      "title": "Meteor: Mamba-based Traversal of Rationale for Large Language and Vision Models",
+      "authors": "Lee, Kim, Park et al.",
+      "date": "2024-05-27",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2405.15574",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Rich Human Feedback for Text-to-Image Generation",
+      "authors": "Liang, He, Li et al.",
+      "date": "2024-04-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2312.10240",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
       ]
     },
     {
