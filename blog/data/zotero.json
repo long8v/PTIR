@@ -1,6 +1,36 @@
 {
-  "count": 337,
+  "count": 340,
   "papers": [
+    {
+      "title": "EC-Bench: Enumeration and Counting Benchmark for Ultra-Long Videos",
+      "authors": "Tsuchiya, Miyanishi, Ukai et al.",
+      "date": "2026-03-31",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2603.29943",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "AV-Reasoner: Improving and Benchmarking Clue-Grounded Audio-Visual Counting for MLLMs",
+      "authors": "Lu, Chen, Li et al.",
+      "date": "2025-07-22",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2506.05328",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "CG-Bench: Clue-grounded Question Answering Benchmark for Long Video Understanding",
+      "authors": "Chen, Liu, Huang et al.",
+      "date": "2024-12-16",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2412.12075",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
     {
       "title": "Mamba-3: Improved Sequence Modeling using State Space Principles",
       "authors": "Lahoti, Li, Chen et al.",
