@@ -1,6 +1,17 @@
 {
-  "count": 340,
+  "count": 341,
   "papers": [
+    {
+      "title": "Gated Delta Networks: Improving Mamba2 with Delta Rule",
+      "authors": "Yang, Kautz, Hatamizadeh",
+      "date": "2025-03-06",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2412.06464",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
     {
       "title": "EC-Bench: Enumeration and Counting Benchmark for Ultra-Long Videos",
       "authors": "Tsuchiya, Miyanishi, Ukai et al.",
