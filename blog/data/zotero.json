@@ -2,6 +2,16 @@
   "count": 341,
   "papers": [
     {
+      "title": "Efficient RL Training for LLMs with Experience Replay",
+      "authors": "Arnal, Cabannes, Cohen et al.",
+      "date": "2026-04-09",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2604.08706",
+      "tags": [
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
       "title": "Gated Delta Networks: Improving Mamba2 with Delta Rule",
       "authors": "Yang, Kautz, Hatamizadeh",
       "date": "2025-03-06",
@@ -1151,14 +1161,6 @@
         "Computer Science - Machine Learning",
         "Computer Science - Robotics"
       ]
-    },
-    {
-      "title": "Agent-Centric Actor-Critic for Asynchronous Multi-Agent Reinforcement Learning",
-      "authors": "Jung, Hong, Yoon et al.",
-      "date": "2025/06/18",
-      "type": "conferencePaper",
-      "url": "https://openreview.net/forum?id=323GZNnGqe",
-      "tags": []
     },
     {
       "title": "Gemini Robotics: Bringing AI into the Physical World",
