@@ -1,6 +1,86 @@
 {
-  "count": 341,
+  "count": 348,
   "papers": [
+    {
+      "title": "Blockwise Parallel Decoding for Deep Autoregressive Models",
+      "authors": "Stern, Shazeer, Uszkoreit",
+      "date": "2018-11-07",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/1811.03115",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning",
+        "Statistics - Machine Learning"
+      ]
+    },
+    {
+      "title": "Better & Faster Large Language Models via Multi-token Prediction",
+      "authors": "Gloeckle, Idrissi, Rozière et al.",
+      "date": "2024-04-30",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2404.19737",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Kimi K2.5: Visual Agentic Intelligence",
+      "authors": "Team, Bai, Bai et al.",
+      "date": "2026-02-02",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2602.02276",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Prometheus: Inducing Fine-grained Evaluation Capability in Language Models",
+      "authors": "Kim, Shin, Cho et al.",
+      "date": "2024-03-09",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2310.08491",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Reinforcement Learning with Rubric Anchors",
+      "authors": "Huang, Zhuang, Lu et al.",
+      "date": "2025-08-18",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2508.12790",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Rubrics as Rewards: Reinforcement Learning Beyond Verifiable Domains",
+      "authors": "Gunjal, Wang, Lau et al.",
+      "date": "2025-10-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.17746",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Reinforcing Chain-of-Thought Reasoning with Self-Evolving Rubrics",
+      "authors": "Sheng, Ma, Hong et al.",
+      "date": "2026-02-11",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2602.10885",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Machine Learning"
+      ]
+    },
     {
       "title": "Efficient RL Training for LLMs with Experience Replay",
       "authors": "Arnal, Cabannes, Cohen et al.",
