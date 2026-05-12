@@ -1,6 +1,29 @@
 {
-  "count": 348,
+  "count": 350,
   "papers": [
+    {
+      "title": "On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes",
+      "authors": "Agarwal, Vieillard, Zhou et al.",
+      "date": "2024-01-17",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2306.13649",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning",
+        "opd"
+      ]
+    },
+    {
+      "title": "RL's Razor: Why Online Reinforcement Learning Forgets Less",
+      "authors": "Shenfeld, Pari, Agrawal",
+      "date": "2025-09-04",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2509.04259",
+      "tags": [
+        "Computer Science - Machine Learning"
+      ]
+    },
     {
       "title": "Blockwise Parallel Decoding for Deep Autoregressive Models",
       "authors": "Stern, Shazeer, Uszkoreit",
