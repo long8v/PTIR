@@ -1,6 +1,28 @@
 {
-  "count": 350,
+  "count": 352,
   "papers": [
+    {
+      "title": "MiMo-V2-Flash Technical Report",
+      "authors": "Team, Xiao, Xia et al.",
+      "date": "2026-01-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2601.02780",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "MiniLLM: On-Policy Distillation of Large Language Models",
+      "authors": "Gu, Dong, Wei et al.",
+      "date": "2026-01-31",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2306.08543",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
     {
       "title": "On-Policy Distillation of Language Models: Learning from Self-Generated Mistakes",
       "authors": "Agarwal, Vieillard, Zhou et al.",
