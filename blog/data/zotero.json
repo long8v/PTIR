@@ -1,6 +1,27 @@
 {
-  "count": 352,
+  "count": 354,
   "papers": [
+    {
+      "title": "Rubric-based On-policy Distillation",
+      "authors": "Fang, Hong, Zheng et al.",
+      "date": "2026-05-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2605.07396",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Midtraining Bridges Pretraining and Posttraining Distributions",
+      "authors": "Liu, Neubig, Xiong",
+      "date": "2026-02-02",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2510.14865",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
     {
       "title": "MiMo-V2-Flash Technical Report",
       "authors": "Team, Xiao, Xia et al.",
