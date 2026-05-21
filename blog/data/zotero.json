@@ -1,6 +1,16 @@
 {
-  "count": 354,
+  "count": 355,
   "papers": [
+    {
+      "title": "OmniVTG: A Large-Scale Dataset and Training Paradigm for Open-World Video Temporal Grounding",
+      "authors": "Zheng, Yin, Yang et al.",
+      "date": "2026-04-28",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2604.25276",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
     {
       "title": "Rubric-based On-policy Distillation",
       "authors": "Fang, Hong, Zheng et al.",
