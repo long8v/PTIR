@@ -1,6 +1,16 @@
 {
-  "count": 355,
+  "count": 356,
   "papers": [
+    {
+      "title": "DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models",
+      "authors": "DeepSeek-AI, Liu, Mei et al.",
+      "date": "2025-12-02",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2512.02556",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
     {
       "title": "OmniVTG: A Large-Scale Dataset and Training Paradigm for Open-World Video Temporal Grounding",
       "authors": "Zheng, Yin, Yang et al.",
