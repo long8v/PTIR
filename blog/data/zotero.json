@@ -1,5 +1,5 @@
 {
-  "count": 356,
+  "count": 333,
   "papers": [
     {
       "title": "DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models",
@@ -174,17 +174,6 @@
       "type": "preprint",
       "url": "http://arxiv.org/abs/2604.08706",
       "tags": [
-        "Computer Science - Machine Learning"
-      ]
-    },
-    {
-      "title": "Gated Delta Networks: Improving Mamba2 with Delta Rule",
-      "authors": "Yang, Kautz, Hatamizadeh",
-      "date": "2025-03-06",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2412.06464",
-      "tags": [
-        "Computer Science - Computation and Language",
         "Computer Science - Machine Learning"
       ]
     },
@@ -455,16 +444,6 @@
       ]
     },
     {
-      "title": "Transformers are SSMs: Generalized Models and Efficient Algorithms Through Structured State Space Duality",
-      "authors": "Dao, Gu",
-      "date": "2024-05-31",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2405.21060",
-      "tags": [
-        "Computer Science - Machine Learning"
-      ]
-    },
-    {
       "title": "Attention Is All You Need",
       "authors": "Vaswani, Shazeer, Parmar et al.",
       "date": "2023-08-02",
@@ -589,19 +568,6 @@
       "tags": [
         "Computer Science - Computation and Language",
         "Computer Science - Machine Learning"
-      ]
-    },
-    {
-      "title": "The Platonic Representation Hypothesis",
-      "authors": "Huh, Cheung, Wang et al.",
-      "date": "2024-07-25",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2405.07987",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
-        "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Machine Learning",
-        "Computer Science - Neural and Evolutionary Computing"
       ]
     },
     {
@@ -1263,16 +1229,6 @@
       ]
     },
     {
-      "title": "Emerging Properties in Unified Multimodal Pretraining",
-      "authors": "Deng, Zhu, Li et al.",
-      "date": "2025-07-27",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2505.14683",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
       "title": "Transfusion: Predict the Next Token and Diffuse Images with One Multi-Modal Model",
       "authors": "Zhou, Yu, Babu et al.",
       "date": "2024-08-20",
@@ -1372,26 +1328,6 @@
       ]
     },
     {
-      "title": "Emerging Properties in Unified Multimodal Pretraining",
-      "authors": "Deng, Zhu, Li et al.",
-      "date": "2025-05-23",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2505.14683",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
-      "title": "CLIP4Clip: An Empirical Study of CLIP for End to End Video Clip Retrieval",
-      "authors": "Luo, Ji, Zhong et al.",
-      "date": "2021-05-08",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2104.08860",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
       "title": "Multimodal Chain-of-Thought Reasoning: A Comprehensive Survey",
       "authors": "Wang, Wu, Zhang et al.",
       "date": "2025-03-23",
@@ -1409,18 +1345,6 @@
       "url": "http://arxiv.org/abs/2403.10517",
       "tags": [
         "Computer Science - Artificial Intelligence",
-        "Computer Science - Computation and Language",
-        "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Information Retrieval"
-      ]
-    },
-    {
-      "title": "E5-V: Universal Embeddings with Multimodal Large Language Models",
-      "authors": "Jiang, Song, Zhang et al.",
-      "date": "2024-07-17",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2407.12580",
-      "tags": [
         "Computer Science - Computation and Language",
         "Computer Science - Computer Vision and Pattern Recognition",
         "Computer Science - Information Retrieval"
@@ -1459,16 +1383,6 @@
         "Computer Science - Artificial Intelligence",
         "Computer Science - Machine Learning",
         "Statistics - Machine Learning"
-      ]
-    },
-    {
-      "title": "Cambrian-1: A Fully Open, Vision-Centric Exploration of Multimodal LLMs",
-      "authors": "Tong, Brown, Wu et al.",
-      "date": "2024-12-04",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2406.16860",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
       ]
     },
     {
@@ -1815,18 +1729,6 @@
       "url": "http://arxiv.org/abs/2505.05464",
       "tags": [
         "Computer Science - Computation and Language"
-      ]
-    },
-    {
-      "title": "SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training",
-      "authors": "Chu, Zhai, Yang et al.",
-      "date": "2025-01-28",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2501.17161",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
-        "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Machine Learning"
       ]
     },
     {
@@ -2584,17 +2486,6 @@
       ]
     },
     {
-      "title": "Rotary Position Embedding for Vision Transformer",
-      "authors": "Heo, Park, Han et al.",
-      "date": "2024-07-16",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2403.13298",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Machine Learning"
-      ]
-    },
-    {
       "title": "From $r$ to $Q^*$: Your Language Model is Secretly a Q-Function",
       "authors": "Rafailov, Hejna, Park et al.",
       "date": "2024-08-12",
@@ -2919,17 +2810,6 @@
       ]
     },
     {
-      "title": "Mismatch Quest: Visual and Textual Feedback for Image-Text Misalignment",
-      "authors": "Gordon, Bitton, Shafir et al.",
-      "date": "2024-07-17",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2312.03766",
-      "tags": [
-        "Computer Science - Computation and Language",
-        "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
       "title": "RLHF-V: Towards Trustworthy MLLMs via Behavior Alignment from Fine-grained Correctional Human Feedback",
       "authors": "Yu, Yao, Zhang et al.",
       "date": "2024-03-08",
@@ -3144,41 +3024,6 @@
       ]
     },
     {
-      "title": "No \"Zero-Shot\" Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance",
-      "authors": "Udandarao, Prabhu, Ghosh et al.",
-      "date": "2024-04-08",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2404.04125",
-      "tags": [
-        "Computer Science - Computation and Language",
-        "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Machine Learning"
-      ]
-    },
-    {
-      "title": "BLIP: Bootstrapping Language-Image Pre-training for Unified Vision-Language Understanding and Generation",
-      "authors": "Li, Li, Xiong et al.",
-      "date": "2022-02-15",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2201.12086",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
-      "title": "ALOHa: A New Measure for Hallucination in Captioning Models",
-      "authors": "Petryk, Chan, Kachinthaya et al.",
-      "date": "2024-04-03",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2404.02904",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
-        "Computer Science - Computation and Language",
-        "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Machine Learning"
-      ]
-    },
-    {
       "title": "Chameleon: Mixed-Modal Early-Fusion Foundation Models",
       "authors": "Chameleon Team",
       "date": "2024-05-16",
@@ -3212,28 +3057,6 @@
       ]
     },
     {
-      "title": "Evaluating Text-to-Image Synthesis: Survey and Taxonomy of Image Quality Metrics",
-      "authors": "Hartwig, Engel, Sick et al.",
-      "date": "2024-04-15",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2403.11821",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
-        "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Graphics"
-      ]
-    },
-    {
-      "title": "Meteor: Mamba-based Traversal of Rationale for Large Language and Vision Models",
-      "authors": "Lee, Kim, Park et al.",
-      "date": "2024-05-27",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2405.15574",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
       "title": "Rich Human Feedback for Text-to-Image Generation",
       "authors": "Liang, He, Li et al.",
       "date": "2024-04-08",
@@ -3250,18 +3073,6 @@
       "type": "preprint",
       "url": "http://arxiv.org/abs/2104.08718",
       "tags": [
-        "Computer Science - Computation and Language",
-        "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
-      "title": "Mini-Gemini: Mining the Potential of Multi-modality Vision Language Models",
-      "authors": "Li, Zhang, Wang et al.",
-      "date": "2024-03-27",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2403.18814",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
         "Computer Science - Computation and Language",
         "Computer Science - Computer Vision and Pattern Recognition"
       ]
@@ -3310,14 +3121,6 @@
       ]
     },
     {
-      "title": "gScoreCAM: What Objects Is CLIP Looking At?",
-      "authors": "Chen, Li, Biaz et al.",
-      "date": "2023",
-      "type": "bookSection",
-      "url": "https://link.springer.com/10.1007/978-3-031-26316-3_35",
-      "tags": []
-    },
-    {
       "title": "Exploring CLIP for Assessing the Look and Feel of Images",
       "authors": "Wang, Chan, Loy",
       "date": "2022-11-23",
@@ -3325,18 +3128,6 @@
       "url": "http://arxiv.org/abs/2207.12396",
       "tags": [
         "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
-      "title": "CALIP: Zero-Shot Enhancement of CLIP with Parameter-free Attention",
-      "authors": "Guo, Zhang, Qiu et al.",
-      "date": "2022-12-18",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2209.14169",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
-        "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Multimedia"
       ]
     },
     {
@@ -3544,16 +3335,6 @@
       ]
     },
     {
-      "title": "Text2LIVE: Text-Driven Layered Image and Video Editing",
-      "authors": "Bar-Tal, Ofri-Amar, Fridman et al.",
-      "date": "2022-05-25",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2204.02491",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
       "title": "CLIP Surgery for Better Explainability with Enhancement in Open-Vocabulary Tasks",
       "authors": "Li, Wang, Duan et al.",
       "date": "2023-04-12",
@@ -3659,16 +3440,6 @@
       "type": "journalArticle",
       "url": "",
       "tags": []
-    },
-    {
-      "title": "Learn \"No\" to Say \"Yes\" Better: Improving Vision-Language Models via Negations",
-      "authors": "Singh, Shrivastava, Vatsa et al.",
-      "date": "2024-03-29",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2403.20312",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
-      ]
     },
     {
       "title": "VL-InterpreT: An Interactive Visualization Tool for Interpreting Vision-Language Transformers",
@@ -3804,16 +3575,6 @@
       ]
     },
     {
-      "title": "Unicom: Universal and Compact Representation Learning for Image Retrieval",
-      "authors": "An, Deng, Yang et al.",
-      "date": "2023-04-12",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2304.05884",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
       "title": "LXMERT: Learning Cross-Modality Encoder Representations from Transformers",
       "authors": "Tan, Bansal",
       "date": "2019-12-03",
@@ -3831,14 +3592,6 @@
       "date": "",
       "type": "journalArticle",
       "url": "",
-      "tags": []
-    },
-    {
-      "title": "What Does BERT Look at? An Analysis of BERT’s Attention",
-      "authors": "Clark, Khandelwal, Levy et al.",
-      "date": "2019",
-      "type": "conferencePaper",
-      "url": "https://www.aclweb.org/anthology/W19-4828",
       "tags": []
     },
     {
