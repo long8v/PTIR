@@ -24,7 +24,7 @@ summary: "(Authors claim) (1) quantitatively demonstrates that always-think is i
 - **evaluation :** video QA — VideoMME, MVBench, LongVideoBench, MMVU, VideoMMMU, MVP / temporal grounding — Charades-STA, ActivityNet, NExT-GQA / image — MathVista, MathVision, MathVerse, MMMU, MMMU-Pro, MM-Vet
 - **result :** VideoMME 67.3 (Qwen2.5) / 71.7 (Qwen3), VideoMMMU 58.6 (+3.9 over Qwen baseline) / 65.0, MVP 39.4 (+2.9 over Video-R1), Charades-STA mIoU 60.0 / 63.7. avg response 44 tokens (vs 149~386). less gain in the perception series (VideoMME +1.3).
 - Contribution :** (Author claim) (1) Quantitatively demonstrates that always-think is inefficient in video, (2) Simple method for separating think/no-think with inference-time confidence + dual-answer reward, learned without SFT. The real contribution seems to be bypassing the collapse of training-based auto-think with inference-side early exit.
-- **etc. :** $\tau{=}0.97$ hyperparam determines the think ratio. It is interesting that it automatically adapts to each task as perception (MVBench 25%, VideoMME 11~40%) vs reasoning (VideoMMMU 51~53%). Claims that training-based collapses because "must-think" samples are rarely in the video
+- **etc. :** $\tau{=}0.97$ hyperparam determines the think ratio. It is interesting that it automatically adapts to each task as perception (MVBench 25%, VideoMME 11-40%) vs reasoning (VideoMMMU 51-53%). Claims that training-based collapses because there are few "must-think" samples in the video.
 
 ## Details
 
@@ -66,7 +66,7 @@ A structure that generates a sequence of three tokens at once:
 <!-- figure 4: qualitative - an example of an initial answer of D that is corrected to C after thinking -->
 
 Based on video QA (Table 3):
-- VideoMME: 67.3 (Qwen2.5) / 71.7 (Qwen3), small gain (+1.3) because it's perception-driven
+- VideoMME: 67.3 (Qwen2.5) / 71.7 (Qwen3), small gain (+1.3) because it is perception-driven
 - VideoMMMU: 58.6 (+3.9), 65.0 (Qwen3) - large gains in the reasoning family
 - MVP: 39.4 (+2.9 over Video-R1)
 - avg response length 44 tokens vs prior reasoning model 149-386 tokens → ~3.3× shorter

@@ -23,7 +23,7 @@ issueUrl: "https://github.com/long8v/PTIR/issues/248"
 - **evaluation :** video QA — VideoMME, MVBench, LongVideoBench, MMVU, VideoMMMU, MVP / temporal grounding — Charades-STA, ActivityNet, NExT-GQA / image — MathVista, MathVision, MathVerse, MMMU, MMMU-Pro, MM-Vet
 - **result :** VideoMME 67.3 (Qwen2.5) / 71.7 (Qwen3), VideoMMMU 58.6 (+3.9 over Qwen baseline) / 65.0, MVP 39.4 (+2.9 over Video-R1), Charades-STA mIoU 60.0 / 63.7. avg response 44 tokens (vs 149~386). perception 계열 (VideoMME +1.3) 에선 gain 적음
 - **contribution :** (저자 claim) (1) video 에서 always-think 가 inefficient 함을 정량으로 보이고 (2) inference-time confidence 로 think/no-think 를 갈라치는 단순한 방법 + dual-answer reward 로 SFT 없이도 학습됨. 진짜 기여는 training-based auto-think 가 collapse 하는 걸 inference-side early exit 으로 우회한 부분인 듯
-- **etc. :** $\tau{=}0.97$ 이라는 hyperparam 하나에 think ratio 가 다 결정됨. perception (MVBench 25%, VideoMME 11~40%) vs reasoning (VideoMMMU 51~53%) 으로 task 별로 자동 적응되는 게 신기함. "must-think" sample 이 video 에 거의 없어서 training-based 가 collapse 한다고 주장
+- **etc. :** $\tau{=}0.97$ 이라는 hyperparam 하나에 think ratio 가 다 결정됨. perception (MVBench 25%, VideoMME 11-40%) vs reasoning (VideoMMMU 51-53%) 으로 task 별로 자동 적응되는 게 신기함. "must-think" sample 이 video 에 거의 없어서 training-based 가 collapse 한다고 주장
 
 ## Details
 
