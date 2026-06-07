@@ -28,9 +28,11 @@ issueUrl: "https://github.com/long8v/PTIR/issues/247"
 
 ## Details
 
-<!-- figure 1: Vero overall result teaser, 30 bench 평균 비교 -->
 
 ### data — Vero-600K
+
+<img width="917" height="529" alt="Image" src="https://github.com/user-attachments/assets/9ec87070-6701-47f2-8539-be0882700099" />
+
 - 59 dataset, 6 카테고리 × 100K 균등 (uniform sampling 이 difficulty / area / length weighting 보다 +0.6~+1.0 점 더 높음 — Table 2)
 - 카테고리 구성
   - **Chart & OCR (9)** : ChartQA, InfoVQA, CoSyn-Chart/Diagram/Table, ArxivQA, ECD-VQA, EvoChart, InfographicVQA, ReachQA
@@ -40,6 +42,7 @@ issueUrl: "https://github.com/long8v/PTIR/issues/247"
   - **Grounding, Counting & Search (11)** : AerialVG, GroundUI, MultiHop, Objects365-QA, OOD-VQA, OS-ATLAS, Pixel Reasoner, PixMo, RefCOCOg, TallyQA, Visual Probe
   - **Captioning & IF (6)** : PixMo-AskAnything, PixMo-CapQA, PixMo-Cap, MM-RLVR-IFEval, MMIF-23K, Flickr30K
 - 필터링 파이프라인
+- <img width="905" height="380" alt="Image" src="https://github.com/user-attachments/assets/ca8da9fa-f8d3-4d66-a681-a76bd87a11c4" />
   - 카테고리당 ~50 sample 씩 직접 보고 기준 정함: correctness (<5% annotation error rate), unambiguity (각 질문이 단일 verifiable answer 가지는지), verifiability
   - automatic filter judge = `Qwen3-VL-235B-A22B-Instruct`. ambiguous / image-irrelevant / unverifiable question 제거
   - 결과: pre→post filter 평균 61.3–64.1

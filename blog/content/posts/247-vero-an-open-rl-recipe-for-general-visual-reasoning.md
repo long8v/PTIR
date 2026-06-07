@@ -23,15 +23,17 @@ summary: "(1) Open release of 600K open RL data + 30-benchmark evaluation suite 
 - **baseline :** Qwen3-VL-8B-Instruct, Qwen3-VL-8B-Thinking, MiMo-VL-7B-RL
 - **Data:** Vero-600K = 59 datasets, 6 categories × 100K. Filtered by 3 criteria—correctness, unambiguity, and verifiability—in batches of ~50 examples each (filter judge = Qwen3-VL-235B-A22B-Instruct)
 - **evaluation :** VeroEval 30 benchmark (Chart&OCR 6 / STEM 4 / Spatial&Action 5 / Knowledge 4 / Grounding&Counting 8 / Captioning&IF 3)
-- **Result:** Vero-Qwen3I-8B achieved an average score of +5.3 compared to the baseline and outperformed Qwen3-VL-8B-Thinking in 23 out of 30 categories. Vero-MiMo-7B outperforms MiMo-VL-7B-RL (closed recipe) in 3 out of 6 categories (STEM +0.5, Knowledge +5.1, Captioning +4.0).
+- **Result:** Vero-Qwen3I-8B achieved an average score of +5.3 compared to the base model and outperformed Qwen3-VL-8B-Thinking in 23 out of 30 categories. Vero-MiMo-7B outperforms MiMo-VL-7B-RL (closed recipe) in 3 out of 6 categories (STEM +0.5, Knowledge +5.1, Captioning +4.0).
 - **Contribution:** (1) Open release of 600K open RL data + 30 benchmark evaluation suites (2) Ablation study showing that task-routed rewards (10 types) yield a +5.4 improvement compared to a single math-verified reward (3) The claim that "negative transfer in visual reasoning RL is mitigated by data diversity and task-aware rewards"
 - **etc.:** single stage, ~600 RL steps (≈1 epoch). KL penalty 0. The reasoning length varies by a factor of 16 across categories (Spatial & Action: 1,983 words vs. Grounding/Search: 125 words).
 
 ## Details
 
-<!-- Figure 1: Vero Overall Results Teaser, Comparison of 30 Bench Averages -->
 
 ### data — Vero-600K
+
+<img width="917" height="529" alt="Image" src="https://github.com/user-attachments/assets/9ec87070-6701-47f2-8539-be0882700099" />
+
 - 59 datasets, 6 categories × 100K uniform samples (uniform sampling yields scores 0.6 to 1.0 points higher than difficulty, area, or length weighting — Table 2)
 - Category Structure
   - **Chart & OCR (9)** : ChartQA, InfoVQA, CoSyn-Chart/Diagram/Table, ArxivQA, ECD-VQA, EvoChart, InfographicVQA, ReachQA
@@ -41,6 +43,7 @@ summary: "(1) Open release of 600K open RL data + 30-benchmark evaluation suite 
   - **Grounding, Counting & Search (11)** : AerialVG, GroundUI, MultiHop, Objects365-QA, OOD-VQA, OS-ATLAS, Pixel Reasoner, PixMo, RefCOCOg, TallyQA, Visual Probe
   - **Captioning & IF (6)** : PixMo-AskAnything, PixMo-CapQA, PixMo-Cap, MM-RLVR-IFEval, MMIF-23K, Flickr30K
 - Filtering pipeline
+- <img width="905" height="380" alt="Image" src="https://github.com/user-attachments/assets/ca8da9fa-f8d3-4d66-a681-a76bd87a11c4" />
 - Established criteria by reviewing approximately 50 samples per category: correctness (<5% annotation error rate), unambiguity (whether each question has a single verifiable answer), and verifiability
 - Automatic filter judge = `Qwen3-VL-235B-A22B-Instruct`. Removes ambiguous, image-irrelevant, and unverifiable questions
 - Results: pre→post filter average 61.3–64.1
@@ -52,14 +55,14 @@ summary: "(1) Open release of 600K open RL data + 30-benchmark evaluation suite 
 - KL penalty 0
 - context length: soft overlong penalty buffer $[L_{max}-2048, L_{max}]$
 - Sampling of temperature, etc.: Qwen3 series T=0.7; for the Qwen2.5 series, see Appendix Tables C2–C3
-- SFT vs. RL ablation: On the same Vero-600K dataset, RL outperforms SFT by 4.4 points—meaning this is not due to the data itself being better, but rather because the RL recipe must be applied
+- SFT vs. RL ablation: On the same Vero-600K dataset, RL outperforms SFT by 4.4 points—meaning this is not due to the data itself, but rather because the RL recipe must be applied in conjunction with it.
 
 ### Reward — Task-based (one of the key contributions)
 - Total reward
   $$ R(y, y^*) = (1-\alpha) R_{acc}(y, y^*) + \alpha R_{fmt}(y) + R_{overlong}(y),\quad \alpha=0.2 $$
 - overlong penalty (Eq. 4):
   $$ R_{overlong}(y) = \min\!\Big(-\frac{|y|-(L_{max}-B)}{B}\lambda,\ 0\Big),\quad B=2048,\ \lambda=1.0 $$
-- Reward format: 1 if the `<think>...</think><answer>...</answer>` structure is followed; 0 if not. For answer formats that do not use `\boxed{...}`, a partial score of 0.5 is awarded.
+- Reward format: 1 if the `<think>...</think><answer>...</answer>` structure is followed, 0 if not. For answer formats that do not use `\boxed{...}`, a partial score of 0.5 is awarded.
 - **10 types of accuracy rewards** — branched by answer format
   1. string match (exact text equality)
 2. Multiple choice (single-letter selection)
@@ -70,15 +73,15 @@ summary: "(1) Open release of 600K open RL data + 30-benchmark evaluation suite 
 7. Grounding (Hungarian matching of bounding boxes, IoU/F1 threshold of 0.5)
 8. Clicking (point-in-box, coordinates [0,1000] normalized)
 9. Instruction following (Rate of compliance with constraints)
-10. **LLM-as-judge** — Qwen3-32B (disabled on thinking tasks), 1–10 points, modified OLMo3 judge setup
+10. **LLM-as-judge** — Qwen3-32B (disabled), 1–10 points, modified OLMo3 judge setup
 - Ablation: Math-Verify single reward 51.8 → multi-route 57.2 (Table 4b). Task-routed outperforms it by an absolute score difference of +5.4.
 
 > User comment (p. 5, next to the entity recognition `"A: Seagull"`): "Should entity recognition just be an exact match?"
 
 ### reward hacking & judge guideline
 - If you use only an LLM as a judge, the model will inflate scores by using self-evaluative language ("This satisfies all requirements," "exhaustively documents every... detail") and fabricated metrics.
-- Mitigation: Specify **Automatic Failure Conditions** in the judge prompt — if self-evaluative or meta-commentary is detected, automatically deduct 1 point. Design the system so that reward hacking results in a net loss.
-- (? I wonder): Is there a chance that this failure condition could compromise normal reasoning? It doesn't seem like the false-positive rate was measured separately.
+- Mitigation: Specify **Automatic Failure Conditions** in the judge prompt — automatically award 1 point if self-evaluative or meta-commentary is detected. Design the system so that reward hacking results in a loss.
+- (? I wonder): What are the chances that this failure condition could compromise valid reasoning? It doesn't seem like the false-positive rate was measured separately.
 
 ### evaluation — VeroEval 30 bench
 - Chart & OCR (6): ChartQA-Pro, ChartQA, InfoVQA, CharXiv, ChartMuseum, EvoChart
@@ -93,8 +96,8 @@ summary: "(1) Open release of 600K open RL data + 30-benchmark evaluation suite 
 
 - Vero-Qwen3I-8B vs Qwen3-VL-8B-Instruct: **+5.3 on average**
   - Chart&OCR +8.5 / STEM +6.4 / Spatial&Action +3.7 / Knowledge +1.0 / Grounding +5.3 / Captioning +5.6
-- Limited knowledge gain — It appears to be an area where the original base was already performing well
-- Vero-Qwen3I-8B vs Qwen3-VL-**8B-Thinking**: Won on 23 out of 30 benchmarks (an example where the Instruct-based model outperforms the Thinking-based model)
+- Limited knowledge gain — It appears to be an area where the original base was already performing well.
+- Vero-Qwen3I-8B vs Qwen3-VL-**8B-Thinking**: Won on the 23/30 benchmark (an example where the Instruct-based model outperforms the Thinking-based model)
 - Vero-Qwen3T-8B vs Qwen3-VL-8B-Thinking: 24 / 30 (Grounding +7.2, Chart&OCR +4.2)
 - Vero-MiMo-7B vs MiMo-VL-7B-RL (closed RL recipe): Out of 6 categories, it outperformed the closed recipe in 3—STEM +0.5, Knowledge +5.1, and Captioning +4.0 — when the open recipe was pitted against the closed recipe
 
@@ -110,4 +113,4 @@ summary: "(1) Open release of 600K open RL data + 30-benchmark evaluation suite 
 - It remains unclear whether the true effectiveness of task-routed rewards stems from (a) the accuracy of the reward signal or (b) the fact that the reward distribution varies by category, thereby automatically producing curriculum and balancing effects.
 - In the SFT vs. RL ablation, the fact that RL achieved a score of +4.4 is fair since it was based on the same data, but it is unclear whether sufficient hyperparameter tuning was performed for SFT (not mentioned in the paper).
 - The gain in the Knowledge category is only +1.0, which is small—this is likely because the Knowledge benchmark itself is a domain (factual recall) where there is little to be gained from RL training.
-- In a comparison with MiMo-VL-7B-RL, it won 3 out of 6 times = on average, it lost slightly. Still, the core contribution is that "a fully open recipe using 600K data points was able to match the performance of a closed recipe."
+- In a comparison with MiMo-VL-7B-RL, it won 3 out of 6 times = On average, it lost slightly. Still, the core contribution is that "a fully open recipe using 600K data points was able to match the performance of a closed recipe."
