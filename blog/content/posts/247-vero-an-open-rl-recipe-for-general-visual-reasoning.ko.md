@@ -61,8 +61,8 @@ issueUrl: "https://github.com/long8v/PTIR/issues/247"
  
 
 ### reward 
-
 <img width="871" height="519" alt="Image" src="https://github.com/user-attachments/assets/6af2641c-ce9e-4362-8edc-ff725b04348b" />
+
 - 전체 reward
   $$ R(y, y^*) = (1-\alpha) R_{acc}(y, y^*) + \alpha R_{fmt}(y) + R_{overlong}(y),\quad \alpha=0.2 $$
 - overlong penalty (Eq. 4):

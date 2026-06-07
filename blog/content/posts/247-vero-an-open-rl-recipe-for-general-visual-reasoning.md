@@ -57,13 +57,13 @@ summary: "Open-source VLM + RL — (1) Open release of 600K open RL data + 30-be
 - Single-stage RL, **no warm-start SFT**. ~600 steps ≈ 1 epoch
 - KL penalty 0
 - context length: soft overlong penalty buffer $[L_{max}-2048, L_{max}]$
-- SFT vs. RL ablation: On the same Vero-600K dataset, RL scored 4.4 points higher than SFT
+- SFT vs. RL ablation: On the same Vero-600K dataset, RL outperformed SFT by 4.4 points
   -  <img width="481" height="215" alt="Image" src="https://github.com/user-attachments/assets/1a996f73-3242-4f04-bdd1-f313f607d1ce" />
  
 
 ### reward 
-
 <img width="871" height="519" alt="Image" src="https://github.com/user-attachments/assets/6af2641c-ce9e-4362-8edc-ff725b04348b" />
+
 - Total reward
   $$ R(y, y^*) = (1-\alpha) R_{acc}(y, y^*) + \alpha R_{fmt}(y) + R_{overlong}(y),\quad \alpha=0.2 $$
 - overlong penalty (Eq. 4):
@@ -79,7 +79,7 @@ summary: "Open-source VLM + RL — (1) Open release of 600K open RL data + 30-be
 7. Grounding (Hungarian matching of bounding boxes, IoU/F1 threshold of 0.5)
 8. Clicking (point-in-box, coordinates [0,1000] normalized)
 9. Instruction following (Rate of compliance with constraints)
-10. **LLM-as-judge** — Qwen3-32B (with disabled reasoning), 1–10 points, modified OLMo3 judge setup
+10. **LLM-as-judge** — Qwen3-32B (disabled on thinking tasks), 1–10 points, modified OLMo3 judge setup
 - ablation: 
   - <img width="415" height="146" alt="Image" src="https://github.com/user-attachments/assets/9d03cfd0-50d9-4a41-9446-2f889cdbeda0" />
 
@@ -87,8 +87,8 @@ summary: "Open-source VLM + RL — (1) Open release of 600K open RL data + 30-be
 
 ### reward hacking & judge guideline
 - If you use only an LLM as a judge, the model will inflate scores by using self-evaluative language ("This satisfies all requirements," "exhaustively documents every... detail") and fabricated metrics.
-- Mitigation: Specify **Automatic Failure Conditions** in the judge prompt — if self-evaluative or meta-commentary is detected, automatically deduct 1 point. Design the system so that reward hacking results in a net loss.
-- (? I wonder): Is there a chance that this failure condition could compromise the accuracy of normal reasoning? It doesn't seem like the false-positive rate was measured separately.
+- Mitigation: Specify **Automatic Failure Conditions** in the judge prompt — automatically deduct 1 point if self-evaluative or meta-commentary is detected. Design the system so that reward hacking results in a loss.
+- (? I wonder): Is there a chance that this failure condition could compromise normal reasoning? It doesn't seem like the false-positive rate was measured separately.
 
 ### evaluation — VeroEval 30 bench
 - Chart & OCR (6): ChartQA-Pro, ChartQA, InfoVQA, CharXiv, ChartMuseum, EvoChart
@@ -104,14 +104,14 @@ summary: "Open-source VLM + RL — (1) Open release of 600K open RL data + 30-be
 - Vero-Qwen3I-8B vs Qwen3-VL-8B-Instruct: **+5.3 on average**
   - Chart&OCR +8.5 / STEM +6.4 / Spatial&Action +3.7 / Knowledge +1.0 / Grounding +5.3 / Captioning +5.6
 - Limited knowledge gain — It appears to be an area where the original base was already performing well.
-- Vero-Qwen3I-8B vs Qwen3-VL-**8B-Thinking**: Won on 23 out of 30 benchmarks (an example where the Instruct-based model outperforms the Thinking-based model)
+- Vero-Qwen3I-8B vs Qwen3-VL-**8B-Thinking**: Won on the 23/30 benchmark (an example where the Instruct-based model outperforms the Thinking-based model)
 - Vero-Qwen3T-8B vs Qwen3-VL-8B-Thinking: 24 / 30 (Grounding +7.2, Chart&OCR +4.2)
-- Vero-MiMo-7B vs MiMo-VL-7B-RL (closed RL recipe): Outperformed in 3 out of 6 categories, with scores of +0.5 for STEM, +5.1 for Knowledge, and +4.0 for Captioning
+- Vero-MiMo-7B vs MiMo-VL-7B-RL (closed RL recipe): Out of 6 categories, it outperformed the latter in 3—STEM +0.5, Knowledge +5.1, and Captioning +4.0
 
 ### ablation — cross-category transfer
 - Key claim: **"Negative transfer is mitigated through data diversity and task-aware reward design"**
-- Single-task RL often results in neutral or negative transfer to other categories. For example, when training RL using only captioning, Qwen2.5-VL’s scores in other categories drop by as much as -4.4 to -35.5 points.
-- When all 6 categories are combined, **positive cross-category transfer** is observed—that is, adding one category helps with the others as well
+- Single-task RL often results in neutral or negative transfer to other categories. For example, when training Qwen2.5-VL using only captioning, its scores on other categories drop by as much as -4.4 to -35.5 points.
+- When all 6 categories are combined, **positive cross-category transfer** is observed—in other words, adding one category helps with the others as well
 - Significant differences in reasoning length across categories: Spatial & Action average 1,983 words vs. Grounding/Search average 125 words
   -  <img width="453" height="377" alt="Image" src="https://github.com/user-attachments/assets/371d30ce-85cd-487e-a1cb-39b85dcba43d" />
 - Interestingly, "Spatial & Action" requires more sentences than "STEM."
