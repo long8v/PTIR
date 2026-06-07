@@ -12,7 +12,7 @@ issueUrl: "https://github.com/long8v/PTIR/issues/247"
 [paper](https://arxiv.org/abs/2604.04917)
 
 ## TL;DR
-- **I read this because.. :**
+- **I read this because.. :** open source VLM + RL
 - **task :** MLLM / RL (general visual reasoning)
 - **problem :** open weight VLM 에서 단일 도메인에 치중하지 않고 chart / STEM / spatial / grounding 등 넓은 범위의 visual reasoning 을 RL 로 한 번에 끌어올리기
 - **idea :** 6 카테고리 × 100K 균등 sampling (Vero-600K) + answer 형식별로 분기되는 task-routed reward + GSPO 단일 stage RL
@@ -41,11 +41,14 @@ issueUrl: "https://github.com/long8v/PTIR/issues/247"
   - **Knowledge & Recognition (12)** : A-OKVQA, GQA, IconQA, Indoor-QA, KVG, KVQA, PopVQA, VCR, ViQuAE, Visual7W, VizWiz, VQAv2
   - **Grounding, Counting & Search (11)** : AerialVG, GroundUI, MultiHop, Objects365-QA, OOD-VQA, OS-ATLAS, Pixel Reasoner, PixMo, RefCOCOg, TallyQA, Visual Probe
   - **Captioning & IF (6)** : PixMo-AskAnything, PixMo-CapQA, PixMo-Cap, MM-RLVR-IFEval, MMIF-23K, Flickr30K
-- 필터링 파이프라인
-- <img width="905" height="380" alt="Image" src="https://github.com/user-attachments/assets/ca8da9fa-f8d3-4d66-a681-a76bd87a11c4" />
+- data filtering 
+  - <img width="905" height="380" alt="Image" src="https://github.com/user-attachments/assets/ca8da9fa-f8d3-4d66-a681-a76bd87a11c4" />
   - 카테고리당 ~50 sample 씩 직접 보고 기준 정함: correctness (<5% annotation error rate), unambiguity (각 질문이 단일 verifiable answer 가지는지), verifiability
   - automatic filter judge = `Qwen3-VL-235B-A22B-Instruct`. ambiguous / image-irrelevant / unverifiable question 제거
   - 결과: pre→post filter 평균 61.3–64.1
+- data mixture
+  - 그냥 균등 분배하는게 더 좋았다고 함
+  - <img width="482" height="380" alt="Image" src="https://github.com/user-attachments/assets/cac4c8ce-d8fc-4ea9-9ffc-7cba17b2bd03" />
 - (논문에 없음): 카테고리 안에서 dataset 끼리는 어떻게 weighting 했는지 명시 X
 
 ### training recipe
@@ -56,7 +59,7 @@ issueUrl: "https://github.com/long8v/PTIR/issues/247"
 - temperature 등 sampling: Qwen3 계열 T=0.7, Qwen2.5 계열은 appendix Table C2~C3
 - SFT vs RL ablation: 같은 Vero-600K 에 대해 RL 이 SFT 보다 +4.4 점 — 즉 데이터 자체가 좋아서가 아니라 RL recipe 가 같이 작동해야 됨
 
-### reward — task-routed (핵심 contribution 중 하나)
+### reward 
 - 전체 reward
   $$ R(y, y^*) = (1-\alpha) R_{acc}(y, y^*) + \alpha R_{fmt}(y) + R_{overlong}(y),\quad \alpha=0.2 $$
 - overlong penalty (Eq. 4):
