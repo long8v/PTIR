@@ -6,7 +6,8 @@ paper: "https://arxiv.org/abs/2604.04917"
 issue: 247
 issueUrl: "https://github.com/long8v/PTIR/issues/247"
 ---
-<!-- thumbnail: figure 1 (Vero overall result/teaser) -->
+<img width="941" height="278" alt="Image" src="https://github.com/user-attachments/assets/57fb2ff8-85ec-4424-95d8-e049d8915c62" />
+
 
 [paper](https://arxiv.org/abs/2604.04917)
 
