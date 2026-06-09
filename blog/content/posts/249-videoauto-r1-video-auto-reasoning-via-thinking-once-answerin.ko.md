@@ -104,11 +104,3 @@ issueUrl: "https://github.com/long8v/PTIR/issues/249"
 <img width="1145" height="511" alt="Image" src="https://github.com/user-attachments/assets/0dbcb9f2-0026-45bb-8a4c-3d086fd7f9fd" />
 
 <img width="1164" height="777" alt="Image" src="https://github.com/user-attachments/assets/d1fb80bd-7f00-421c-a4e1-e0f4d2df174f" />
-
-- MVBench (perception 위주) — mean prob 94.8, think 25%, gain +0.1
-- VideoMMMU (reasoning heavy) — mean prob 87.4, think 51%, gain +4.0
-→ 어려운 태스크에서 think 켜지는 자동 gating이 의도대로 동작.
-
-- Table 7:
-  - reward weight ablation (Table 7 부근): $w_1 : w_2 = 0.9 : 1.1$ 이 최적. $w_1 > w_2$ 로 가면 모델이 reasoning 안 거치고 일찍 답을 굳히려 함.
-
