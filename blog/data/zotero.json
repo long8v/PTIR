@@ -1,6 +1,38 @@
 {
-  "count": 333,
+  "count": 336,
   "papers": [
+    {
+      "title": "Time-R1: Post-Training Large Vision Language Model for Temporal Video Grounding",
+      "authors": "Wang, Wang, Xu et al.",
+      "date": "2025-06-29",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2503.13377",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Video-R1: Reinforcing Video Reasoning in MLLMs",
+      "authors": "Feng, Gong, Li et al.",
+      "date": "2025-10-22",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2503.21776",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Lance: Efficient Random Access in Columnar Storage through Adaptive Structural Encodings",
+      "authors": "Pace, She, Xu et al.",
+      "date": "2025-04-21",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2504.15247",
+      "tags": [
+        "Computer Science - Databases"
+      ]
+    },
     {
       "title": "DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models",
       "authors": "DeepSeek-AI, Liu, Mei et al.",
