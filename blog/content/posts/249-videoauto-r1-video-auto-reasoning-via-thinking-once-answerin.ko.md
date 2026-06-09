@@ -36,24 +36,26 @@ issueUrl: "https://github.com/long8v/PTIR/issues/249"
 
 <img width="1142" height="460" alt="Image" src="https://github.com/user-attachments/assets/586d816c-a701-4362-84a0-fd18bc16ccc0" />
 
-- benchmarks
-  - VideoMME 
-  - [VideoMMMU](https://arxiv.org/pdf/2501.13826): lecture 영상. 사실상 text reasoning bench와 거의 비슷함 
-  - [LongVideoBench](https://arxiv.org/pdf/2407.15754): 흠 long video bench 에서도 떨어지네.  => 벤치마크의 능력 자체는 perception + relation 위주여서 인듯 함. 
-  - [MMVU](https://arxiv.org/pdf/2501.12380): VideoMMMU와 달리 비디오가 lecture는 아니지만 지식을 요하는 벤치. -- 얘는 왜 cot가 낮은지 잘 모르겠음
-  - Charades-STA: temporal grounding task 
-- models
-  - [Video-R1](https://arxiv.org/pdf/2503.21776) / Qwen2.5-VL-7B / Video-R1-CoT-165k (SFT / distil from Qwen2.5-VL-72B-Instruct) + Video-R1-260k (RL) / https://github.com/tulerfeng/Video-R1  
-  - [Time-R1](https://arxiv.org/pdf/2503.13377) / Qwen2.5-VL-7B / temporal Grounding   
-  - [VideoChat-R1](https://arxiv.org/abs/2504.06958) / spatio-temporal perception
-  - [VideoChat-R1.5](https://arxiv.org/abs/2509.21100) / VTTS-80K (15K temporal + 30K spatial clues, 80K Think annotations, 50K QA), Iterative Perception + GRPO
-  - 아래는 cc가 halluci한거 .. 
-    - Temporal-RLT / Qwen-VL-2.5-7B / MCQA(semantic reasoning) + temporal grounding(tIoU) 기반, dual reward + sample /selection/dynamic data / https://arxiv.org/abs/2506.01908 / https://huggingface.co/datasets/appletea2333/temporal_r1  
-    - Video-RFT / Qwen2.5-VL (3B/7B) / VideoRFT-CoT-102K (SFT) + VideoRFT-RL-310K (RL), multi-expert·cognition-inspired CoT 파이프라인으로 자체 구축 -- wen2.5-VL-72B-Instruct / https://huggingface.co/datasets/QiWang98/VideoRFT-Data
-   - Video-RTS / Qwen2.5-VL-7B / ?
-    - VITAL / (VITAL-7B; ByteDance·Tsinghua) /  MTVR-CoT-72k (SFT) + MTVR-RL-110k (RL), DGRPO(difficulty-aware GRPO) / https://huggingface.co/datasets/zhang9302002/MultiTaskVideoReasoning
-    - [LongVILA-R1](https://arxiv.org/abs/2507.07966)/ VILA/NVILA 계열 /  LongVideo-Reason 104K QA (sports/games/vlogs 등); 36K Long-CoT-SFT, 68K + 추가 102K video data로 RL (버전별로 52K/18K/33K+110K 등 수치 변동)
-    - [LOVE-R1](https://arxiv.org/abs/2509.24786)  / Qwen2.5-VL / Zoom in data
+- think 학습된 video LLM들 벤치마크를 평가했더니 direct가 성능이 더 좋을 수 있다는 motivation
+  - benchmarks
+    - VideoMME 
+    - [VideoMMMU](https://arxiv.org/pdf/2501.13826): lecture 영상. 사실상 text reasoning bench와 거의 비슷함 
+    - [LongVideoBench](https://arxiv.org/pdf/2407.15754): 흠 long video bench 에서도 떨어지네.  => 벤치마크의 능력 자체는 perception + relation 위주여서인듯 함. 그리고 아래 모델들을 보면 long video 가 학습데이터에 없기도 함
+    - <img width="1806" height="976" alt="Image" src="https://github.com/user-attachments/assets/029c6246-c58f-4288-ad12-22b861e796e2" /> 
+    - [MMVU](https://arxiv.org/pdf/2501.12380): VideoMMMU와 달리 비디오가 lecture는 아니지만 지식을 요하는 벤치. -- 얘는 왜 cot가 낮은지 잘 모르겠음
+    - Charades-STA: temporal grounding task 
+  - models
+    - [Video-R1](https://arxiv.org/pdf/2503.21776) / Qwen2.5-VL-7B / Video-R1-CoT-165k (SFT / distil from Qwen2.5-VL-72B-Instruct) + Video-R1-260k (RL) / https://github.com/tulerfeng/Video-R1  
+    - [Time-R1](https://arxiv.org/pdf/2503.13377) / Qwen2.5-VL-7B / temporal Grounding   
+    - [VideoChat-R1](https://arxiv.org/abs/2504.06958) / spatio-temporal perception
+    - [VideoChat-R1.5](https://arxiv.org/abs/2509.21100) / VTTS-80K (15K temporal + 30K spatial clues, 80K Think annotations, 50K QA), Iterative Perception + GRPO
+    - 아래는 cc가 halluci한거 .. 
+      - Temporal-RLT / Qwen-VL-2.5-7B / MCQA(semantic reasoning) + temporal grounding(tIoU) 기반, dual reward + sample /selection/dynamic data / https://arxiv.org/abs/2506.01908 / https://huggingface.co/datasets/appletea2333/temporal_r1  
+      - Video-RFT / Qwen2.5-VL (3B/7B) / VideoRFT-CoT-102K (SFT) + VideoRFT-RL-310K (RL), multi-expert·cognition-inspired CoT 파이프라인으로 자체 구축 -- wen2.5-VL-72B-Instruct / https://huggingface.co/datasets/QiWang98/VideoRFT-Data
+      - Video-RTS / Qwen2.5-VL-7B / ?
+      - VITAL / (VITAL-7B; ByteDance·Tsinghua) /  MTVR-CoT-72k (SFT) + MTVR-RL-110k (RL), DGRPO(difficulty-aware GRPO) / https://huggingface.co/datasets/zhang9302002/MultiTaskVideoReasoning
+      - [LongVILA-R1](https://arxiv.org/abs/2507.07966)/ VILA/NVILA 계열 /  LongVideo-Reason 104K QA (sports/games/vlogs 등); 36K Long-CoT-SFT, 68K + 추가 102K video data로 RL (버전별로 52K/18K/33K+110K 등 수치 변동)
+     - [LOVE-R1](https://arxiv.org/abs/2509.24786)  / Qwen2.5-VL / Zoom in data
 
 
 
