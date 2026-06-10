@@ -1,6 +1,49 @@
 {
-  "count": 336,
+  "count": 340,
   "papers": [
+    {
+      "title": "QwenLong-L1: Towards Long-Context Large Reasoning Models with Reinforcement Learning",
+      "authors": "Wan, Shen, Liao et al.",
+      "date": "2025-05-27",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.17667",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Attention Reveals More Than Tokens: Training-Free Long-Context Reasoning with Attention-guided Retrieval",
+      "authors": "Zhang, Srinivasa, Liu et al.",
+      "date": "2025-03-12",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2503.09819",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks",
+      "authors": "Bai, Tu, Zhang et al.",
+      "date": "2025-01-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2412.15204",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "LongWriter-Zero: Mastering Ultra-Long Text Generation via Reinforcement Learning",
+      "authors": "Wu, Bai, Hu et al.",
+      "date": "2026-04-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2506.18841",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
     {
       "title": "Time-R1: Post-Training Large Vision Language Model for Temporal Video Grounding",
       "authors": "Wang, Wang, Xu et al.",
