@@ -1,6 +1,17 @@
 {
-  "count": 340,
+  "count": 341,
   "papers": [
+    {
+      "title": "LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks",
+      "authors": "Bai, Tu, Zhang et al.",
+      "date": "2025-01-03",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2412.15204",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
     {
       "title": "QwenLong-L1: Towards Long-Context Large Reasoning Models with Reinforcement Learning",
       "authors": "Wan, Shen, Liao et al.",
