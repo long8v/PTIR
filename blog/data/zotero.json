@@ -1,6 +1,36 @@
 {
-  "count": 341,
+  "count": 344,
   "papers": [
+    {
+      "title": "Thinking with Visual Primitives",
+      "authors": "Lu, Ma, Chen et al.",
+      "date": "",
+      "type": "journalArticle",
+      "url": "",
+      "tags": []
+    },
+    {
+      "title": "More Thinking, Less Seeing? Assessing Amplified Hallucination in Multimodal Reasoning Models",
+      "authors": "Liu, Xu, Wei et al.",
+      "date": "2025-06-20",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.21523",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Attention Reveals More Than Tokens: Training-Free Long-Context Reasoning with Attention-guided Retrieval",
+      "authors": "Zhang, Srinivasa, Liu et al.",
+      "date": "2025-03-12",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2503.09819",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
     {
       "title": "LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks",
       "authors": "Bai, Tu, Zhang et al.",
