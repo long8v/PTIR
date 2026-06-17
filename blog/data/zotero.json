@@ -2,6 +2,31 @@
   "count": 344,
   "papers": [
     {
+      "title": "In-Place Test-Time Training",
+      "authors": "Feng, Luo, Hua et al.",
+      "date": "2026-04-07",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2604.06169",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning",
+        "Statistics - Machine Learning"
+      ]
+    },
+    {
+      "title": "Learning to (Learn at Test Time): RNNs with Expressive Hidden States",
+      "authors": "Sun, Li, Dalal et al.",
+      "date": "2025-08-31",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2407.04620",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
       "title": "Thinking with Visual Primitives",
       "authors": "Lu, Ma, Chen et al.",
       "date": "",
@@ -2479,17 +2504,6 @@
       ]
     },
     {
-      "title": "O1 Replication Journey: A Strategic Progress Report -- Part 1",
-      "authors": "Qin, Li, Zou et al.",
-      "date": "2024-10-08",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2410.18982",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
-        "Computer Science - Computation and Language"
-      ]
-    },
-    {
       "title": "LLaVA-CoT: Let Vision Language Models Reason Step-by-Step",
       "authors": "Xu, Jin, Li et al.",
       "date": "2024-11-25",
@@ -2681,16 +2695,6 @@
         "Computer Science - Computation and Language",
         "Computer Science - Computer Vision and Pattern Recognition",
         "Computer Science - Machine Learning"
-      ]
-    },
-    {
-      "title": "Large Language Models Can Self-Improve",
-      "authors": "Huang, Gu, Hou et al.",
-      "date": "2022-10-25",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2210.11610",
-      "tags": [
-        "Computer Science - Computation and Language"
       ]
     },
     {
