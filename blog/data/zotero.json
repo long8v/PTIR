@@ -1,5 +1,5 @@
 {
-  "count": 344,
+  "count": 342,
   "papers": [
     {
       "title": "In-Place Test-Time Training",
@@ -74,27 +74,6 @@
       "type": "preprint",
       "url": "http://arxiv.org/abs/2505.17667",
       "tags": [
-        "Computer Science - Computation and Language"
-      ]
-    },
-    {
-      "title": "Attention Reveals More Than Tokens: Training-Free Long-Context Reasoning with Attention-guided Retrieval",
-      "authors": "Zhang, Srinivasa, Liu et al.",
-      "date": "2025-03-12",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2503.09819",
-      "tags": [
-        "Computer Science - Computation and Language"
-      ]
-    },
-    {
-      "title": "LongBench v2: Towards Deeper Understanding and Reasoning on Realistic Long-context Multitasks",
-      "authors": "Bai, Tu, Zhang et al.",
-      "date": "2025-01-03",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2412.15204",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
         "Computer Science - Computation and Language"
       ]
     },
