@@ -1,6 +1,17 @@
 {
-  "count": 342,
+  "count": 343,
   "papers": [
+    {
+      "title": "OmniScript: Towards Audio-Visual Script Generation for Long-Form Cinematic Video",
+      "authors": "Pu, Chen, Wang et al.",
+      "date": "2026-04-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2604.11102",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Multimedia"
+      ]
+    },
     {
       "title": "In-Place Test-Time Training",
       "authors": "Feng, Luo, Hua et al.",
