@@ -2,13 +2,13 @@
   "count": 345,
   "papers": [
     {
-      "title": "CYCLO: Cyclic Graph Transformer Approach to Multi-Object Relationship Modeling in Aerial Videos",
-      "authors": "Nguyen, Nguyen, Li et al.",
-      "date": "2024-10-17",
+      "title": "Qwen2.5-1M Technical Report",
+      "authors": "Yang, Yu, Li et al.",
+      "date": "2025-01-26",
       "type": "preprint",
-      "url": "http://arxiv.org/abs/2406.01029",
+      "url": "http://arxiv.org/abs/2501.15383",
       "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
+        "Computer Science - Computation and Language"
       ]
     },
     {
