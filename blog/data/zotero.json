@@ -1,6 +1,28 @@
 {
-  "count": 345,
+  "count": 347,
   "papers": [
+    {
+      "title": "OmniScript: Towards Audio-Visual Script Generation for Long-Form Cinematic Video",
+      "authors": "Pu, Chen, Wang et al.",
+      "date": "2026-04-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2604.11102",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Multimedia"
+      ]
+    },
+    {
+      "title": "OmniScript: Towards Audio-Visual Script Generation for Long-Form Cinematic Video",
+      "authors": "Pu, Chen, Wang et al.",
+      "date": "2026-04-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2604.11102",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Multimedia"
+      ]
+    },
     {
       "title": "Qwen2.5-1M Technical Report",
       "authors": "Yang, Yu, Li et al.",
