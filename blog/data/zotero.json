@@ -1,6 +1,47 @@
 {
-  "count": 347,
+  "count": 351,
   "papers": [
+    {
+      "title": "Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models",
+      "authors": "Deitke, Clark, Lee et al.",
+      "date": "2024-12-05",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2409.17146",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "The Delta Learning Hypothesis: Preference Tuning on Weak Data can Yield Strong Gains",
+      "authors": "Geng, Ivison, Li et al.",
+      "date": "2025-07-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.06187",
+      "tags": [
+        "Computer Science - Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "MAI-Thinking-1: Building a Hill-Climbing Machine",
+      "authors": "",
+      "date": "",
+      "type": "journalArticle",
+      "url": "",
+      "tags": []
+    },
+    {
+      "title": "Molmo2: Open Weights and Data for Vision-Language Models with Video Understanding and Grounding",
+      "authors": "Clark, Zhang, Ma et al.",
+      "date": "2026-04-02",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2601.10611",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
     {
       "title": "OmniScript: Towards Audio-Visual Script Generation for Long-Form Cinematic Video",
       "authors": "Pu, Chen, Wang et al.",
