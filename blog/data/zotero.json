@@ -1,6 +1,16 @@
 {
-  "count": 357,
+  "count": 358,
   "papers": [
+    {
+      "title": "A Spectral Condition for Feature Learning",
+      "authors": "Yang, Simon, Bernstein",
+      "date": "2024-05-14",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2310.17813",
+      "tags": [
+        "Computer Science - Machine Learning"
+      ]
+    },
     {
       "title": "mHC: Manifold-Constrained Hyper-Connections",
       "authors": "Xie, Wei, Cao et al.",
