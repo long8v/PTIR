@@ -1,6 +1,26 @@
 {
-  "count": 358,
+  "count": 360,
   "papers": [
+    {
+      "title": "Muon is Scalable for LLM Training",
+      "authors": "Liu, Su, Yao et al.",
+      "date": "2025-02-24",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2502.16982",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Understanding Muon",
+      "authors": "",
+      "date": "",
+      "type": "journalArticle",
+      "url": "",
+      "tags": []
+    },
     {
       "title": "A Spectral Condition for Feature Learning",
       "authors": "Yang, Simon, Bernstein",
