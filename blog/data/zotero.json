@@ -1,6 +1,18 @@
 {
-  "count": 360,
+  "count": 334,
   "papers": [
+    {
+      "title": "DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation",
+      "authors": "Cheng, Yu, Shao et al.",
+      "date": "2026-07-07T02:23:19Z",
+      "type": "preprint",
+      "url": "https://arxiv.org/abs/2607.05147",
+      "tags": [
+        "Artificial Intelligence (cs.AI)",
+        "Computation and Language (cs.CL)",
+        "FOS: Computer and information sciences"
+      ]
+    },
     {
       "title": "Muon is Scalable for LLM Training",
       "authors": "Liu, Su, Yao et al.",
@@ -322,16 +334,6 @@
       "url": "http://arxiv.org/abs/2512.02556",
       "tags": [
         "Computer Science - Computation and Language"
-      ]
-    },
-    {
-      "title": "OmniVTG: A Large-Scale Dataset and Training Paradigm for Open-World Video Temporal Grounding",
-      "authors": "Zheng, Yin, Yang et al.",
-      "date": "2026-04-28",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2604.25276",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
       ]
     },
     {
@@ -1896,14 +1898,6 @@
       ]
     },
     {
-      "title": "PRESERVING DIVERSITY IN SUPERVISED FINE-TUNING OF LARGE LANGUAGE MODELS",
-      "authors": "Li, Chen, Xu et al.",
-      "date": "2025",
-      "type": "journalArticle",
-      "url": "",
-      "tags": []
-    },
-    {
       "title": "Skywork Open Reasoner 1 Technical Report",
       "authors": "He, Liu, Liu et al.",
       "date": "2025-05-29",
@@ -2166,27 +2160,6 @@
       "url": "http://arxiv.org/abs/2307.05845",
       "tags": [
         "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Machine Learning"
-      ]
-    },
-    {
-      "title": "R1-Onevision: Advancing Generalized Multimodal Reasoning through Cross-Modal Formalization",
-      "authors": "Yang, He, Pan et al.",
-      "date": "2025-03-13",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2503.10615",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
-      "title": "Quark: Controllable Text Generation with Reinforced Unlearning",
-      "authors": "Lu, Welleck, Hessel et al.",
-      "date": "2022-11-16",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2205.13636",
-      "tags": [
-        "Computer Science - Computation and Language",
         "Computer Science - Machine Learning"
       ]
     },
@@ -2467,16 +2440,6 @@
       ]
     },
     {
-      "title": "PRIME: Prioritizing Interpretability in Failure Mode Extraction",
-      "authors": "Rezaei, Saberi, Moayeri et al.",
-      "date": "2024-03-14",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2310.00164",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
       "title": "PRMBench: A Fine-grained and Challenging Benchmark for Process-Level Reward Models",
       "authors": "Song, Su, Qu et al.",
       "date": "2025-01-07",
@@ -2595,17 +2558,6 @@
       "url": "http://arxiv.org/abs/2408.03314",
       "tags": [
         "Computer Science - Computation and Language",
-        "Computer Science - Machine Learning"
-      ]
-    },
-    {
-      "title": "Scaling of Search and Learning: A Roadmap to Reproduce o1 from Reinforcement Learning Perspective",
-      "authors": "Zeng, Cheng, Yin et al.",
-      "date": "2024-12-18",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2412.14135",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
         "Computer Science - Machine Learning"
       ]
     },
@@ -2867,17 +2819,6 @@
         "Computer Science - Computation and Language",
         "Computer Science - Computer Vision and Pattern Recognition",
         "Computer Science - Machine Learning"
-      ]
-    },
-    {
-      "title": "Less is More: Mitigating Multimodal Hallucination from an EOS Decision Perspective",
-      "authors": "Yue, Zhang, Jin",
-      "date": "2024-05-29",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2402.14545",
-      "tags": [
-        "Computer Science - Computation and Language",
-        "Computer Science - Computer Vision and Pattern Recognition"
       ]
     },
     {
@@ -3293,29 +3234,6 @@
       ]
     },
     {
-      "title": "No \"Zero-Shot\" Without Exponential Data: Pretraining Concept Frequency Determines Multimodal Model Performance",
-      "authors": "Udandarao, Prabhu, Ghosh et al.",
-      "date": "2024-04-04",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2404.04125",
-      "tags": [
-        "Computer Science - Computation and Language",
-        "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Machine Learning"
-      ]
-    },
-    {
-      "title": "Progress measures for grokking via mechanistic interpretability",
-      "authors": "Nanda, Chan, Lieberum et al.",
-      "date": "2023-10-19",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2301.05217",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
-        "Computer Science - Machine Learning"
-      ]
-    },
-    {
       "title": "Chameleon: Mixed-Modal Early-Fusion Foundation Models",
       "authors": "Chameleon Team",
       "date": "2024-05-16",
@@ -3399,17 +3317,6 @@
         "Computer Science - Computation and Language",
         "Computer Science - Computer Vision and Pattern Recognition",
         "Computer Science - Machine Learning"
-      ]
-    },
-    {
-      "title": "Assessing Generative Models via Precision and Recall",
-      "authors": "Sajjadi, Bachem, Lucic et al.",
-      "date": "2018-10-28",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/1806.00035",
-      "tags": [
-        "Computer Science - Machine Learning",
-        "Statistics - Machine Learning"
       ]
     },
     {
@@ -3576,24 +3483,6 @@
       ]
     },
     {
-      "title": "Semantic Pyramid for Image Generation",
-      "authors": "Shocher, Gandelsman, Mosseri et al.",
-      "date": "6/2020",
-      "type": "conferencePaper",
-      "url": "https://ieeexplore.ieee.org/document/9157611/",
-      "tags": []
-    },
-    {
-      "title": "LeGrad: An Explainability Method for Vision Transformers via Feature Formation Sensitivity",
-      "authors": "Bousselham, Boggust, Chaybouti et al.",
-      "date": "2024-04-04",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2404.03214",
-      "tags": [
-        "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
       "title": "MoDE: CLIP Data Experts via Clustering",
       "authors": "Ma, Huang, Xie et al.",
       "date": "2024-04-24",
@@ -3614,16 +3503,6 @@
       "url": "http://arxiv.org/abs/2402.05472",
       "tags": [
         "Computer Science - Computer Vision and Pattern Recognition"
-      ]
-    },
-    {
-      "title": "Adventures of Trustworthy Vision-Language Models: A Survey",
-      "authors": "Vatsa, Jain, Singh",
-      "date": "2024-03-24",
-      "type": "journalArticle",
-      "url": "https://ojs.aaai.org/index.php/AAAI/article/view/30275",
-      "tags": [
-        "Robustness"
       ]
     },
     {
@@ -3668,77 +3547,11 @@
       "tags": []
     },
     {
-      "title": "Optimizing Relevance Maps of Vision Transformers Improves Robustness",
-      "authors": "Chefer, Schwartz, Wolf",
-      "date": "2022-12-06",
-      "type": "journalArticle",
-      "url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/d9fa720cf96f7c18ac4d9e04270f0bbf-Abstract-Conference.html",
-      "tags": []
-    },
-    {
-      "title": "Attend-and-Excite: Attention-Based Semantic Guidance for Text-to-Image Diffusion Models",
-      "authors": "Chefer, Alaluf, Vinker et al.",
-      "date": "2023-05-31",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2301.13826",
-      "tags": [
-        "Computer Science - Computation and Language",
-        "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Graphics",
-        "Computer Science - Machine Learning"
-      ]
-    },
-    {
-      "title": "Attention is not Explanation",
-      "authors": "Jain, Wallace",
-      "date": "2019-05-08",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/1902.10186",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
-        "Computer Science - Computation and Language"
-      ]
-    },
-    {
-      "title": "Shortcut Learning in Deep Neural Networks",
-      "authors": "Geirhos, Jacobsen, Michaelis et al.",
-      "date": "2020-11-10",
-      "type": "journalArticle",
-      "url": "http://arxiv.org/abs/2004.07780",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
-        "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Machine Learning",
-        "Quantitative Biology - Neurons and Cognition"
-      ]
-    },
-    {
       "title": "When and why vision-language models behave like bags-of-words, and what to do about it?",
       "authors": "Yuksekgonul, Bianchi, Kalluri et al.",
       "date": "2023-03-23",
       "type": "preprint",
       "url": "http://arxiv.org/abs/2210.01936",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
-        "Computer Science - Computation and Language",
-        "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Machine Learning"
-      ]
-    },
-    {
-      "title": "Explaining Classifiers with Causal Concept Effect (CaCE)",
-      "authors": "Goyal, Feder, Shalit et al.",
-      "date": "",
-      "type": "journalArticle",
-      "url": "",
-      "tags": []
-    },
-    {
-      "title": "VL-InterpreT: An Interactive Visualization Tool for Interpreting Vision-Language Transformers",
-      "authors": "Aflalo, Du, Tseng et al.",
-      "date": "2022-08-22",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2203.17247",
       "tags": [
         "Computer Science - Artificial Intelligence",
         "Computer Science - Computation and Language",
@@ -3769,89 +3582,11 @@
       ]
     },
     {
-      "title": "Open Vocabulary Semantic Segmentation with Patch Aligned Contrastive Learning",
-      "authors": "Mukhoti, Lin, Poursaeed et al.",
-      "date": "6/2023",
-      "type": "conferencePaper",
-      "url": "https://ieeexplore.ieee.org/document/10203477/",
-      "tags": []
-    },
-    {
       "title": "TIFA: Accurate and Interpretable Text-to-Image Faithfulness Evaluation with Question Answering",
       "authors": "Hu, Liu, Kasai et al.",
       "date": "2023-10-1",
       "type": "conferencePaper",
       "url": "https://ieeexplore.ieee.org/document/10377168/",
-      "tags": []
-    },
-    {
-      "title": "ImageReward: Learning and Evaluating Human Preferences for Text-to-Image Generation",
-      "authors": "Xu, Liu, Wu et al.",
-      "date": "",
-      "type": "journalArticle",
-      "url": "",
-      "tags": [
-        "RL",
-        "motivation"
-      ]
-    },
-    {
-      "title": "Benchmark for Compositional Text-to-Image Synthesis",
-      "authors": "Park, Azadi, Liu et al.",
-      "date": "",
-      "type": "journalArticle",
-      "url": "",
-      "tags": []
-    },
-    {
-      "title": "VIEScore: Towards Explainable Metrics for Conditional Image Synthesis Evaluation",
-      "authors": "Ku, Jiang, Wei et al.",
-      "date": "2023-12-22",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2312.14867",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
-        "Computer Science - Computation and Language",
-        "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Multimedia"
-      ]
-    },
-    {
-      "title": "Amnesic Probing: Behavioral Explanation with Amnesic Counterfactuals",
-      "authors": "Elazar, Ravfogel, Jacovi et al.",
-      "date": "2021-02-19",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2006.00995",
-      "tags": [
-        "Computer Science - Computation and Language"
-      ]
-    },
-    {
-      "title": "ATTENTION-BASED INTERPRETABILITY WITH CONCEPT TRANSFORMERS",
-      "authors": "Rigotti, Miksovic, Giurgiu et al.",
-      "date": "2022",
-      "type": "journalArticle",
-      "url": "",
-      "tags": []
-    },
-    {
-      "title": "Contrastive Explanations for Model Interpretability",
-      "authors": "Jacovi, Swayamdipta, Ravfogel et al.",
-      "date": "2021-09-14",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2103.01378",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
-        "Computer Science - Computation and Language",
-        "Computer Science - Machine Learning"
-      ]
-    },
-    {
-      "title": "Explanations based on the Missing: Towards Contrastive Explanations with Pertinent Negatives",
-      "authors": "Dhurandhar, Chen, Luss et al.",
-      "date": "2018",
-      "type": "conferencePaper",
-      "url": "https://proceedings.neurips.cc/paper_files/paper/2018/hash/c5ff2543b53f4cc0ad3819a36752467b-Abstract.html",
       "tags": []
     },
     {
