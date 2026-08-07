@@ -1,6 +1,42 @@
 {
-  "count": 334,
+  "count": 337,
   "papers": [
+    {
+      "title": "Aligned Better, Listen Better for Audio-Visual Large Language Models",
+      "authors": "Guo, Ma, Ma et al.",
+      "date": "2025-04-02",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2504.02061",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Multimedia",
+        "Computer Science - Sound",
+        "Electrical Engineering and Systems Science - Audio and Speech Processing"
+      ]
+    },
+    {
+      "title": "VideoLLaMA 2: Advancing Spatial-Temporal Modeling and Audio Understanding in Video-LLMs",
+      "authors": "Cheng, Leng, Zhang et al.",
+      "date": "2024-10-30",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2406.07476",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Do Modern Video-LLMs Need to Listen? A Benchmark Audit and Scalable Remedy",
+      "authors": "Kim, Seo",
+      "date": "2026-06-22",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2509.17901",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Multimedia",
+        "Computer Science - Sound"
+      ]
+    },
     {
       "title": "DSpark: Confidence-Scheduled Speculative Decoding with Semi-Autoregressive Generation",
       "authors": "Cheng, Yu, Shao et al.",
