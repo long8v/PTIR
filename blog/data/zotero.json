@@ -1,6 +1,14 @@
 {
-  "count": 337,
+  "count": 338,
   "papers": [
+    {
+      "title": "Linear Transformers Are Secretly Fast Weight Programmers",
+      "authors": "Schlag, Irie, Schmidhuber",
+      "date": "2021-07-01",
+      "type": "conferencePaper",
+      "url": "https://proceedings.mlr.press/v139/schlag21a.html",
+      "tags": []
+    },
     {
       "title": "Aligned Better, Listen Better for Audio-Visual Large Language Models",
       "authors": "Guo, Ma, Ma et al.",
