@@ -1,6 +1,19 @@
 {
-  "count": 338,
+  "count": 339,
   "papers": [
+    {
+      "title": "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe",
+      "authors": "Li, Zuo, He et al.",
+      "date": "2026-04-15",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2604.13016",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning",
+        "OPD"
+      ]
+    },
     {
       "title": "Linear Transformers Are Secretly Fast Weight Programmers",
       "authors": "Schlag, Irie, Schmidhuber",
