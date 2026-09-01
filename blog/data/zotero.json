@@ -1,6 +1,16 @@
 {
-  "count": 339,
+  "count": 340,
   "papers": [
+    {
+      "title": "Solar Open Technical Report",
+      "authors": "Park, Kim, Cho et al.",
+      "date": "2026-01-11",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2601.07022",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
     {
       "title": "Rethinking On-Policy Distillation of Large Language Models: Phenomenology, Mechanism, and Recipe",
       "authors": "Li, Zuo, He et al.",
