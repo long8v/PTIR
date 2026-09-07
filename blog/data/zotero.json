@@ -1,6 +1,17 @@
 {
-  "count": 340,
+  "count": 341,
   "papers": [
+    {
+      "title": "Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models",
+      "authors": "Zhao, Xie, Liu et al.",
+      "date": "2026-03-20",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2601.18734",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
     {
       "title": "Solar Open 2 Technical Report",
       "authors": "Park, Kim, Gim et al.",
