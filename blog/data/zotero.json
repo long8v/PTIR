@@ -1,6 +1,14 @@
 {
-  "count": 341,
+  "count": 342,
   "papers": [
+    {
+      "title": "NOUGAT: NEURAL OPTICAL UNDERSTANDING FOR ACADEMIC DOCUMENTS",
+      "authors": "Blecher, Cucurull, Scialom et al.",
+      "date": "2024",
+      "type": "journalArticle",
+      "url": "",
+      "tags": []
+    },
     {
       "title": "Self-Distilled Reasoner: On-Policy Self-Distillation for Large Language Models",
       "authors": "Zhao, Xie, Liu et al.",
