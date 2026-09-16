@@ -1,6 +1,82 @@
 {
-  "count": 342,
+  "count": 346,
   "papers": [
+    {
+      "title": "GR-3 Technical Report",
+      "authors": "Cheang, Chen, Cui et al.",
+      "date": "2025-07-22",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2507.15493",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Robotics"
+      ]
+    },
+    {
+      "title": "$π_{0.7}$: a Steerable Generalist Robotic Foundation Model with Emergent Capabilities",
+      "authors": "Intelligence, Ai, Amin et al.",
+      "date": "2026-04-24",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2604.15483",
+      "tags": [
+        "Computer Science - Machine Learning",
+        "Computer Science - Robotics"
+      ]
+    },
+    {
+      "title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+      "authors": "NVIDIA, Bjorck, Castañeda et al.",
+      "date": "2025-03-27",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2503.14734",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Machine Learning",
+        "Computer Science - Robotics"
+      ]
+    },
+    {
+      "title": "$π_{0.5}$: a Vision-Language-Action Model with Open-World Generalization",
+      "authors": "Intelligence, Black, Brown et al.",
+      "date": "2025-04-22",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2504.16054",
+      "tags": [
+        "Computer Science - Machine Learning",
+        "Computer Science - Robotics"
+      ]
+    },
+    {
+      "title": "Learning Multi-View Spatial Reasoning from Cross-View Relations",
+      "authors": "Jeong, Song, Lee et al.",
+      "date": "2026-03-30",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2603.27967",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "HABIT: Human-Aware Behavior and Interaction Training Dataset for Robot Manipulation",
+      "authors": "Song, Jeong, Jeon et al.",
+      "date": "2026-06-30",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2606.31682",
+      "tags": [
+        "Computer Science - Robotics"
+      ]
+    },
+    {
+      "title": "Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI",
+      "authors": "Zamani, Ziaeetabar",
+      "date": "2026-08-19",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2608.18671",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
     {
       "title": "NOUGAT: NEURAL OPTICAL UNDERSTANDING FOR ACADEMIC DOCUMENTS",
       "authors": "Blecher, Cucurull, Scialom et al.",
@@ -1596,18 +1672,6 @@
       ]
     },
     {
-      "title": "GR-3 Technical Report",
-      "authors": "Cheang, Chen, Cui et al.",
-      "date": "2025-07-22",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2507.15493",
-      "tags": [
-        "Computer Science - Artificial Intelligence",
-        "Computer Science - Computer Vision and Pattern Recognition",
-        "Computer Science - Robotics"
-      ]
-    },
-    {
       "title": "VideoWorld: Exploring Knowledge Learning from Unlabeled Videos",
       "authors": "Ren, Wei, Guo et al.",
       "date": "2025-03-05",
@@ -1641,17 +1705,6 @@
       ]
     },
     {
-      "title": "$π_{0.5}$: a Vision-Language-Action Model with Open-World Generalization",
-      "authors": "Intelligence, Black, Brown et al.",
-      "date": "2025-04-22",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2504.16054",
-      "tags": [
-        "Computer Science - Machine Learning",
-        "Computer Science - Robotics"
-      ]
-    },
-    {
       "title": "Real-Time Execution of Action Chunking Flow Policies",
       "authors": "Black, Galliker, Levine",
       "date": "2025-06-09",
@@ -1669,17 +1722,6 @@
       "date": "2023-04-23",
       "type": "preprint",
       "url": "http://arxiv.org/abs/2304.13705",
-      "tags": [
-        "Computer Science - Machine Learning",
-        "Computer Science - Robotics"
-      ]
-    },
-    {
-      "title": "$π_0$: A Vision-Language-Action Flow Model for General Robot Control",
-      "authors": "Black, Brown, Driess et al.",
-      "date": "2024-11-13",
-      "type": "preprint",
-      "url": "http://arxiv.org/abs/2410.24164",
       "tags": [
         "Computer Science - Machine Learning",
         "Computer Science - Robotics"
