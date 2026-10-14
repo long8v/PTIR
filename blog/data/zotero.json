@@ -1,6 +1,18 @@
 {
-  "count": 346,
+  "count": 347,
   "papers": [
+    {
+      "title": "Mid-Training Language Models on Raw Video",
+      "authors": "Hwang, Shen, Chang et al.",
+      "date": "2026-10-08",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2610.11019",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computer Vision and Pattern Recognition",
+        "Computer Science - Machine Learning"
+      ]
+    },
     {
       "title": "GR-3 Technical Report",
       "authors": "Cheang, Chen, Cui et al.",
