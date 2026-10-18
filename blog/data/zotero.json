@@ -1,6 +1,68 @@
 {
-  "count": 347,
+  "count": 353,
   "papers": [
+    {
+      "title": "Learning to Compress Prompts with Gist Tokens",
+      "authors": "Mu, Li, Goodman",
+      "date": "2024-02-12",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2304.08467",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "Dissecting Recall of Factual Associations in Auto-Regressive Language Models",
+      "authors": "Geva, Bastings, Filippova et al.",
+      "date": "2023-10-13",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2304.14767",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
+    {
+      "title": "What Keeps Vision-Language Models Looking at the Image?",
+      "authors": "Osaka, Taniguchi, Minegishi et al.",
+      "date": "2026-10-04",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2607.12815",
+      "tags": [
+        "Computer Science - Artificial Intelligence"
+      ]
+    },
+    {
+      "title": "How Linear Attention Remembers",
+      "authors": "Lee, Park, Kim et al.",
+      "date": "2026-09-27",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2609.33093",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Paying More Attention to Image: A Training-Free Method for Alleviating Hallucination in LVLMs",
+      "authors": "Liu, Zheng, Chen",
+      "date": "2024-07-31",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2407.21771",
+      "tags": [
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
+    {
+      "title": "Are VLMs Seeing or Just Saying? Uncovering the Illusion of Visual Re-examination",
+      "authors": "Shi, Yang, Wu et al.",
+      "date": "2026-05-26",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2605.15864",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Computer Vision and Pattern Recognition"
+      ]
+    },
     {
       "title": "Mid-Training Language Models on Raw Video",
       "authors": "Hwang, Shen, Chang et al.",
