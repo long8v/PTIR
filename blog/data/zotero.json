@@ -1,6 +1,16 @@
 {
-  "count": 353,
+  "count": 354,
   "papers": [
+    {
+      "title": "On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability",
+      "authors": "Qiu, Wang, Li et al.",
+      "date": "2026-08-31",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2608.30320",
+      "tags": [
+        "Computer Science - Computation and Language"
+      ]
+    },
     {
       "title": "Learning to Compress Prompts with Gist Tokens",
       "authors": "Mu, Li, Goodman",
