@@ -1,6 +1,50 @@
 {
-  "count": 354,
+  "count": 358,
   "papers": [
+    {
+      "title": "FLORA: An Open Model Suite for Scaling Robotics Data Engines",
+      "authors": "Leng, Man, Li et al.",
+      "date": "2026-10-22",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2610.31779",
+      "tags": [
+        "Computer Science - Robotics"
+      ]
+    },
+    {
+      "title": "RLSR: Reinforcement Learning from Self Reward",
+      "authors": "Simonds, Lopez, Yoshiyama et al.",
+      "date": "2025-08-06",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.08827",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "Absolute Zero: Reinforced Self-play Reasoning with Zero Data",
+      "authors": "Zhao, Wu, Yue et al.",
+      "date": "2025-10-16",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2505.03335",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "authors": "DeepSeek-AI, Xu, Lin et al.",
+      "date": "2026-04-26",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2606.19348",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language"
+      ]
+    },
     {
       "title": "On the Design of Qwen3.8-Next Architecture: Evaluation, Efficiency, and Training Stability",
       "authors": "Qiu, Wang, Li et al.",
