@@ -1,6 +1,29 @@
 {
-  "count": 358,
+  "count": 360,
   "papers": [
+    {
+      "title": "Nemotron 3.5 Super and Lightning: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Models for Agentic AI",
+      "authors": "NVIDIA, Jhunjhunwala, Srivastava et al.",
+      "date": "2026-10-28",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2610.38095",
+      "tags": [
+        "Computer Science - Artificial Intelligence",
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
+    {
+      "title": "On-Policy Delta Distillation",
+      "authors": "Heo, Hwang, Yun et al.",
+      "date": "2026-07-16",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2607.15161",
+      "tags": [
+        "Computer Science - Computation and Language",
+        "Computer Science - Machine Learning"
+      ]
+    },
     {
       "title": "FLORA: An Open Model Suite for Scaling Robotics Data Engines",
       "authors": "Leng, Man, Li et al.",
