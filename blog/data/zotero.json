@@ -1,6 +1,16 @@
 {
-  "count": 360,
+  "count": 361,
   "papers": [
+    {
+      "title": "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers",
+      "authors": "Frantar, Ashkboos, Hoefler et al.",
+      "date": "2023-03-22",
+      "type": "preprint",
+      "url": "http://arxiv.org/abs/2210.17323",
+      "tags": [
+        "Computer Science - Machine Learning"
+      ]
+    },
     {
       "title": "Nemotron 3.5 Super and Lightning: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Models for Agentic AI",
       "authors": "NVIDIA, Jhunjhunwala, Srivastava et al.",
